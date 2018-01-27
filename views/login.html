@@ -1,0 +1,174 @@
+<main>
+    <div class="container-fluid container-cards">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <div class="card active">
+                <div class="container-fluid">
+                    <div class="col-sm-12">
+                        <div class="text-center card-title">
+                            <h3>Simulation 1 Faites une simulation d’examen gratuitement !</h3>
+                        </div>
+                    </div>
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-10">
+                        <button class="btn btn-primary btn-block btn-card" id="loadSim1">Gratuite
+                            <i class="icon ion-ios-arrow-forward pull-right"></i>
+                        </button>
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <div class="card">
+                <div class="container-fluid">
+                    <div class="col-sm-12">
+                        <div class="text-center card-title">
+                            <h3>Simulation 2 30 autres questions officielles d’examen
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-10">
+                        <button class="btn btn-default btn-block btn-card">Faire la simulation 2
+                            <i class="icon ion-ios-arrow-forward pull-right"></i>
+                        </button>
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+                <div class="card-locked" data-simulation="2">
+                    <i class="ion-android-lock"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <div class="card">
+                <div class="container-fluid">
+                    <div class="col-sm-12">
+                        <div class="text-center card-title">
+                            <h3>Simulation 3 30 autres questions officielles d’examen
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-10">
+                        <button class="btn btn-default btn-block btn-card">Faire la simulation 3
+                            <i class="icon ion-ios-arrow-forward pull-right"></i>
+                        </button>
+                    </div>
+                    <div class="col-sm-1"></div>
+                    <div class="card-locked" data-simulation="3">
+                        <i class="ion-android-lock"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <div class="card">
+                <div class="container-fluid">
+                    <div class="col-sm-12">
+                        <div class="text-center card-title">
+                            <h3>Simulation 4 30 autres questions officielles d’examen
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-10">
+                        <button class="btn btn-default btn-block btn-card">Faire la simulation 4
+                            <i class="icon ion-ios-arrow-forward pull-right"></i>
+                        </button>
+                    </div>
+                    <div class="col-sm-1"></div>
+                    <div class="card-locked" data-simulation="4">
+                        <i class="ion-android-lock"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <div class="card">
+                <div class="container-fluid">
+                    <div class="col-sm-12">
+                        <div class="text-center card-title">
+                            <h3>Simulation 5 30 autres questions officielles d’examen
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-10">
+                        <button class="btn btn-default btn-block btn-card">Faire la simulation 5
+                            <i class="icon ion-ios-arrow-forward pull-right"></i>
+                        </button>
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+                <div class="card-locked" data-simulation="5">
+                    <i class="ion-android-lock"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <div class="card">
+                <div class="container-fluid">
+                    <div class="col-sm-12">
+                        <div class="text-center card-title">
+                            <h3>Simulation 6 30 autres questions officielles d’examen
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-10">
+                        <button class="btn btn-default btn-block btn-card">Faire la simulation 6
+                            <i class="icon ion-ios-arrow-forward pull-right"></i>
+                        </button>
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+                <div class="card-locked" data-simulation="6">
+                    <i class="ion-android-lock"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="paymentModal" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h3 class="modal-title text-center">Acheter une simulation</h3>
+                    <h4 class="text-center">Simulation <g data-simulation></g> :
+                        <b>20€</b>
+                    </h4>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group row">
+                            <label for="fullName" class="col-sm-6 col-form-label">Full Name</label>
+                            <div class="col-sm-12">
+                                <input type="text" class="form-control" id="fullName" placeholder="First name and last name">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="Email" class="col-sm-6 col-form-label">Email</label>
+                            <div class="col-sm-12">
+                                <input type="email" class="form-control" id="Email" placeholder="Email address (to send the results by email)">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="Cellphone" class="col-sm-6 col-form-label">Cellphone Number</label>
+                            <div class="col-sm-12">
+                                <input type="tel" class="form-control" id="Cellphone" placeholder="Cellphone number">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary btn-lg btn-block" data-dismiss="modal">Payer avec PayPal</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</main>

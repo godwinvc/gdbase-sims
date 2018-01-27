@@ -1,0 +1,161 @@
+@import url('../fonts/fonts.css');
+* {
+    margin: 0px auto;
+    padding: 0px;
+}
+
+body {
+    font-family: "Roboto";
+    overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h7 {
+    font-family: "Roboto Slab";
+    font-weight: 300;
+}
+
+.navbar {
+    border-radius: 0px;
+    margin-bottom: 0px;
+}
+
+.navbar-brand {
+    padding: 5px;
+}
+
+.navbar-brand img {
+    height: 70%;
+}
+
+.navbar-nav li {
+    padding: 13px 5px;
+    max-width: 350px;
+}
+
+.nav-search:focus {
+    border-color: rgba(233, 30, 99, 0.4196078431372549);
+}
+
+.remove-padding {
+    padding: 0px;
+}
+
+.container-content {
+    position: fixed;
+    width: 100%;
+    height: 500px;
+    bottom: 0;
+}
+
+.container-content.assessment.mobile {
+    bottom: 100px;
+}
+
+.container-content.assessment.desktop {
+    bottom: 60px;
+}
+
+.search-results {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    z-index: 50;
+    padding: 0px 5px;
+}
+
+.list-group-item {
+    padding: 10px;
+}
+
+.list-group-item:first-child {
+    border-radius: 0px;
+}
+
+.search-results .btn {
+    border-radius: 0px;
+    text-transform: none;
+    margin-top: 0px;
+    text-align: left;
+}
+
+.search-results h6 {
+    margin: 2px 0px;
+}
+
+.print-notes {
+    display: none;
+}
+
+.model-header {
+    color: white;
+    border-top: 5px solid #77066a;
+}
+
+.modal-title {
+    color: white;
+}
+
+.resources-item {
+    list-style: decimal;
+    margin-bottom: 10px;
+    margin-left: 25px;
+}
+
+.glossary-list {
+    list-style: none;
+    min-height: 100px;
+    list-style-type: none;
+    padding-right: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.glossary-item-term {
+    font-weight: bold;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.glossary-item-term p {
+    margin-bottom: 0px;
+}
+.glossary-item-definition {
+    font-weight: normal;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+@media print {
+    .container-breadcrumb,
+    nav,
+    .container-content {
+        display: none;
+    }
+    .print-notes {
+        display: block;
+    }
+    hr {
+        margin: 10px 0px;
+    }
+    .modal {
+        display: none !important;
+    }
+}
+
+.model-footer {
+    background: #f9f7f7;
+    border-top: 1px solid #e8e8e8;
+}
+
+@media (min-width: 768px) {
+    .modal-dialog.large {
+        width: 740px;
+        margin: 30px auto;
+    }
+}
