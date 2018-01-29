@@ -1,13 +1,13 @@
-@import url('../fonts/fonts.css');
+@import url("../fonts/fonts.css");
 * {
-    margin: 0px auto;
-    padding: 0px;
+  margin: 0px auto;
+  padding: 0px;
 }
 
 .remove-padding {
-    padding: 0px;
+  padding: 0px;
 }
 
-section#content{
-    height: 700px; 
+section#content {
+  height: 700px;
 }

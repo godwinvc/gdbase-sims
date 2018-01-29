@@ -6,38 +6,48 @@
                 <p>Simulation d’examen</p>
             </div>
         </div>
-        <div class="fr-ctnr col-md-5 col-sm-6">
+        <div class="fr-ctnr col-md-5 col-sm-6 col-xs-12">
             <div class="fr-ctnt">
-                <div class="fr-header">
-                    <p>INSCRIPTION GRATUITE</p>
+                <div class="fr-header text-center">
+                    <p>S'identifier</p>
+                    <h5 style="font-weight:300; letter-spacing:1px; font-size:large; margin-top:0px;color:#66574e;">Pour accéder à la
+                        <b>simulation gratuite</b>
+                    </h5>
                     <hr id="fr-hr">
                 </div>
                 <div class="fr-body">
-                    <form action="#">
-                        <div class="form-group">
-                            <input type="text" class="form-control" id="fname" placeholder="Prénom" required>
+                    <form>
+                        <div class="container-fluid container-addon">
+                            <div class="col-sm-1 remove-padding addon text-center">
+                                <i class="ion-ios-person fa fa-lg"></i>
+                            </div>
+                            <div class="col-sm-11 remove-padding">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="username" placeholder="Nom d'utilisateur" required>
+                                </div>
+                            </div>
                         </div>
-                        <div class="form-group">
-                            <input type="text" class="form-control" id="lname" placeholder="Nom de famille" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="text" class="form-control" id="mobile" placeholder="Téléphone" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" class="form-control" id="email" placeholder="Email" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="text" class="form-control" id="pick-name" placeholder="Choisis un nom d'utilisateur" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="password" class="form-control" id="crt-psd" placeholder="créer un mot de passe" required>
-                            <label for="crt-psd" id="crt-label">Utilisez au moins une lettre, un chiffre et sept caractères au total</label>
+                        <div class="container-fluid container-addon">
+                            <div class="col-sm-1 remove-padding addon text-center">
+                                <i class="ion-android-lock fa fa-lg"></i>
+                            </div>
+                            <div class="col-sm-11 remove-padding">
+                                <div class="form-group">
+                                    <input type="password" class="form-control" id="password" placeholder="mot de passe" required>
+                                </div>
+                            </div>
                         </div>
                         <div class="fr-ftr">
-                                <button type="submit" class="btn btn-lg btn-primary submit">Soumettre</button>
-                                <p>Déjà membre? <span class="login-txt"><a href="#">Connectez-vous ici </a></span></p>
+                            <button type="submit" class="btn btn-lg btn-primary submit">S'identifier</button>
+                            <p style="margin-top:25px;">
+                                <a class="link">Mot de passe oublié?</a>
+                                <br>
+                                <span class="login-txt">
+                                    <a ui-sref="signup">Créer un nouveau compte</a>
+                                </span>
+                            </p>
                         </div>
-                        
+
                     </form>
                 </div>
             </div>

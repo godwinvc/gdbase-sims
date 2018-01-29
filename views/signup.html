@@ -1,0 +1,85 @@
+<main class="signup">
+    <div class="fl-fr-ctnr container">
+        <div class="bg-txt-ctnt col-md-7 col-sm-6 hidden-xs">
+            <div class="txt-ctnr">
+                <h1>GDBase</h1>
+                <p>Simulation d’examen</p>
+            </div>
+        </div>
+        <div class="fr-ctnr col-md-5 col-sm-6 col-xs-12">
+            <div class="fr-ctnt">
+                <div class="fr-header">
+                    <p>INSCRIPTION GRATUITE</p>
+                    <hr id="fr-hr">
+                </div>
+                <div class="fr-body container-fluid">
+                    <form method="POST" name="signupform" ng-submit="signup(signupform)" class="form-horizontal">
+                        <div class="form-group" ng-class="{'has-error': signupform.firstName.$dirty && signupform.firstName.$invalid}">
+                            <input type="text" class="form-control" name="firstName" placeholder="Prénom" ng-model="firstName" required>
+                            <span ng-show="signupform.firstName.$dirty && signupform.firstName.$invalid">
+                                <small class="text-danger">&nbsp; Indiquez s'il vous plait votre prénom</small>
+                            </span>
+                        </div>
+                        <div class="form-group" ng-class="{'has-error': signupform.lastName.$dirty && signupform.lastName.$invalid}">
+                            <input type="text" class="form-control" name="lastName" ng-model="lastName" placeholder="Nom de famille" required>
+                            <span ng-show="signupform.lastName.$dirty && signupform.lastName.$invalid">
+                                <small class="text-danger">&nbsp; Veuillez indiquer votre nom de famille</small>
+                            </span>
+                        </div>
+                        <div class="form-group" ng-class="{'has-error':emailBlured == true && ((validEmail == false && signupform.email.$dirty) || (signupform.email.$invalid && signupform.email.$dirty))}">
+                            <input type="email" class="form-control" name="email" placeholder="Email" ng-model="email" ng-blur="validateEmail()" required>
+                            <span ng-show="(emailBlured == true) && ((validEmail == false && signupform.email.$dirty) || (signupform.email.$invalid && signupform.email.$dirty))">
+                                <small class="text-danger">&nbsp; S'il vous plaît fournir un email valide</small>
+                            </span>
+                        </div>
+                        <div class="form-group" ng-class="{'has-error': signupform.mobile.$dirty && signupform.mobile.$invalid}">
+                            <input type="tel" class="form-control" name="mobile" ng-model="mobile" placeholder="Téléphone" required>
+                            <span ng-show="signupform.mobile.$dirty && signupform.mobile.$invalid">
+                                <small class="text-danger">&nbsp; Veuillez indiquer votre numéro de téléphone</small>
+                            </span>
+
+                        </div>
+                        <div class="form-group" ng-class="{'has-error': signupform.username.$dirty && signupform.username.$invalid || isUnique == 1 || validUsername == false}">
+                            <input type="text" class="form-control" name="username" placeholder="Choisis un nom d'utilisateur" ng-model="username" ng-change="validateUsername()"
+                                min-length="3" required>
+                            <span ng-show="signupform.username.$dirty && signupform.username.$invalid">
+                                <small class="text-danger">&nbsp; S'il vous plaît choisir un nom d'utilisateur</small>
+                            </span>
+                            <span ng-show="isUnique == '1'">
+                                <small class="text-danger">&nbsp; Désolé, nom d'utilisateur déjà pris. Essayez quelque chose d'autre</small>
+                            </span>
+                            <span ng-show="validUsername == false">
+                                <small class="text-danger">&nbsp; S'il vous plaît éviter les espaces et les caractères spéciaux dans le nom d'utilisateur</small>
+                            </span>
+                        </div>
+                        <div class="form-group" ng-class="{'has-error': signupform.password.$invalid && signupform.password.$dirty || (validPassword > 0 && validPassword < 5)}">
+                            <input type="password" class="form-control" name="pwd" placeholder="créer un mot de passe" ng-model="password" ng-change="validatePassword()"
+                                required>
+                            <small ng-class="{'text-danger': validPassword == 4}" ng-hide="validPassword < 4 && validPassword > 0">&nbsp;Utilisez au moins une lettre, un chiffre et sept caractères au total</small>
+                            <span ng-show="validPassword == 1">
+                                <small class="text-danger">&nbsp; le mot de passe doit contenir au moins un chiffre</small>
+                            </span>
+                            <span ng-show="validPassword == 2">
+                                <small class="text-danger">&nbsp; Le mot de passe doit contenir au moins un alphabet</small>
+                            </span>
+                            <span ng-show="validPassword == 3">
+                                <small class="text-danger">&nbsp; Le mot de passe doit contenir au moins 6 lettres et chiffres combinés</small>
+                            </span>
+                        </div>
+                        <div class="fr-ftr">
+                            <button type="submit" class="btn btn-lg btn-primary submit" ng-disabled="(signupform.firstName.$dirty && signupform.firstName.$invalid) || (signupform.lastName.$dirty && signupform.lastName.$invalid) || 
+                            (signupform.mobile.$dirty && signupform.mobile.$invalid) || 
+                            ((signupform.username.$dirty && signupform.username.$invalid) || (isUnique == 1 || validUsername == false)) || emailBlured == true && ((validEmail == false && signupform.email.$dirty) || (signupform.email.$invalid && signupform.email.$dirty)) || (validPassword > 0 && validPassword < 5) || signupSuccess"><i class="fa fa-cog fa-spin fa-lg fa-fw" ng-show="signupSuccess"></i>{{signupSuccess? "Loading..." : "Soumettre" }}</button>
+                            <p>Déjà membre?
+                                <span class="login-txt">
+                                    <a ui-sref="login">Connectez-vous ici </a>
+                                </span>
+                            </p>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
