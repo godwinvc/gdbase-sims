@@ -8,6 +8,16 @@
   padding: 0px;
 }
 
-section#content {
-  height: 700px;
+.btn-logout{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  text-align: center;
+  position: fixed;
+  line-height: 60px;
+  top:15px;
+  right: 15px;
+  background-color: #ff6600;
+  color: white;
+  z-index: 10000;
 }
