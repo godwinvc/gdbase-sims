@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 29, 2018 at 08:29 AM
+-- Generation Time: Feb 04, 2018 at 06:43 AM
 -- Server version: 10.1.9-MariaDB
 -- PHP Version: 5.6.15
 
@@ -27,6 +27,7 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `students` (
+  `studentID` int(50) NOT NULL,
   `firstname` varchar(400) CHARACTER SET utf16 DEFAULT NULL,
   `lastname` varchar(400) CHARACTER SET utf16 DEFAULT NULL,
   `email` varchar(400) CHARACTER SET utf16 DEFAULT NULL,
@@ -36,6 +37,16 @@ CREATE TABLE `students` (
   `token` varchar(400) CHARACTER SET utf16 DEFAULT NULL,
   `simulation` longtext CHARACTER SET utf16
 ) ENGINE=InnoDB DEFAULT CHARSET=utf16 COLLATE=utf16_unicode_ci;
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `students`
+--
+ALTER TABLE `students`
+  ADD UNIQUE KEY `studentID` (`studentID`);
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

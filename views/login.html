@@ -18,27 +18,36 @@
                 <div class="fr-body">
                     <form>
                         <div class="container-fluid container-addon">
-                            <div class="col-sm-1 remove-padding addon text-center">
+                            <div class="col-sm-1 remove-padding addon text-center" ng-class="{'addon-danger':incorrectLogin}">
                                 <i class="ion-ios-person fa fa-lg"></i>
                             </div>
                             <div class="col-sm-11 remove-padding">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="username" placeholder="Nom d'utilisateur" required>
+                                <div class="form-group" ng-class="{'has-error':incorrectLogin}">
+                                    <input type="text" class="form-control" id="username" placeholder="Nom d'utilisateur" ng-model="username" ng-change="inputChangeHandler()"
+                                        required>
                                 </div>
                             </div>
                         </div>
                         <div class="container-fluid container-addon">
-                            <div class="col-sm-1 remove-padding addon text-center">
+                            <div class="col-sm-1 remove-padding addon text-center" ng-class="{'addon-danger':incorrectLogin}">
                                 <i class="ion-android-lock fa fa-lg"></i>
                             </div>
                             <div class="col-sm-11 remove-padding">
-                                <div class="form-group">
-                                    <input type="password" class="form-control" id="password" placeholder="mot de passe" required>
+                                <div class="form-group" ng-class="{'has-error':incorrectLogin}">
+                                    <input type="password" class="form-control" id="password" placeholder="mot de passe" ng-model="password" ng-change="inputChangeHandler()"
+                                        required>
                                 </div>
+                            </div>
+                            <div class="col-sm-12 text-danger text-capitalize" ng-show="incorrectLogin">
+                                <small>Nom d'utilisateur ou mot de passe invalide </small>
+                                <br>
+                                <br>
                             </div>
                         </div>
                         <div class="fr-ftr">
-                            <button type="submit" class="btn btn-lg btn-primary submit">S'identifier</button>
+                            <br ng-show="!incorrectLogin">
+                            <br ng-show="!incorrectLogin">
+                            <button type="submit" class="btn btn-lg btn-primary submit" ng-click="loginHandler()">S'identifier</button>
                             <p style="margin-top:25px;">
                                 <a class="link">Mot de passe oublié?</a>
                                 <br>

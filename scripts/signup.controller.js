@@ -2,15 +2,15 @@ angular.module("gdbaseSims").controller("signupController", [
   "$scope",
   "$http",
   "$state",
-  function($scope, $http, $state) {
+  function ($scope, $http, $state) {
     var signupData = null;
-    $scope.isUnique = undefined;
-    $scope.validUsername = undefined;
-    $scope.validEmail = undefined;
-    $scope.validPassword = undefined;
+    $scope.isUnique = null;
+    $scope.validUsername = null;
+    $scope.validEmail = null;
+    $scope.validPassword = null;
     $scope.emailBlured = false;
     $scope.signupSuccess = false;
-    $scope.signup = function() {
+    $scope.signup = function () {
       $scope.signupSuccess = true;
       signupData = {
         firstname: $scope.firstName,
@@ -22,26 +22,25 @@ angular.module("gdbaseSims").controller("signupController", [
       };
       $http
         .post("./server/signup.php", signupData)
-        .then(function(response) {
+        .then(function (response) {
           if (response.data !== "ERROR") {
             localStorage.setItem("gdbaseToken", response.data.trim());
           } else {
-            console.log(response.data);
             alert("Something went wrong! Please try again");
             $scope.signupSuccess = false;
           }
         })
-        .catch(function(err) {
+        .catch(function (err) {
           console.error(err);
         });
     };
-    $scope.validateUsername = function() {
+    $scope.validateUsername = function () {
       $http
         .post("./server/username-avalibility.php", $scope.username)
-        .then(function(response) {
+        .then(function (response) {
           $scope.isUnique = response.data.trim();
         })
-        .catch(function(err) {
+        .catch(function (err) {
           console.error(err);
         });
       if (!/^[a-zA-Z0-9-]*$/.test($scope.username)) {
@@ -50,7 +49,7 @@ angular.module("gdbaseSims").controller("signupController", [
         $scope.validUsername = true;
       }
     };
-    $scope.validateEmail = function() {
+    $scope.validateEmail = function () {
       if ($scope.email != undefined) {
         if ($scope.email.indexOf("@") < 0 || $scope.email.indexOf(".") < 0) {
           $scope.validEmail = false;
@@ -62,7 +61,7 @@ angular.module("gdbaseSims").controller("signupController", [
       }
       $scope.emailBlured = true;
     };
-    $scope.validatePassword = function() {
+    $scope.validatePassword = function () {
       var srt = $scope.password;
       if (srt != undefined) {
         if (

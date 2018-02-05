@@ -1,5 +1,5 @@
 // production
-window.baseURL = "https://www.gdbase.be/simulations/";
+// window.baseURL = "https://www.gdbase.be/simulations/";
 
 // development
  window.jQuery = require('jquery');

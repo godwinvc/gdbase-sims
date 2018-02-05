@@ -87,10 +87,12 @@ main.signup {
   font-size: 18px;
   letter-spacing: 1px;
 }
+
 .container-addon .form-control {
   border-bottom-left-radius: 0px !important;
   border-top-left-radius: 0px !important;
 }
+
 .addon {
   background: #edf2f7;
   border: 2px solid #dce4ec;
@@ -100,6 +102,11 @@ main.signup {
   height: 37px;
   border-right: 0px;
 }
+
+.addon-danger {
+  color: #e51c23;
+}
+
 @media screen and (max-width: 768px) {
   main.login {
     height: 100%;

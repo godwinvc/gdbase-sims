@@ -12,6 +12,10 @@ angular.module("gdbaseSims", ["ngSanitize", "ui.router", "ngAnimate"]).config([
       url: '/signup',
       templateUrl: baseURL + "views/signup.html",
       controller: "signupController"
+    }).state("simSelect", {
+      url: '/:user',
+      templateUrl: baseURL + "views/sim_select.html",
+      controller: "simSelectController"
     });
   }
 ]);
