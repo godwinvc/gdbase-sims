@@ -1,7 +1,7 @@
 var runFunction = function ($rootScope, $transitions, authService, $state) {
   $transitions.onBefore({}, function (trans) {
     if (trans.$to().name != 'login' && trans.$to().name != 'signup') {
-      $('section#content').css('height','100%');
+      $('section#content').css('height', '100%');
       if (localStorage.getItem('gdbaseToken') != null) {
         authService.checkToken(localStorage.getItem('gdbaseToken').split('|')[0], localStorage.getItem('gdbaseToken')).then(function (res) {
           if (res != 'good') {
@@ -14,8 +14,8 @@ var runFunction = function ($rootScope, $transitions, authService, $state) {
         console.log('Token missing');
         $state.go('login');
       }
-    }else{
-      $('section#content').css('height','700px');
+    } else {
+      $('section#content').css('height', '700px');
     }
     if (trans.$to().name == 'login') {
       if (localStorage.getItem('gdbaseToken') != null) {
@@ -31,6 +31,9 @@ var runFunction = function ($rootScope, $transitions, authService, $state) {
         })
       }
     }
+  });
+  $transitions.onSuccess({}, function (trans) {
+    $('[data-toggle="tooltip"]').tooltip();
   });
 }
 runFunction.$inject = ['$rootScope', '$transitions', 'authService', '$state'];
@@ -56,6 +59,10 @@ angular.module("gdbaseSims", ["ngSanitize", "ui.router", "ngAnimate"]).config([
       url: '/simulations',
       templateUrl: baseURL + "views/sim_select.html",
       controller: "simSelectController"
+    }).state("sims.simulation", {
+      url: '/:currentSimulation',
+      templateUrl: baseURL + "views/simulation.html",
+      controller: "simulationController"
     });
   }
 ]).run(runFunction);

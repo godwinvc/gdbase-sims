@@ -1,3 +1,7 @@
-angular.module("gdbaseSims").controller("simSelectController", ['$scope', function ($scope) {
-    console.log("Entered SimSelect");
+angular.module("gdbaseSims").controller("simSelectController", ['$scope', '$state', function ($scope, $state) {
+    $scope.openSimulation = function (currentSimulationNum) {
+        $state.go('sims.simulation', {
+            currentSimulation: currentSimulationNum
+        });
+    }
 }])

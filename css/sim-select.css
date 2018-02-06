@@ -53,3 +53,71 @@
     color: #67574e;
     cursor: pointer;
 }
+
+
+.intro-img {
+    border: 2px solid #ccc4c4;
+    border-radius: 2px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.24), 0 0 2px rgba(0, 0, 0, 0.12);
+  }
+  .sim .card {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .sim .card-header {
+    width: 100%;
+    line-height: 60px;
+    background-color: #ff6600;
+    min-height: 60px;
+    color: white;
+  }
+  .sim .card:hover {
+    transform: translateY(0rem);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.24), 0 0 2px rgba(0, 0, 0, 0.12);
+  }
+  
+  .sim .card-content p {
+    font-size: 16px;
+    letter-spacing: 0.5px;
+  }
+  
+  .sim .card-footer {
+    min-height: 70px;
+    margin-top: 15px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+  }
+  
+  .sim .card-subhead {
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #ccc;
+    height: 35px;
+    line-height: 35px;
+  }
+  .sim #opHolder {
+    margin-top: 30px;
+  }
+  
+  .sim .option {
+    width: 100%;
+    min-height: 30px;
+    padding: 10px 25px;
+    background-color: #f9f9f9;
+    border-left: 5px solid #ff6600;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.24), 0 0 2px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+    transition: all 0.25s ease-in-out;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 3px;
+    margin-bottom: 10px;
+  }
+  .sim .option:hover {
+    transform: translateY(-0.5rem);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.14), 0 5px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .sim .option.selected {
+    background-color: #ff6600;
+    color: white;
+  }

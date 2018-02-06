@@ -1,0 +1,86 @@
+<!-- Intro -->
+<div class="container-fluid sim" ng-show="currentQuestion == 'intro'">
+    <div class="card active remove-padding">
+        <div class="card-header">
+            <div class="container-fluid">
+                <h4 style="color:white;">Simulation d’examen N° {{currentSimulationNum}}</h4>
+            </div>
+        </div>
+
+        <div class="card-content">
+            <div class="container-fluid">
+                <h4>What is Lorem Ipsum?</h4>
+                <br>
+                <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 remove-padding">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
+                        it to make a type specimen book. It has survived not only five centuries, but also the leap into
+                        electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+                        release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+                        software like Aldus PageMaker including versions of Lorem Ipsum</p>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <img src="https://www.gdbase.be/wp-content/uploads/2017/10/Max_GDBase.jpg" alt="GD Base Quiz" class="img-responsive intro-img">
+                </div>
+            </div>
+        </div>
+        <div class="card-footer">
+            <div class="container-fluid">
+                <div class="col-sm-12" style="margin-top:10px;">
+                    <button class="btn btn-primary btn-lg pull-right" style="border-radius:2px;" ng-click="beginSimulation(currentSimulationNum)">Démarrer la simulation</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Quiz -->
+<div class="container-fluid sim" ng-show="currentQuestion != 'intro'">
+    <div class="card active remove-padding">
+        <div class="card-header">
+            <div class="container-fluid">
+                <h4>Simulation d’examen N° {{currentSimulationNum}}
+                    <span class="pull-right">
+                        <i class="ion-ios-stopwatch-outline"></i> 00:10:00</span>
+                </h4>
+
+            </div>
+        </div>
+
+        <div class="card-content">
+            <div class="card-subhead">
+                <div class="col-sm-8">Marks:
+                    <b>X / 30</b>
+                </div>
+                <div class="col-sm-4 text-right">Question:
+                    <b>
+                        <g currQuestion></g> / 30</b>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <br>
+                <h4>Question
+                    <g currQuestion></g>:
+                    <g questionText></g>
+                </h4>
+                <small>(select the good answers)</small>
+                <div id="opHolder">
+                </div>
+            </div>
+        </div>
+        <div class="card-footer">
+            <div class="container-fluid">
+                <div class="col-sm-12" style="margin-top:10px;">
+                    <button id="nextBtn" class="btn btn-primary btn-lg pull-right" style="border-radius:2px; margin-left:10px;" data-toggle="tooltip"
+                        data-placement="top" title="Next Question">
+                        <i class="ion-ios-arrow-forward"></i>
+                    </button>
+                    <button id="prevBtn" class="btn btn-primary btn-lg pull-right" style="border-radius:2px; margin-left:10px;" data-toggle="tooltip"
+                        data-placement="top" title="Previous Question">
+                        <i class="ion-ios-arrow-back"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,4 +1,4 @@
-angular.module("gdbaseSims").controller("simsController", ['$scope', '$http', '$stateParams','$state' ,function ($scope, $http, $stateParams, $state) {
+angular.module("gdbaseSims").controller("simsController", ['$scope', '$http', '$stateParams', '$state', function ($scope, $http, $stateParams, $state) {
     $scope.logoutHandler = function () {
         $http.post(baseURL + './server/logout.php', $stateParams.user).then(function (res) {
             if (res.status == 200) {

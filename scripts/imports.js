@@ -20,9 +20,9 @@ require('../css/font-awesome.css');
 require('../css/ionicons.css');
 
 //Godwin CSS
-require('../css/globals.css');
 require('../css/login.css');
 require('../css/sim-select.css');
+require('../css/globals.css');
 
 
 //Godwin Scripts
@@ -31,6 +31,7 @@ require('../scripts/signup.controller');
 require('../scripts/login.controller');
 require('../scripts/sims.controller');
 require('../scripts/sim_select.controller');
+require('../scripts/simulation.controller');
 
 //services
 require('../scripts/auth.service');
