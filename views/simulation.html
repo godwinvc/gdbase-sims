@@ -39,11 +39,10 @@
     <div class="card active remove-padding">
         <div class="card-header">
             <div class="container-fluid">
-                <h4>Simulation d’examen N° {{currentSimulationNum}}
-                    <span class="pull-right">
+                <h4 style="color:white;">Simulation d’examen N° {{currentSimulationNum}}
+                    <span class="pull-right" style="color:white;">
                         <i class="ion-ios-stopwatch-outline"></i> 00:10:00</span>
                 </h4>
-
             </div>
         </div>
 
@@ -53,30 +52,29 @@
                     <b>X / 30</b>
                 </div>
                 <div class="col-sm-4 text-right">Question:
-                    <b>
-                        <g currQuestion></g> / 30</b>
+                    <b>{{currentQuestion}} / 30</b>
                 </div>
             </div>
             <div class="container-fluid">
-                <br>
-                <h4>Question
-                    <g currQuestion></g>:
-                    <g questionText></g>
-                </h4>
+                <h5>Question {{currentQuestion}}: {{currentQuestionData.questionText}}</h5>
                 <small>(select the good answers)</small>
-                <div id="opHolder">
+                <br>
+                <br>
+                <div class="option" ng-repeat="(opk,opv) in currentQuestionData.options">
+                    {{opv.text}}
+                    {{userSim.simulation1.Q1.attempted}}
                 </div>
             </div>
         </div>
         <div class="card-footer">
             <div class="container-fluid">
                 <div class="col-sm-12" style="margin-top:10px;">
-                    <button id="nextBtn" class="btn btn-primary btn-lg pull-right" style="border-radius:2px; margin-left:10px;" data-toggle="tooltip"
-                        data-placement="top" title="Next Question">
+                    <button class="btn btn-primary btn-lg pull-right" style="border-radius:2px; margin-left:10px;" data-toggle="tooltip" data-placement="top"
+                        title="Next Question" ng-click="loadNextQuestion()">
                         <i class="ion-ios-arrow-forward"></i>
                     </button>
-                    <button id="prevBtn" class="btn btn-primary btn-lg pull-right" style="border-radius:2px; margin-left:10px;" data-toggle="tooltip"
-                        data-placement="top" title="Previous Question">
+                    <button class="btn btn-primary btn-lg pull-right" style="border-radius:2px; margin-left:10px;" data-toggle="tooltip" data-placement="top"
+                        title="Previous Question" ng-click="loadPreviousQuestion()">
                         <i class="ion-ios-arrow-back"></i>
                     </button>
                 </div>
