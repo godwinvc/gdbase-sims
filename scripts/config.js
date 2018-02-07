@@ -1,7 +1,30 @@
 var runFunction = function ($rootScope, $transitions, authService, $state) {
+  // jQuery Stuff  
+  // var header = $('header').html();
+  // $('header').remove();
+  // $('#main').prepend('<header class="fusion-header-wrapper" style="height: 134px;"> ' + header + ' </header>');
+  // var menuBtn = $('[aria-label="Toggle mobile menu"]');
+  // menuBtn.removeAttr('href');
+  // menuBtn.click(function () {
+    //   var mobileNav = $('nav.fusion-mobile-nav-holder');
+    //   mobileNav.is(':visible') ? mobileNav.hide() : mobileNav.show();
+    // })
+    $('#menu-top-header-menu').append('<li role="menuitem" id="logoutBtn" class="button-no-padding-rt menu-item menu-item-type-custom menu-item-object-custom menu-item-239 fusion-menu-item-button" data-classes="button-no-padding-rt"> <span class="menu-text fusion-button button-default button-medium"> <span class="fusion-button-text-center">Logout</span> </span> </a></li>');
+
+  $('#logoutBtn').click(function () {
+    angular.element('#simsController').scope().logoutHandler();
+  });
+
+  // Angular Stuff
   $transitions.onBefore({}, function (trans) {
     if (trans.$to().name != 'login' && trans.$to().name != 'signup') {
-      $('section#content').css('height', '100%');
+      $('#logoutBtn').show();
+      $('#logoutBtn').css('display', 'inline-block');
+      $('section#content').css({
+        'height': '100%',
+        'min-height': '700px'
+      });
+
       if (localStorage.getItem('gdbaseToken') != null) {
         authService.checkToken(localStorage.getItem('gdbaseToken').split('|')[0], localStorage.getItem('gdbaseToken')).then(function (res) {
           if (res != 'good') {
@@ -15,7 +38,10 @@ var runFunction = function ($rootScope, $transitions, authService, $state) {
         $state.go('login');
       }
     } else {
-      $('section#content').css('height', '700px');
+      $('#logoutBtn').hide();
+      $('section#content').css({
+        'height': '700px'
+      });
     }
     if (trans.$to().name == 'login') {
       if (localStorage.getItem('gdbaseToken') != null) {

@@ -1,9 +1,5 @@
 <main>
-    <ui-view></ui-view>
-    <button class="btn btn-default btn-logout" ng-click="logoutHandler()" data-toggle="tooltip" data-placement="left" title="Logout">
-        <i class="fa fa-2x ion-power"></i>
-    </button>
-
+    <ui-view id="simsController"></ui-view>
     <div id="activationModal" class="modal fade" role="dialog">
         <div class="modal-dialog">
             <!-- Modal content-->
@@ -34,9 +30,8 @@
                     <button type="button" class="btn btn-primary btn-block" ng-class="{'btn-success':activationState == 'activated'}" ng-click="activateAccount()"
                         ng-disabled="activationState == 'activated' || activationState == 'activating'">
                         <i class="fa fa-cog fa-spin fa-lg fa-fw" ng-show="activationState == 'activating'"></i>
- {{(activationState == 'pending' || activationState == 'invalid')?"Aller à la simulation":null}} {{activationState == 'activating'?"Loading...":null}}
-{{activationState
-                        == 'activated'?"Account activated":null}}
+                        {{(activationState == 'pending' || activationState == 'invalid')?"Aller à la simulation":null}} {{activationState == 'activating'?"Loading...":null}}
+                        {{activationState == 'activated'?"Account activated":null}}
                     </button>
                 </div>
             </div>
