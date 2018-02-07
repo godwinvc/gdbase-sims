@@ -34,8 +34,7 @@ angular.module("gdbaseSims")
         });
     };
     $scope.validateUsername = function () {
-      $http
-        .post(baseURL + "./server/username-avalibility.php", $scope.username)
+      $http.post(baseURL + "./server/username-avalibility.php", $scope.username)
         .then(function (response) {
           $scope.isUnique = response.data.trim();
         })
@@ -49,6 +48,13 @@ angular.module("gdbaseSims")
       }
     };
     $scope.validateEmail = function () {
+      $http.post(baseURL + "./server/email-avalibility.php", $scope.email)
+        .then(function (response) {
+          $scope.isUniqueEmail = response.data.trim();
+        })
+        .catch(function (err) {
+          console.error(err);
+        });
       if ($scope.email != undefined) {
         if ($scope.email.indexOf("@") < 0 || $scope.email.indexOf(".") < 0) {
           $scope.validEmail = false;

@@ -26,10 +26,13 @@
                                 <small class="text-danger">&nbsp; Veuillez indiquer votre nom de famille</small>
                             </span>
                         </div>
-                        <div class="form-group" ng-class="{'has-error':emailBlured == true && ((validEmail == false && signupform.email.$dirty) || (signupform.email.$invalid && signupform.email.$dirty))}">
+                        <div class="form-group" ng-class="{'has-error':emailBlured == true && ((validEmail == false && signupform.email.$dirty) || isUniqueEmail == 1 ||(signupform.email.$invalid && signupform.email.$dirty))}">
                             <input type="email" class="form-control" name="email" placeholder="Email" ng-model="email" ng-blur="validateEmail()" required>
                             <span ng-show="(emailBlured == true) && ((validEmail == false && signupform.email.$dirty) || (signupform.email.$invalid && signupform.email.$dirty))">
                                 <small class="text-danger">&nbsp; S'il vous plaît fournir un email valide</small>
+                            </span>
+                            <span ng-show="isUniqueEmail == '1'">
+                                <small class="text-danger">&nbsp; L'adresse email est déjà enregistrée</small>
                             </span>
                         </div>
                         <div class="form-group" ng-class="{'has-error': signupform.mobile.$dirty && signupform.mobile.$invalid}">
@@ -69,7 +72,7 @@
                         <div class="fr-ftr">
                             <button type="submit" class="btn btn-lg btn-primary submit" ng-disabled="(signupform.firstName.$dirty && signupform.firstName.$invalid) || (signupform.lastName.$dirty && signupform.lastName.$invalid) || 
                             (signupform.mobile.$dirty && signupform.mobile.$invalid) || 
-                            ((signupform.username.$dirty && signupform.username.$invalid) || (isUnique == 1 || validUsername == false)) || emailBlured == true && ((validEmail == false && signupform.email.$dirty) || (signupform.email.$invalid && signupform.email.$dirty)) || (validPassword > 0 && validPassword < 5) || signupSuccess"><i class="fa fa-cog fa-spin fa-lg fa-fw" ng-show="signupSuccess"></i>{{signupSuccess? "Loading..." : "Soumettre" }}</button>
+                            ((signupform.username.$dirty && signupform.username.$invalid)|| isUniqueEmail == 1 || (isUnique == 1 || validUsername == false)) || emailBlured == true && ((validEmail == false && signupform.email.$dirty) || (signupform.email.$invalid && signupform.email.$dirty)) || (validPassword > 0 && validPassword < 5) || signupSuccess"><i class="fa fa-cog fa-spin fa-lg fa-fw" ng-show="signupSuccess"></i>{{signupSuccess? "Loading..." : "Soumettre" }}</button>
                             <p>Déjà membre?
                                 <span class="login-txt">
                                     <a ui-sref="login">Connectez-vous ici </a>

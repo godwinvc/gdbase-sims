@@ -14,15 +14,6 @@ angular.module("gdbaseSims")
       attempted: false,
       marks: 0
     }
-
-    $http.post(baseURL + "./server/get-user-sim.php", {
-        username: $stateParams.user
-      })
-      .then(function (response) {
-        $scope.userSim = response.data;
-      }).catch(function (err) {
-        console.log(err);
-      })
     $scope.beginSimulation = function (simNum) {
       $http.get(baseURL + "./server/sims.json")
         .then(function (response) {

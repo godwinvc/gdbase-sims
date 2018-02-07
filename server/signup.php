@@ -5,7 +5,7 @@ $signup_data = json_decode(file_get_contents('php://input'));
 
 $token = $signup_data->username . "|" . uniqid() . uniqid() . uniqid();
 
-$query = "INSERT INTO `students`(`firstname`, `lastname`, `username`, `email`, `mobile`,`password`, `token`, `simulation`) VALUES ('" . $signup_data->firstname . "', '" . $signup_data->lastname . "', '" . $signup_data->username . "', '" . $signup_data->email . "', '" . $signup_data->mobile . "', '" . sha1($signup_data->password) . "','" . $token . "', '{}')";
+$query = "INSERT INTO `students`(`firstname`, `lastname`, `username`, `email`, `mobile`,`password`, `token`, `simulation`) VALUES ('" . $signup_data->firstname . "', '" . $signup_data->lastname . "', '" . $signup_data->username . "', '" . $signup_data->email . "', '" . $signup_data->mobile . "', '" . sha1($signup_data->password) . "','" . $token . "', '{activationCode:".uniqid()."}')";
 
 if (execute($db, $query)) {
     echo $token;
