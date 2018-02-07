@@ -1,7 +1,7 @@
 <?php
 require 'vendor/autoload.php';
-// $email_data = json_decode(file_get_contents('php://input'));
-$email_data = json_decode('{"firstname":"Godwin","email":"alfa.godwin.omega@gmail.com","activationCode":"ABC123456"}');
+$email_data = json_decode(file_get_contents('php://input'));
+// $email_data = json_decode('{"firstname":"Godwin","email":"alfa.godwin.omega@gmail.com","activationCode":"ABC123456"}');
 $firstname = $email_data->firstname;
 $user_email = $email_data->email;
 $activation_code = $email_data->activationCode;
@@ -41,7 +41,7 @@ $Email->AltBody = "GDBase Account Activation";
 //echo !extension_loaded('openssl')?"Not Available <br/>":"Available <br/>";
 
 if ($Email->send()) {
-    echo 'ok';
+    echo 'MailDelivered';
 } else {
     echo $Email->ErrorInfo;
 }

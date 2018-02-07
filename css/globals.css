@@ -8,16 +8,28 @@
   padding: 0px;
 }
 
-.btn-logout{
+.btn-logout {
   width: 60px;
   height: 60px;
   border-radius: 50%;
   text-align: center;
   position: fixed;
   line-height: 60px;
-  top:15px;
+  top: 15px;
   right: 15px;
   background-color: #ff6600;
   color: white;
-  z-index: 10000;
+  z-index: 1049;
+}
+
+.modal-header {
+  padding: 15px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.modal-footer {
+  text-align: center;
+  background-color: #f5f5f5;
+  padding: 15px;
+  border-top: 1px solid #e5e5e5;
 }

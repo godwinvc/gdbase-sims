@@ -24,7 +24,6 @@ angular.module("gdbaseSims")
             $scope.userSim[$scope.currentSimulation] = {};
           }
           $scope.userSim[$scope.currentSimulation]["Q" + $scope.currentQuestion] = questionTemplate;
-          console.log($scope.userSim);
         })
         .catch(function (err) {
           console.log(err);

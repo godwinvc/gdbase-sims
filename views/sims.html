@@ -3,4 +3,44 @@
     <button class="btn btn-default btn-logout" ng-click="logoutHandler()" data-toggle="tooltip" data-placement="left" title="Logout">
         <i class="fa fa-2x ion-power"></i>
     </button>
+
+    <div id="activationModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title text-center text-primary">Account Activation Required</h4>
+                </div>
+                <div class="modal-body text-center">
+                    <div style="width:95%;">
+                        <h4>Hello {{userData.firstname}}!</h4>
+                        <p>We have sent you an email with the activation code at
+                            <b class="text-primary">{{userData.email}}</b> to activate your account.</p>
+                        <div class="form-group" ng-class="{'has-error':activationState == 'invalid','has-success':activationState == 'activated'}">
+                            <input type="text" class="form-control" name="activationCode" placeholder="Activation Code" ng-model="activationCodeEntered">
+
+                            <span class="text-danger" ng-show="activationState == 'invalid'">
+                                <i class="fa fa-lg ion-ios-information"></i> Invalid activation code. Please try again!
+                            </span>
+
+                            <span class="text-success" ng-show="activationState == 'activated'">
+                                <i class="fa fa-lg ion-ios-checkmark"></i> Activated Successfully
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary btn-block" ng-class="{'btn-success':activationState == 'activated'}" ng-click="activateAccount()"
+                        ng-disabled="activationState == 'activated' || activationState == 'activating'">
+                        <i class="fa fa-cog fa-spin fa-lg fa-fw" ng-show="activationState == 'activating'"></i>
+ {{(activationState == 'pending' || activationState == 'invalid')?"Aller à la simulation":null}} {{activationState == 'activating'?"Loading...":null}}
+{{activationState
+                        == 'activated'?"Account activated":null}}
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </div>
 </main>
