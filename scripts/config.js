@@ -1,3 +1,6 @@
+window.lout = function () {
+  angular.element('#simsController').scope().logoutHandler();
+};
 var runFunction = function ($rootScope, $transitions, authService, $state) {
   // jQuery Stuff  
   // var header = $('header').html();
@@ -6,10 +9,10 @@ var runFunction = function ($rootScope, $transitions, authService, $state) {
   // var menuBtn = $('[aria-label="Toggle mobile menu"]');
   // menuBtn.removeAttr('href');
   // menuBtn.click(function () {
-    //   var mobileNav = $('nav.fusion-mobile-nav-holder');
-    //   mobileNav.is(':visible') ? mobileNav.hide() : mobileNav.show();
-    // })
-    $('#menu-top-header-menu').append('<li role="menuitem" id="logoutBtn" class="button-no-padding-rt menu-item menu-item-type-custom menu-item-object-custom menu-item-239 fusion-menu-item-button" data-classes="button-no-padding-rt"> <span class="menu-text fusion-button button-default button-medium"> <span class="fusion-button-text-center">Logout</span> </span> </a></li>');
+  //   var mobileNav = $('nav.fusion-mobile-nav-holder');
+  //   mobileNav.is(':visible') ? mobileNav.hide() : mobileNav.show();
+  // })
+  $('#menu-top-header-menu').append('<li role="menuitem" id="logoutBtn" class="button-no-padding-rt menu-item menu-item-type-custom menu-item-object-custom menu-item-239 fusion-menu-item-button" data-classes="button-no-padding-rt"> <span class="menu-text fusion-button button-default button-medium"> <span class="fusion-button-text-center">Logout</span> </span> </a></li>');
 
   $('#logoutBtn').click(function () {
     angular.element('#simsController').scope().logoutHandler();
@@ -60,6 +63,9 @@ var runFunction = function ($rootScope, $transitions, authService, $state) {
   });
   $transitions.onSuccess({}, function (trans) {
     $('[data-toggle="tooltip"]').tooltip();
+    $('[data-toggle="tooltip"]').click(function () {
+      $('[data-toggle="tooltip"]').tooltip('hide');
+    })
   });
 }
 runFunction.$inject = ['$rootScope', '$transitions', 'authService', '$state'];

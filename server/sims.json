@@ -29,7 +29,7 @@
     },
     "Q2": {
       "questionText":
-        "J'achète des marchandises 2000€ et je fais une marge de 40% sur le prix de vente. J'accorde une remise de 10% et un escompte de 2%. Quel est le prix de vente TVAC (21%) ?",
+        "J'achète des marchandises 2000€ et je fais une marge de 40% sur le prix de vente. J'accorde une remise de 10% et un escompte de 2%. Quel est le prix de vente TVAC (21%) ?",
       "questionType": "MC",
       "options": {
         "Op1": {
@@ -138,6 +138,733 @@
           "mark": 0.5
         }
       }
-    }
+    },
+    "Q5": {
+        "questionText":
+          "En Janvier, on achète des matière première pour 10.000€ (hors TVA de 21%) et des machines pour un montant de 1.210€ (hors TVA de 21%). On vend ensuite des prestations de rénovation pour 20.000€ (hors TVA de 6%) ainsi que des prestations de construction pour 5.000€ (hors TVA de 21%). Calculez le solde TVA du mois de janvier.",
+        "questionType": "MC",
+        "options": {
+          "Op1": {
+            "text": "On doit 2.250€ à l'administration de la TVA",
+            "type": "incorrect",
+            "mark": 2
+          },
+          "Op2": {
+            "text": "L'administration de la TVA nous doit 2.310€",
+            "type": "incorrect",
+            "mark": 2
+          },
+          "Op3": {
+            "text": "L'administration de la TVA nous doit 60€",
+            "type": "correct",
+            "mark": 8
+          },
+          "Op4": {
+            "text": "On doit 60€ à l'administration de la TVA",
+            "type": "incorrect",
+            "mark": 2
+          }
+        }
+      },
+      "Q6": {
+        "questionText":
+          "Dans un village il y a 18.000 habitants et 10% d'entre eux vont faire leur courses dans les communes voisines. Dans ces communes il y a 36.000 habitants et 5% viennent faire leurs courses chez nous. Chacun à un pouvoir d'achat de 100€ par an. Quel Chiffre d'Affaire vais-je viser dans mon Business Plan sachant que j'ai 17 concurrents ?",
+        "questionType": "MC",
+        "options": {
+          "Op1": {
+            "text": "18,00,000 €",
+            "type": "incorrect",
+            "mark": 1.5
+          },
+          "Op2": {
+            "text": "1,00,000 €",
+            "type": "correct",
+            "mark": 6
+          },
+          "Op3": {
+            "text": "20,000 €",
+            "type": "incorrect",
+            "mark": 1.5
+          },
+          "Op4": {
+            "text": "2,50,000 €",
+            "type": "incorrect",
+            "mark": 1.5
+          }
+        }
+      },
+      "Q7": {
+        "questionText":
+          "Quel organe est compétent pour traiter un petit litige commercial de maximum 1860€ entre client et commerçant ?",
+        "questionType": "MC",
+        "options": {
+          "Op1": {
+            "text": "Le tribunal civil",
+            "type": "incorrect",
+            "mark": 0.5
+          },
+          "Op2": {
+            "text": "Le tribunal de commerce",
+            "type": "correct",
+            "mark": 2
+          },
+          "Op3": {
+            "text": "Le juge de paix",
+            "type": "incorrect",
+            "mark": 0.5
+          },
+          "Op4": {
+            "text": "Le greffe du tribunal de commerce",
+            "type": "incorrect",
+            "mark": 0.5
+          }
+        }
+      },
+      "Q8": {
+        "questionText":
+          "Cocher la ou les bonne(s) réponse(S) : les versements anticipés d’impôts permettent de :",
+        "questionType": "MC",
+        "options": {
+          "Op1": {
+            "text": "Diminuer le bénéfice de la société",
+            "type": "incorrect",
+            "mark": 1
+          },
+          "Op2": {
+            "text": "Diminuer le total de l’actif de la société",
+            "type": "incorrect",
+            "mark": 1
+          },
+          "Op3": {
+            "text": "Eviter des majorations d’impôts lors de la quatrième année suivante",
+            "type": "correct",
+            "mark": 4
+          },
+          "Op4": {
+            "text": "D’éviter une régularisation de cotisations sociales",
+            "type": "incorrect",
+            "mark": 1
+          }
+        }
+      },
+      "Q9": {
+        "questionText":
+          "Notre société réalise un chiffre d'affaires de 120.000€. Pour ce faire, on a acheté pour 20.000€ de matières premières et payé des salaires pour 40.000€. Les frais de transformations sont de 10% des deux valeurs ci-dessus. De plus, le dirigeant de l'entreprise s'alloue un salaire de 2.000€ par mois et l'impôt des sociétés est de 10.000€. Quelle est la rentabilité de l'entreprise ?",
+        "questionType": "MC",
+        "options": {
+          "Op1": {
+            "text": "20%",
+            "type": "incorrect",
+            "mark": 2
+          },
+          "Op2": {
+            "text": "83.33%",
+            "type": "incorrect",
+            "mark": 2
+          },
+          "Op3": {
+            "text": "16.66%",
+            "type": "correct",
+            "mark": 8
+          },
+          "Op4": {
+            "text": "19.42%",
+            "type": "incorrect",
+            "mark": 2
+          }
+        }
+      },
+      "Q10": {
+        "questionText":
+          "On achète un produit 50€ HTVA et on le vend en faisant une marge sur le prix de vente de 20%. J'accord une remise de 10% et un escompte de 2%. Les frais de transport sont de 20€. Quel est e prix de vente de ce produit, TVA de 21% comprise ?",
+        "questionType": "MC",
+        "options": {
+          "Op1": {
+            "text": "90.42 €",
+            "type": "correct",
+            "mark": 8
+          },
+          "Op2": {
+            "text": "87.75 €",
+            "type": "incorrect",
+            "mark": 2
+          },
+          "Op3": {
+            "text": "90.75 €",
+            "type": "incorrect",
+            "mark": 2
+          },
+          "Op4": {
+            "text": "93.42 €",
+            "type": "incorrect",
+            "mark": 2
+          }
+        }
+      },
+      "Q11": {
+        "questionText":
+          "On amorti une machine d’une valeur de 20.000€ de façon dégressive sur 5 ans. L’amortissement de la première année sera de :",
+        "questionType": "MC",
+        "options": {
+          "Op1": {
+            "text": "5,000 €",
+            "type": "incorrect",
+            "mark": 1.5
+          },
+          "Op2": {
+            "text": "7,500 €",
+            "type": "incorrect",
+            "mark": 1.5
+          },
+          "Op3": {
+            "text": "8,000 €",
+            "type": "correct",
+            "mark": 6
+          },
+          "Op4": {
+            "text": "10,000 €",
+            "type": "incorrect",
+            "mark": 1.5
+          }
+        }
+      },
+      "Q12": {
+        "questionText":
+          "On amorti une machine d’une valeur de 20.000€ de façon dégressive sur 5 ans. L’amortissement de la première année sera de :",
+        "questionType": "MC",
+        "options": {
+          "Op1": {
+            "text": "5,000 €",
+            "type": "incorrect",
+            "mark": 1.5
+          },
+          "Op2": {
+            "text": "7,500 €",
+            "type": "incorrect",
+            "mark": 1.5
+          },
+          "Op3": {
+            "text": "8,000 €",
+            "type": "correct",
+            "mark": 6
+          },
+          "Op4": {
+            "text": "10,000 €",
+            "type": "incorrect",
+            "mark": 1.5
+          }
+        }
+      },
+      "Q13": {
+        "questionText":
+          "Quel est le capital souscrit d'une SA ?",
+        "questionType": "MC",
+        "options": {
+          "Op1": {
+            "text": "6200",
+            "type": "incorrect",
+            "mark": 0.75
+          },
+          "Op2": {
+            "text": "12400",
+            "type": "incorrect",
+            "mark": 0.75
+          },
+          "Op3": {
+            "text": "18550",
+            "type": "incorrect",
+            "mark": 0.75
+          },
+          "Op4": {
+            "text": "61500",
+            "type": "correct",
+            "mark": 3
+          }
+        }
+      },
+      "Q14": {
+        "questionText":
+          "Quel est le capital souscrit d'une SA ?",
+        "questionType": "MC",
+        "options": {
+          "Op1": {
+            "text": "Le 30 juin de l’année suivante",
+            "type": "incorrect",
+            "mark": 1
+          },
+          "Op2": {
+            "text": "Le 30 juin de la deuxième année suivante",
+            "type": "incorrect",
+            "mark": 1
+          },
+          "Op3": {
+            "text": "6 mois avant la clôture de l’exercice fiscal",
+            "type": "incorrect",
+            "mark": 1
+          },
+          "Op4": {
+            "text": "6 mois après la clôture de l’exercice fiscal",
+            "type": "correct",
+            "mark": 4
+          }
+        }
+      },
+      "Q15": {
+        "questionText":
+          "Quelles sont les prestations sociales auxquelles l’indépendant à droit lorsqu’il s’affilie à une caisse d’assurance sociale ?",
+        "questionType": "MR",
+        "options": {
+          "Op1": {
+            "text": "Prime de fin d’année",
+            "type": "incorrect",
+            "mark": 1
+          },
+          "Op2": {
+            "text": "Assurance maladie petits risques",
+            "type": "correct",
+            "mark": 2
+          },
+          "Op3": {
+            "text": "13ième mois",
+            "type": "incorrect",
+            "mark": 1
+          },
+          "Op4": {
+            "text": "Allocations de chômage",
+            "type": "incorrect",
+            "mark": 1
+          },
+          "Op5": {
+            "text": "Assurance maladie gros risques",
+            "type": "correct",
+            "mark": 2
+          },
+          "Op6": {
+            "text": "Pension de retraite",
+            "type": "correct",
+            "mark": 2
+          }
+        }
+      },
+      "Q16": {
+        "questionText":
+          "J'achète des matériaux pour 3000€. J'effectue 10h de travail à 50€ de l'heure. Les frais indirects de l'entreprise sont de 125.000€ répartis au prorata de la charge salariale directe de 1.000.000€. Je fais une marge de 20% du prix de vente. Quel est le prix de vente HTVA ?",
+        "questionType": "MC",
+        "options": {
+          "Op1": {
+            "text": "3,562.50 €",
+            "type": "correct",
+            "mark": 10
+          },
+          "Op2": {
+            "text": "4,275 €",
+            "type": "incorrect",
+            "mark": 2.5
+          },
+          "Op3": {
+            "text": "3,475 €",
+            "type": "incorrect",
+            "mark": 2.5
+          },
+          "Op4": {
+            "text": "4,453.13 €",
+            "type": "incorrect",
+            "mark": 2.5
+          }
+        }
+      },
+      "Q17": {
+        "questionText":
+          "J’achète une machine 60.000€ et l'amorti de façon dégressive en 6 ans. Quelle est la valeur résiduelle dans l'inventaire après 4 ans ?",
+        "questionType": "MC",
+        "options": {
+          "Op1": {
+            "text": "20,000 €",
+            "type": "incorrect",
+            "mark": 2
+          },
+          "Op2": {
+            "text": "6,666.67 €",
+            "type": "correct",
+            "mark": 8
+          },
+          "Op3": {
+            "text": "15,000 €",
+            "type": "incorrect",
+            "mark": 2
+          },
+          "Op4": {
+            "text": "Aucune de ces valeurs",
+            "type": "incorrect",
+            "mark": 2
+          }
+        }
+      },
+      "Q18": {
+        "questionText":
+          "On me propose de racheter deux sociétés. Je veux acheter la plus rentable. J’ai 100.000€ de fonds propres. L’entreprise A coûte 300.000€ et dégage un bénéfice annuel de 25.000€. L’entreprise B coûte 200.000€ et dégage un bénéfice annuel de 20.000€. Quelle est l’entreprise la plus rentable ?",
+        "questionType": "MC",
+        "options": {
+          "Op1": {
+            "text": "L'entreprise A",
+            "type": "incorrect",
+            "mark": 3
+          },
+          "Op2": {
+            "text": "L'entreprise B",
+            "type": "incorrect",
+            "mark": 6
+          }
+        }
+      },
+      "Q19": {
+        "questionText":
+          "Une société a un capital propre de 40.000€, des dettes à long terme de 40.000€ et des dettes à court terme de 20.000€. Quelle est son indépendance financière en % ?",
+        "questionType": "MC",
+        "options": {
+          "Op1": {
+            "text": "20%",
+            "type": "incorrect",
+            "mark": 1.5
+          },
+          "Op2": {
+            "text": "40%",
+            "type": "correct",
+            "mark": 6
+          },
+          "Op3": {
+            "text": "60%",
+            "type": "incorrect",
+            "mark": 1.5
+          },
+          "Op4": {
+            "text": "150%",
+            "type": "incorrect",
+            "mark": 1.5
+          }
+        }
+      },
+      "Q20": {
+        "questionText":
+          "Une machine achetée 2.000€ HTVA est vendue 3.000€ HTVA. Quel est le pourcentage de la marge bénéficiaire par rapport à mon prix d’achat ?",
+        "questionType": "MC",
+        "options": {
+          "Op1": {
+            "text": "20%",
+            "type": "incorrect",
+            "mark": 1
+          },
+          "Op2": {
+            "text": "25%",
+            "type": "incorrect",
+            "mark": 1
+          },
+          "Op3": {
+            "text": "33%",
+            "type": "incorrect",
+            "mark": 1
+          },
+          "Op4": {
+            "text": "50%",
+            "type": "correct",
+            "mark": 4
+          }
+        }
+      },
+      "Q21": {
+        "questionText":
+          "J’effectue des travaux dans mon habitation. L’entrepreneur me présente une facture de 7.200€ TVA comprise de 21 %. Mon habitation existe depuis plus de 15 ans et donc je peux bénéficier d’une TVA de 6%. Calculez le prix à payer TVA comprise de 6%.",
+        "questionType": "MC",
+        "options": {
+          "Op1": {
+            "text": "6,307.44 €",
+            "type": "correct",
+            "mark": 6
+          },
+          "Op2": {
+            "text": "6,703.44 €",
+            "type": "incorrect",
+            "mark": 1.5
+          },
+          "Op3": {
+            "text": "7,644.03 €",
+            "type": "incorrect",
+            "mark": 1.5
+          },
+          "Op4": {
+            "text": "7,603.44 €",
+            "type": "incorrect",
+            "mark": 1.5
+          }
+        }
+      },
+      "Q22": {
+        "questionText":
+          "Quelles sont les bonnes manières de rassembler de bonnes idées entrepreuneuriales ?",
+        "questionType": "MR",
+        "options": {
+          "Op1": {
+            "text": "Créer son emploi pour se sortir du chômage",
+            "type": "correct",
+            "mark": 1
+          },
+          "Op2": {
+            "text": "Ne plus devoir supporter un patron ennuyeux",
+            "type": "incorrect",
+            "mark": 0.5
+          },
+          "Op3": {
+            "text":
+              "Réaliser son rêve de travailler pour soi",
+            "type": "correct",
+            "mark": 1
+          },
+          "Op4": {
+            "text": "Réaliser son propre projet même si la valeur ajoutée de celui-ci est faible",
+            "type": "incorrect",
+            "mark": 0.5
+          }
+        }
+      },
+      "Q23": {
+        "questionText":
+          "Quelles sont les étapes obligatoires lors de la création d’une activité en personne physique ?",
+        "questionType": "MR",
+        "options": {
+          "Op1": {
+            "text": "Etre indépendant principal",
+            "type": "incorrect",
+            "mark": 1
+          },
+          "Op2": {
+            "text": "S’aider d’un comptable agréé",
+            "type": "incorrect",
+            "mark": 1
+          },
+          "Op3": {
+            "text":
+              "S’inscrire auprès d’un secrétariat social ",
+            "type": "incorrect",
+            "mark": 1
+          },
+          "Op4": {
+            "text": "Demander un numéro d’entreprise",
+            "type": "correct",
+            "mark": 2
+          },
+          "Op5": {
+            "text": "Remettre un certificat de bonne santé à sa caisse d’assurance sociale",
+            "type": "incorrect",
+            "mark": 1
+          },
+          "Op6": {
+            "text": "Disposer d’un permis d’environnement",
+            "type": "incorrect",
+            "mark": 1
+          },
+          "Op7": {
+            "text": "Ouvrir un compte bancaire",
+            "type": "correct",
+            "mark": 2
+          },
+          "Op8": {
+            "text": "Présenter votre contrat de mariage (si je suis marié(e))",
+            "type": "correct",
+            "mark": 2
+          },
+          "Op9": {
+            "text": "Démontrer vos connaissances en gestion de base",
+            "type": "correct",
+            "mark": 2
+          },
+          "Op10": {
+            "text": "Disposer d’une carte de travail pour étranger (si je le suis)",
+            "type": "correct",
+            "mark": 2
+          }
+        }
+      },
+      "Q24": {
+        "questionText":
+          "Une société transforme des matières premières pour 30.000€. Elle dépense 24.000€ en frais variable et 6.000€ en frais fixe. Quel est la valeur des frais fixes par rapport aux frais variables ?",
+        "questionType": "MC",
+        "options": {
+          "Op1": {
+            "text": "20%",
+            "type": "incorrect",
+            "mark": 1
+          },
+          "Op2": {
+            "text": "25%",
+            "type": "correct",
+            "mark": 4
+          },
+          "Op3": {
+            "text": "75%",
+            "type": "incorrect",
+            "mark": 1
+          },
+          "Op4": {
+            "text": "80%",
+            "type": "incorrect",
+            "mark": 1
+          }
+        }
+      },
+      "Q25": {
+        "questionText":
+          "Je veux mettre fin à mon bail commercial. Sélectionnez la ou les bonnes réponses :",
+        "questionType": "MC",
+        "options": {
+          "Op1": {
+            "text": "Je dois envoyer un recommandé au propriétaire 15 à 18 mois avant la fin du triennat",
+            "type": "incorrect",
+            "mark": 0.33
+          },
+          "Op2": {
+            "text": "Je dois envoyer un recommandé au propriétaire au moins 6 mois avant la fin du triennat",
+            "type": "correct",
+            "mark": 3
+          },
+
+          "Op3": {
+            "text": "Je dois envoyer un recommandé au propriétaire 15 à 18 mois avant la fin du bail",
+            "type": "incorrect",
+            "mark": 0.33
+          }
+        }
+      },
+      "Q26": {
+        "questionText":
+          "En 2016, une entreprise achète des marchandises pour 13.000€. Son stock initial est de 3.000€ et le stock final est de 5.000€. Cette année, les ventes s’élèvent à 30.000€ et les frais professionnels sont de 3.500€. Quel est le bénéfice net ?",
+        "questionType": "MC",
+        "options": {
+          "Op1": {
+            "text": "11,000 €",
+            "type": "incorrect",
+            "mark": 1.5
+          },
+          "Op2": {
+            "text": "15,500 €",
+            "type": "correct",
+            "mark": 6
+          },
+          "Op3": {
+            "text": "19,000 €",
+            "type": "incorrect",
+            "mark": 1.5
+          },
+          "Op4": {
+            "text": "21,500 €",
+            "type": "incorrect",
+            "mark": 1.5
+          }
+        }
+      },
+      "Q27": {
+        "questionText":
+          "J’achète des marchandises 10.000€ et je les revends avec une marge bénéficiaire de 10% sur le prix de vente hors TVA. Quel est le prix de vente hors TVA ?",
+        "questionType": "MC",
+        "options": {
+          "Op1": {
+            "text": "10,100 €",
+            "type": "incorrect",
+            "mark": 1
+          },
+          "Op2": {
+            "text": "11,000 €",
+            "type": "incorrect",
+            "mark": 1
+          },
+          "Op3": {
+            "text": "11,111.11 €",
+            "type": "correct",
+            "mark": 4
+          },
+          "Op4": {
+            "text": "12,100 €",
+            "type": "incorrect",
+            "mark": 1
+          }
+        }
+      },
+      "Q28": {
+        "questionText":
+          "Le prix de vente d’un véhicule mixte est de 20.000€ hors TVA (taux de 21%). Conditions promotionnelles : le vendeur vous offre la TVA. Exprimée en %, quelle sera la remise obtenue ?",
+        "questionType": "MC",
+        "options": {
+          "Op1": {
+            "text": "15.17%",
+            "type": "incorrect",
+            "mark": 1.5
+          },
+          "Op2": {
+            "text": "17.36%",
+            "type": "correct",
+            "mark": 6
+          },
+          "Op3": {
+            "text": "21%",
+            "type": "incorrect",
+            "mark": 1.5
+          },
+          "Op4": {
+            "text": "4,200 €",
+            "type": "incorrect",
+            "mark": 1.5
+          }
+        }
+      },
+      "Q29": {
+        "questionText":
+          "Cochez les affirmations correctes :",
+        "questionType": "MR",
+        "options": {
+          "Op1": {
+            "text": "On trouve les stocks et matières premières dans l’actif du bilan comptable",
+            "type": "correct",
+            "mark": 2
+          },
+          "Op2": {
+            "text": "On trouve le bénéfice brut avant impôt dans le passif du bilan",
+            "type": "incorrect",
+            "mark": 1
+          },
+          "Op3": {
+            "text":
+              "On trouve l’impôt des sociétés dans le compte de résultat",
+            "type": "correct",
+            "mark": 2
+          },
+          "Op4": {
+            "text": "On trouve les amortissements dans l’actif",
+            "type": "incorrect",
+            "mark": 1
+          }
+        }
+      },
+      "Q30": {
+        "questionText":
+          "Quel document sert à définir le projet de votre entreprise ?",
+        "questionType": "MC",
+        "options": {
+          "Op1": {
+            "text": "Le livre de recettes",
+            "type": "incorrect",
+            "mark": 1
+          },
+          "Op2": {
+            "text": "Le journal des achats",
+            "type": "incorrect",
+            "mark": 1
+          },
+
+          "Op3": {
+            "text": "Le business plan",
+            "type": "correct",
+            "mark": 3
+          }
+        }
+      }
   }
 }

@@ -56,13 +56,12 @@
                 </div>
             </div>
             <div class="container-fluid">
-                <h5>Question {{currentQuestion}}: {{currentQuestionData.questionText}}</h5>
+                <h5><span class="text-primary">Question {{currentQuestion}}:</span> {{currentQuestionData.questionText}}</h5>
                 <small>(select the good answers)</small>
                 <br>
                 <br>
-                <div class="option" ng-repeat="(opk,opv) in currentQuestionData.options">
+                <div class="option" ng-repeat="(opk,opv) in currentQuestionData.options" ng-class="{'selected':currSelectedOptions.indexOf(opk) > -1}" ng-click="OpSelectionHandler(opk)" ng-disabled="userSimData[currentSimulation]['Q' + currentQuestion].attempted">
                     {{opv.text}}
-                    {{userSim.simulation1.Q1.attempted}}
                 </div>
             </div>
         </div>
@@ -70,11 +69,11 @@
             <div class="container-fluid">
                 <div class="col-sm-12" style="margin-top:10px;">
                     <button class="btn btn-primary btn-lg pull-right" style="border-radius:2px; margin-left:10px;" data-toggle="tooltip" data-placement="top"
-                        title="Next Question" ng-click="loadNextQuestion()">
+                        title="Next Question" ng-click="loadNextQuestion()" ng-disabled="currentQuestion == 30">
                         <i class="ion-ios-arrow-forward"></i>
                     </button>
                     <button class="btn btn-primary btn-lg pull-right" style="border-radius:2px; margin-left:10px;" data-toggle="tooltip" data-placement="top"
-                        title="Previous Question" ng-click="loadPreviousQuestion()">
+                        title="Previous Question" ng-click="loadPreviousQuestion()" ng-disabled="currentQuestion == 1">
                         <i class="ion-ios-arrow-back"></i>
                     </button>
                 </div>
