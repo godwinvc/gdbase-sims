@@ -4,6 +4,9 @@
   padding: 0px;
 }
 
+[disabled]{
+  pointer-events: none;
+}
 .remove-padding {
   padding: 0px;
 }

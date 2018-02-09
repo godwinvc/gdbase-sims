@@ -41,7 +41,7 @@
             <div class="container-fluid">
                 <h4 style="color:white;">Simulation d’examen N° {{currentSimulationNum}}
                     <span class="pull-right" style="color:white;">
-                        <i class="ion-ios-stopwatch-outline"></i> 00:10:00</span>
+                        <i class="ion-ios-stopwatch-outline"></i> {{timer.hours < 10 ? 0 : null}}{{timer.hours}}:{{timer.mins < 10 ? 0 : null}}{{timer.mins}}:{{timer.secs < 10 ? 0 : null}}{{timer.secs}}</span>
                 </h4>
             </div>
         </div>
@@ -49,20 +49,22 @@
         <div class="card-content">
             <div class="card-subhead">
                 <div class="col-sm-8">Marks:
-                    <b>X / 30</b>
+                    <b>{{score.toFixed(2)}} / {{simData.TotalMarks}}</b>
                 </div>
                 <div class="col-sm-4 text-right">Question:
                     <b>{{currentQuestion}} / 30</b>
                 </div>
             </div>
             <div class="container-fluid">
-                <h5><span class="text-primary">Question {{currentQuestion}}:</span> {{currentQuestionData.questionText}}</h5>
+                <h5>
+                    <span class="text-primary">Question {{currentQuestion}}:</span> {{currentQuestionData.questionText}}</h5>
                 <small>(select the good answers)</small>
                 <br>
                 <br>
-                <div class="option" ng-repeat="(opk,opv) in currentQuestionData.options" ng-class="{'selected':currSelectedOptions.indexOf(opk) > -1}" ng-click="OpSelectionHandler(opk)" ng-disabled="userSimData[currentSimulation]['Q' + currentQuestion].attempted">
+                <button class="btn btn-primary option" ng-repeat="(opk,opv) in currentQuestionData.options" ng-class="{'selected':currSelectedOptions.indexOf(opk) > -1}"
+                    ng-click="OpSelectionHandler(opk)" ng-disabled="userSimData[currentSimulation]['Q' + currentQuestion].attempted">
                     {{opv.text}}
-                </div>
+                </button>
             </div>
         </div>
         <div class="card-footer">
