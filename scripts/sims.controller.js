@@ -6,6 +6,7 @@ angular.module("gdbaseSims")
         $http.post(baseURL + "./server/get-user-data.php", $stateParams.user)
             .then(function (response) {
                 $scope.userData = response.data;
+                console.log(response.data);
                 $scope.userSimData = JSON.parse(response.data.simulation);
                 checkAccActivation($scope.userSimData);
             }).catch(function (err) {

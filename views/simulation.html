@@ -59,17 +59,19 @@
             <div class="container-fluid">
                 <h5>
                     <span class="text-primary">Question {{currentQuestion}}:</span> {{currentQuestionData.questionText}}</h5>
-                <small>(select the good answers)</small>
+                <small>({{(currentQuestionData.questionType == 'MR')? 'Sélectionnez les bonnes réponses' : 'Sélectionnez la bonne
+                    réponse'}})
+                </small>
                 <br>
                 <br>
                 <div class="container-fluid remove-padding" ng-show="currentQuestionData.questionType == 'TF'">
                     <div class="tf-group" ng-repeat="(opk,opv) in currentQuestionData.options">
                         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">{{opv.text}}</div>
                         <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
-                            <button class="btn btn-block" ng-click="OpSelectionHandler({'opk':opk, 'ans':'true'})" ng-class="{'btn-primary':currSelectedOptions[opk].ans == 'true'}">True</button>
+                            <button class="btn btn-block" ng-click="OpSelectionHandler({'opk':opk, 'ans':'true'})" ng-class="{'btn-primary':currSelectedOptions[opk].ans == 'true'}">Vrai</button>
                         </div>
                         <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
-                            <button class="btn btn-block" ng-click="OpSelectionHandler({'opk':opk, 'ans':'false'})" ng-class="{'btn-primary':currSelectedOptions[opk].ans == 'false'}">False</button>
+                            <button class="btn btn-block" ng-click="OpSelectionHandler({'opk':opk, 'ans':'false'})" ng-class="{'btn-primary':currSelectedOptions[opk].ans == 'false'}">Faux</button>
                         </div>
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                             <hr>
@@ -90,8 +92,8 @@
                         <i class="ion-ios-arrow-forward"></i>
                     </button>
                     <button class="btn btn-primary btn-lg pull-right" style="border-radius:2px; margin-left:10px;" data-toggle="tooltip" data-placement="top"
-                        title="Validate your exam" ng-click="loadScoreCard()" ng-show="currentQuestion == 30" ng-disabled="currentQuestion < 30">
-                        Validate your exam
+                        title="Valider votre examen" ng-click="loadScoreCard()" ng-show="currentQuestion == 30" ng-disabled="currentQuestion < 30">
+                        Valider votre examen
                     </button>
                     <button class="btn btn-default btn-lg pull-right" style="border-radius:2px; margin-left:10px;" data-toggle="tooltip" data-placement="top"
                         title="Previous Question" ng-click="loadPreviousQuestion()" ng-disabled="currentQuestion == 1">
@@ -115,29 +117,30 @@
         <div class="card-content">
             <div class="container-fluid">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-                    <h2 ng-show="((score / simData.TotalMarks) * 100) >= simData.minMarks">Exam passed !</h2>
-                    <h2 ng-show="((score / simData.TotalMarks) * 100) < simData.minMarks">Exam Failed !</h2>
+                    <h2 ng-show="((score / simData.TotalMarks) * 100) >= simData.minMarks">Examen réussi !</h2>
+                    <h2 ng-show="((score / simData.TotalMarks) * 100) < simData.minMarks">Examen raté...</h2>
                     <h3 ng-class="{'text-success':((score / simData.TotalMarks) * 100) >= simData.minMarks, 'text-danger':((score / simData.TotalMarks) * 100) < simData.minMarks}">{{((score / simData.TotalMarks) * 100 ).toFixed(2)}}%</h3>
                     <br>
-                    <h4 ng-show="((score / simData.TotalMarks) * 100) >= simData.minMarks" style="width:95%">Congratulation, you seem ready to pass the real exam If you want to be sure to pass it, enjoy
-                        our 100 corected exam question
+                    <h4 ng-show="((score / simData.TotalMarks) * 100) >= simData.minMarks" style="width:95%">Félicitations, vous semblez prêt à réussir l'examen. Pour en être certain, profitez de nos 100 questions d'examen expliquées en vidéo.
                     </h4>
-                    <h4 ng-show="((score / simData.TotalMarks) * 100) < simData.minMarks" style="width:95%">Sorry, you failed the exam. Improve yout skills with a good traing and our 100 exam questions.
+                    <h4 ng-show="((score / simData.TotalMarks) * 100) < simData.minMarks" style="width:95%">Désolé, vous avez raté la simulation. Pour vous améliorer, profitez de nos 100 questions d'examen corrigées
+                        en vidéo ou inscrivez-vous à une de nos formations.
                     </h4>
-                    <button class="btn btn-default" ng-click="restSimulation()">Retake this simulation</button>
+                    <!-- <button class="btn btn-default" ng-click="restSimulation()">Retake this simulation</button> -->
                 </div>
             </div>
         </div>
         <div class="card-footer">
             <div class="container-fluid">
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 pull-right" ng-show="((score / simData.TotalMarks) * 100) < simData.minMarks" style="padding-top:15px">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 pull-right" ng-show="((score / simData.TotalMarks) * 100) < simData.minMarks"
+                    style="padding-top:15px">
                     <button class="btn btn-primary btn-block" ng-click="goBackToSimSelect()">
-                        Get a good training
+                        M"inscrire à une bonne formation
                     </button>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 pull-right" style="padding-top:15px">
                     <button class="btn btn-primary btn-block" ng-click="goBackToSimSelect()">
-                        Get the 100 exam questions
+                        Avoir les 100 questions d'examen
                     </button>
                 </div>
             </div>

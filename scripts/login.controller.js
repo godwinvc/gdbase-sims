@@ -10,6 +10,7 @@ angular.module("gdbaseSims")
         $scope.incorrectLogin = false;
       }
       $http.post(baseURL + './server/login.php', loginData).then(function (response) {
+        console.log(response.data);
         if (response.data !== 'ERROR') {
           localStorage.setItem("gdbaseToken", response.data.trim());
           $state.go('sims.select', {
