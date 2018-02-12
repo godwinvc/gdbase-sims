@@ -35,13 +35,14 @@
 </div>
 
 <!-- Quiz -->
-<div class="container-fluid sim" ng-show="currentQuestion != 'intro'">
+<div class="container-fluid sim" ng-show="currentQuestion != 'intro' && currentQuestion != 'score'">
     <div class="card active remove-padding">
         <div class="card-header">
             <div class="container-fluid">
                 <h4 style="color:white;">Simulation d’examen N° {{currentSimulationNum}}
                     <span class="pull-right" style="color:white;">
-                        <i class="ion-ios-stopwatch-outline"></i> {{timer.hours < 10 ? 0 : null}}{{timer.hours}}:{{timer.mins < 10 ? 0 : null}}{{timer.mins}}:{{timer.secs < 10 ? 0 : null}}{{timer.secs}}</span>
+                        <i class="ion-ios-stopwatch-outline"></i> {{timer.hours
+                        < 10 ? 0 : null}}{{timer.hours}}:{{timer.mins < 10 ? 0 : null}}{{timer.mins}}:{{timer.secs < 10 ? 0 : null}}{{timer.secs}}</span>
                 </h4>
             </div>
         </div>
@@ -49,7 +50,7 @@
         <div class="card-content">
             <div class="card-subhead">
                 <div class="col-sm-8">Marks:
-                    <b>{{score.toFixed(2)}} / {{simData.TotalMarks}}</b>
+                    <b>{{currentMaxScore}} {{score}}</b>
                 </div>
                 <div class="col-sm-4 text-right">Question:
                     <b>{{currentQuestion}} / 30</b>
@@ -61,8 +62,22 @@
                 <small>(select the good answers)</small>
                 <br>
                 <br>
-                <button class="btn btn-primary option" ng-repeat="(opk,opv) in currentQuestionData.options" ng-class="{'selected':currSelectedOptions.indexOf(opk) > -1}"
-                    ng-click="OpSelectionHandler(opk)" ng-disabled="userSimData[currentSimulation]['Q' + currentQuestion].attempted">
+                <div class="container-fluid remove-padding" ng-show="currentQuestionData.questionType == 'TF'">
+                    <div class="tf-group" ng-repeat="(opk,opv) in currentQuestionData.options">
+                        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">{{opv.text}}</div>
+                        <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
+                            <button class="btn btn-block" ng-click="OpSelectionHandler({'opk':opk, 'ans':'true'})" ng-class="{'btn-primary':currSelectedOptions[opk].ans == 'true'}">True</button>
+                        </div>
+                        <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
+                            <button class="btn btn-block" ng-click="OpSelectionHandler({'opk':opk, 'ans':'false'})" ng-class="{'btn-primary':currSelectedOptions[opk].ans == 'false'}">False</button>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+                <button ng-show="currentQuestionData.questionType != 'TF'" class="btn btn-primary option" ng-repeat="(opk,opv) in currentQuestionData.options"
+                    ng-class="{'selected':currSelectedOptions.indexOf(opk) > -1}" ng-click="OpSelectionHandler(opk)">
                     {{opv.text}}
                 </button>
             </div>
@@ -71,12 +86,58 @@
             <div class="container-fluid">
                 <div class="col-sm-12" style="margin-top:10px;">
                     <button class="btn btn-primary btn-lg pull-right" style="border-radius:2px; margin-left:10px;" data-toggle="tooltip" data-placement="top"
-                        title="Next Question" ng-click="loadNextQuestion()" ng-disabled="currentQuestion == 30">
+                        title="Next Question" ng-click="loadNextQuestion()" ng-disabled="currentQuestion == 30" ng-hide="currentQuestion == 30">
                         <i class="ion-ios-arrow-forward"></i>
                     </button>
                     <button class="btn btn-primary btn-lg pull-right" style="border-radius:2px; margin-left:10px;" data-toggle="tooltip" data-placement="top"
+                        title="Validate your exam" ng-click="loadScoreCard()" ng-show="currentQuestion == 30" ng-disabled="currentQuestion < 30">
+                        Validate your exam
+                    </button>
+                    <button class="btn btn-default btn-lg pull-right" style="border-radius:2px; margin-left:10px;" data-toggle="tooltip" data-placement="top"
                         title="Previous Question" ng-click="loadPreviousQuestion()" ng-disabled="currentQuestion == 1">
                         <i class="ion-ios-arrow-back"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Score Card -->
+<div class="container-fluid sim" ng-show="currentQuestion == 'score'">
+    <div class="card active remove-padding">
+        <div class="card-header">
+            <div class="container-fluid">
+                <h4 style="color:white;">Simulation d’examen N° {{currentSimulationNum}} - Score {{score}}</h4>
+            </div>
+        </div>
+
+        <div class="card-content">
+            <div class="container-fluid">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                    <h2 ng-show="((score / simData.TotalMarks) * 100) >= simData.minMarks">Exam passed !</h2>
+                    <h2 ng-show="((score / simData.TotalMarks) * 100) < simData.minMarks">Exam Failed !</h2>
+                    <h3 ng-class="{'text-success':((score / simData.TotalMarks) * 100) >= simData.minMarks, 'text-danger':((score / simData.TotalMarks) * 100) < simData.minMarks}">{{((score / simData.TotalMarks) * 100 ).toFixed(2)}}%</h3>
+                    <br>
+                    <h4 ng-show="((score / simData.TotalMarks) * 100) >= simData.minMarks" style="width:95%">Congratulation, you seem ready to pass the real exam If you want to be sure to pass it, enjoy
+                        our 100 corected exam question
+                    </h4>
+                    <h4 ng-show="((score / simData.TotalMarks) * 100) < simData.minMarks" style="width:95%">Sorry, you failed the exam. Improve yout skills with a good traing and our 100 exam questions.
+                    </h4>
+                    <button class="btn btn-default" ng-click="restSimulation()">Retake this simulation</button>
+                </div>
+            </div>
+        </div>
+        <div class="card-footer">
+            <div class="container-fluid">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 pull-right" ng-show="((score / simData.TotalMarks) * 100) < simData.minMarks" style="padding-top:15px">
+                    <button class="btn btn-primary btn-block" ng-click="goBackToSimSelect()">
+                        Get a good training
+                    </button>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 pull-right" style="padding-top:15px">
+                    <button class="btn btn-primary btn-block" ng-click="goBackToSimSelect()">
+                        Get the 100 exam questions
                     </button>
                 </div>
             </div>

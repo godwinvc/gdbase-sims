@@ -1,11 +1,11 @@
 // production
-window.baseURL = "https://www.gdbase.be/simulations/";
-window.$ = jQuery;
+// window.baseURL = "https://www.gdbase.be/simulations/";
+// window.$ = jQuery;
 
 // development
-//  window.jQuery = require('jquery');
-//  window.$ = jQuery;
-//  window.baseURL = "";
+ window.jQuery = require('jquery');
+ window.$ = jQuery;
+ window.baseURL = "";
 
 window.angular = require('angular');
 require('../node_modules/animate.css/animate.css');
@@ -22,6 +22,7 @@ require('../css/ionicons.css');
 //Godwin CSS
 require('../css/login.css');
 require('../css/sim-select.css');
+require('../css/simulations.css');
 require('../css/globals.css');
 
 

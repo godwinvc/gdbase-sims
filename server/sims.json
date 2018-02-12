@@ -3,10 +3,10 @@
     "TimeLimit": {
       "hours": 1,
       "mins": 30,
-      "secs": 0,
-      "ms":0
+      "secs": 0
     },
-    "TotalMarks": 170,
+    "TotalMarks": 169,
+    "minMarks":60,
     "Q1": {
       "questionText": "Quel est la périodicité du payement des cotisations sociales ?",
       "questionType": "MC",
@@ -324,28 +324,112 @@
       }
     },
     "Q12": {
-      "questionText": "On amorti une machine d’une valeur de 20.000€ de façon dégressive sur 5 ans. L’amortissement de la première année sera de :",
-      "questionType": "MC",
+      "questionText": "Indiquez si ces inforations sont vraies ou fausses:",
+      "questionType": "TF",
       "options": {
         "Op1": {
-          "text": "5,000 €",
-          "type": "incorrect",
-          "mark": 1.5
+          "text": "Un entrepreneur connaît (sa position sur) le marché.",
+          "type": {
+            "correct": {
+              "op": "true",
+              "mark": 1
+            },
+            "incorrect": {
+              "op": "false",
+              "mark": 0.125
+            }
+          }
         },
         "Op2": {
-          "text": "7,500 €",
-          "type": "incorrect",
-          "mark": 1.5
+          "text": "L’entrepreneur s’occupe surtout de la gestion journalière de son entreprise. Il n’a pas besoin de connaissances en gestion. La comptabilité est la tâche d’un expert.",
+          "type": {
+            "correct": {
+              "op": "false",
+              "mark": 1
+            },
+            "incorrect": {
+              "op": "true",
+              "mark": 0.125
+            }
+          }
         },
         "Op3": {
-          "text": "8,000 €",
-          "type": "correct",
-          "mark": 6
+          "text": "Un entrepreneur définit ses prix et promotions en fonction de la concurrence.",
+          "type": {
+            "correct": {
+              "op": "true",
+              "mark": 1
+            },
+            "incorrect": {
+              "op": "false",
+              "mark": 0.125
+            }
+          }
         },
         "Op4": {
-          "text": "10,000 €",
-          "type": "incorrect",
-          "mark": 1.5
+          "text": "Seul l’agent comptable s’occupe de l’analyse financière de l’entreprise.",
+          "type": {
+            "correct": {
+              "op": "false",
+              "mark": 1
+            },
+            "incorrect": {
+              "op": "true",
+              "mark": 0.125
+            }
+          }
+        },
+        "Op5": {
+          "text": "Un entrepreneur se retrouve tout seul et peut seulement se fier à soi-même.",
+          "type": {
+            "correct": {
+              "op": "false",
+              "mark": 1
+            },
+            "incorrect": {
+              "op": "true",
+              "mark": 0.125
+            }
+          }
+        },
+        "Op6": {
+          "text": "Un entrepreneur n’a pas besoin de l’aide de son environnement.",
+          "type": {
+            "correct": {
+              "op": "false",
+              "mark": 1
+            },
+            "incorrect": {
+              "op": "true",
+              "mark": 0.125
+            }
+          }
+        },
+        "Op7": {
+          "text": "Il vaut mieux tenir secret ses nouveaux projets. Il ne faut pas les laisser évaluer d’avance par des spécialistes. ",
+          "type": {
+            "correct": {
+              "op": "false",
+              "mark": 1
+            },
+            "incorrect": {
+              "op": "true",
+              "mark": 0.125
+            }
+          }
+        },
+        "Op8": {
+          "text": "Il vaut mieux financer tout seul un nouveau projet.",
+          "type": {
+            "correct": {
+              "op": "false",
+              "mark": 1
+            },
+            "incorrect": {
+              "op": "true",
+              "mark": 0.125
+            }
+          }
         }
       }
     },
@@ -500,7 +584,7 @@
         },
         "Op2": {
           "text": "L'entreprise B",
-          "type": "incorrect",
+          "type": "correct",
           "mark": 6
         }
       }

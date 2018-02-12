@@ -28,9 +28,9 @@ angular.module("gdbaseSims")
                     .then(function (response) {
                         if (response.data == "updated") {
                             $scope.activationState = 'activated';
-                            setTimeout(function(){
+                            setTimeout(function () {
                                 $('#activationModal').modal('hide');
-                            },1500);
+                            }, 1500);
                         } else {
                             console.log(response.data);
                             alert('Something went wrong! Please inform us using contact us page')
@@ -56,4 +56,4 @@ angular.module("gdbaseSims")
                 console.error(err);
             })
         }
-    }])
+    }]);

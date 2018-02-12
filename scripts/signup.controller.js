@@ -19,7 +19,8 @@ angular.module("gdbaseSims")
       };
       $http.post(baseURL + "./server/signup.php", signupData)
         .then(function (response) {
-          if (response.data !== "ERROR") {
+          if (response.data.signUp) {
+            console.log(response.data);
             $http.post(baseURL + "./server/send-activation-mail.php", {
                 "firstname": $scope.firstName,
                 "email": $scope.email,
@@ -41,6 +42,7 @@ angular.module("gdbaseSims")
               })
           } else {
             alert("Something went wrong! Please try again");
+            console.log(response.data);
             $scope.signupSuccess = false;
           }
         })
