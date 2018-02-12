@@ -150,7 +150,6 @@ angular.module("gdbaseSims")
         }
       }
       $scope.currSelectedOptions = $scope.userSimData[$scope.currentSimulation]["Q" + $scope.currentQuestion].selectedOptions;
-      console.log($scope.userSimData);
     }
 
     function calculateCurrentMaxScore(opObj) {
