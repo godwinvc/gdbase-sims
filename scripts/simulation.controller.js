@@ -18,9 +18,9 @@ angular.module("gdbaseSims")
     $scope.currentMaxScore = null;
     $scope.score = 0;
     $scope.beginSimulation = function (simNum) {
-      $http.get(baseURL + "./server/sims.json")
+      $http.get(baseURL + "./server/database/sim"+ $scope.currentSimulationNum+".json")
         .then(function (response) {
-          $scope.simData = response.data[$scope.currentSimulation];
+          $scope.simData = response.data;
           if ($scope.userSimData[$scope.currentSimulation] == undefined) {
             $scope.userSimData[$scope.currentSimulation] = {};
             $scope.userSimData.simulationMetadata[$scope.currentSimulation].attempted = true;

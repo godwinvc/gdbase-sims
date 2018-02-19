@@ -1,0 +1,881 @@
+{
+  "TimeLimit": {
+    "hours": 1,
+    "mins": 30,
+    "secs": 0
+  },
+  "TotalMarks": 158,
+  "minMarks": 50,
+  "Q1": {
+    "questionText": "Indiquez deux attitudes qui soulignent le sens du risque.",
+    "questionType": "MR",
+    "options": {
+      "Op1": {
+        "text":
+          "Vous ne perdez pas courage et vous vous concentrez sur les points importants.",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op2": {
+        "text":
+          "Vous suivez votre intuition et vous faites confiance au hasard.",
+        "type": "correct",
+        "mark": 2
+      },
+      "Op3": {
+        "text":
+          "Vous consultez toujours des experts et vous décidez vous-même.",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op4": {
+        "text":
+          "Vous décidez toujours tout seul. Les autres ne doivent pas se mêler.",
+        "type": "correct",
+        "mark": 2
+      }
+    }
+  },
+  "Q2": {
+    "questionText":
+      "J'achète des marchandises 2.000€ et je fais une marge de 40% sur le prix de vente. J'accorde une remise de 10% et un escompte de 2%. Quel est le prix de vente TVAC (21%) ?",
+    "questionType": "MC",
+    "options": {
+      "Op1": {
+        "text": "3,940.00 €",
+        "type": "incorrect",
+        "mark": 2.5
+      },
+      "Op2": {
+        "text": "3,557.40 €",
+        "type": "correct",
+        "mark": 10
+      },
+      "Op3": {
+        "text": "2,940.00 €",
+        "type": "incorrect",
+        "mark": 2.5
+      },
+      "Op4": {
+        "text": "3,292.80 €",
+        "type": "incorrect",
+        "mark": 2.5
+      }
+    }
+  },
+  "Q3": {
+    "questionText":
+      "Quelles sont les bonnes raisons de créer sa propre entreprise?",
+    "questionType": "MR",
+    "options": {
+      "Op1": {
+        "text": "Créer son emploi pour se sortir du chômage",
+        "type": "correct",
+        "mark": 2
+      },
+      "Op2": {
+        "text": "Ne plus devoir supporter un patron ennuyeux",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op3": {
+        "text": "Réaliser son rêve de travailler pour soi",
+        "type": "correct",
+        "mark": 2
+      },
+      "Op4": {
+        "text":
+          "Réaliser son propre projet même si la valeur ajoutée de celui-ci est faible",
+        "type": "incorrect",
+        "mark": 1
+      }
+    }
+  },
+  "Q4": {
+    "questionText":
+      "En Janvier, on achète des matières premières pour 10.000€ HTVA (21%) et une machine pour 1.210€ TVAC (21%). Le même mois, on vend pour 20.000€ HTVA de rénovation (6%) et pour 5.000€ HTVA pour de la nouvelle construction (21%). Calculez le solde TVA du mois de Janvier.",
+    "questionType": "MC",
+    "options": {
+      "Op1": {
+        "text": "On doit 2250€ à la TVA",
+        "type": "incorrect",
+        "mark": 2.5
+      },
+      "Op2": {
+        "text": "La TVA nous doit 60€",
+        "type": "correct",
+        "mark": 10
+      },
+      "Op3": {
+        "text": "La TVA nous doit 2310€",
+        "type": "incorrect",
+        "mark": 2.5
+      },
+      "Op4": {
+        "text": "On doit 60€ à la TVA",
+        "type": "incorrect",
+        "mark": 2.5
+      }
+    }
+  },
+  "Q5": {
+    "questionText":
+      "On achète une machine 44.000€ et on l'amorti de façon linéaire en 4 ans avec une valeur résiduelle de 4000€. Quelle est la valeur résiduelle dans l'inventaire après 3 ans ?",
+    "questionType": "MC",
+    "options": {
+      "Op1": {
+        "text": "24,000.00 €",
+        "type": "incorrect",
+        "mark": 2.5
+      },
+      "Op2": {
+        "text": "22,000.00 €",
+        "type": "incorrect",
+        "mark": 2.5
+      },
+      "Op3": {
+        "text": "14,000.00 €",
+        "type": "correct",
+        "mark": 10
+      },
+      "Op4": {
+        "text": "11,000.00 €",
+        "type": "incorrect",
+        "mark": 2.5
+      }
+    }
+  },
+  "Q6": {
+    "questionText": "Le locataire du bâtiment peut mettre fin au bail :",
+    "questionType": "MC",
+    "options": {
+      "Op1": {
+        "text":
+          "Je dois envoyer un recommandé au propriétaire 15 à 18 mois avant la fin du triennat.",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op2": {
+        "text":
+          "Je dois envoyer un recommandé au propriétaire au moins 6 mois avant la fin du triennat.",
+        "type": "correct",
+        "mark": 3
+      },
+      "Op3": {
+        "text":
+          "Je dois envoyer un recommandé au propriétaire 15 à 18 mois avant la fin du bail.",
+        "type": "incorrect",
+        "mark": 1
+      }
+    }
+  },
+  "Q7": {
+    "questionText":
+      "Comment le législateur a-t-il contribué à garantir la protection sociale des indépendants ?",
+    "questionType": "MC",
+    "options": {
+      "Op1": {
+        "text": "En permettant de déduire leur PCLI et leur Revenu Garanti",
+        "type": "incorrect",
+        "mark": 0.5
+      },
+      "Op2": {
+        "text":
+          "Par une affiliation prise auprès d'une caisse d'assurances sociales pour indépendants",
+        "type": "correct",
+        "mark": 2
+      },
+      "Op3": {
+        "text":
+          "En exonérant de la TVA les indépendants qui ont un chiffre d'affaire annuel inférieur à 25000€",
+        "type": "incorrect",
+        "mark": 0.5
+      },
+      "Op4": {
+        "text":
+          "Par l'exonération de charges sociales pour le premier employé d'une société",
+        "type": "incorrect",
+        "mark": 0.5
+      }
+    }
+  },
+  "Q8": {
+    "questionText":
+      "Donnez les attitudes qui soulignent la créativité et l’inventivité de l’entrepreneur.",
+    "questionType": "MR",
+    "options": {
+      "Op1": {
+        "text": "Je sais transformer des problèmes en opportunités.",
+        "type": "correct",
+        "mark": 1.3333
+      },
+      "Op2": {
+        "text": "Je sais réinventer mon métier.",
+        "type": "correct",
+        "mark": 1.3333
+      },
+      "Op3": {
+        "text":
+          "Je ne m’en tiens pas aux règles. Il y a une solution légale pour tout.",
+        "type": "correct",
+        "mark": 1.3333
+      },
+      "Op4": {
+        "text": "Je sais me mettre dans la peau de mes clients.",
+        "type": "incorrect",
+        "mark": 0.5
+      }
+    }
+  },
+  "Q9": {
+    "questionText":
+      "Une société a un pied de bilan de 400.000€. Elle dispose de 100.000€ de capital souscrit et libéré. Elle a un bénéfice annuel de 10.000€. Quelle est sa rentabilité ?",
+    "questionType": "MC",
+    "options": {
+      "Op1": {
+        "text": "2.50%",
+        "type": "incorrect",
+        "mark": 1.5
+      },
+      "Op2": {
+        "text": "10%",
+        "type": "correct",
+        "mark": 6
+      },
+      "Op3": {
+        "text": "25%",
+        "type": "incorrect",
+        "mark": 1.5
+      },
+      "Op4": {
+        "text": "Le bénéfice est annulé par les dettes",
+        "type": "incorrect",
+        "mark": 1.5
+      }
+    }
+  },
+  "Q10": {
+    "questionText":
+      "Une armoire est vendue 2.000€ TVAC (21%). Quel est son montant HTVA ?",
+    "questionType": "MC",
+    "options": {
+      "Op1": {
+        "text": "1,562.90 €",
+        "type": "incorrect",
+        "mark": 1.5
+      },
+      "Op2": {
+        "text": "1,652.90 €",
+        "type": "correct",
+        "mark": 6
+      },
+      "Op3": {
+        "text": "1,756.90 €",
+        "type": "incorrect",
+        "mark": 1.5
+      },
+      "Op4": {
+        "text": "1,875.90 €",
+        "type": "incorrect",
+        "mark": 1.5
+      }
+    }
+  },
+  "Q11": {
+    "questionText":
+      "Une entreprise achète en 2017 une machine 30.000€ et l'amorti de façon dégressive en 5 ans. Quelle sera sa valeur résiduelle en 2019 ?",
+    "questionType": "MC",
+    "options": {
+      "Op1": {
+        "text": "0.00 €",
+        "type": "incorrect",
+        "mark": 1.5
+      },
+      "Op2": {
+        "text": "4,800.00 €",
+        "type": "correct",
+        "mark": 6
+      },
+      "Op3": {
+        "text": "5,200.00 €",
+        "type": "incorrect",
+        "mark": 1.5
+      },
+      "Op4": {
+        "text": "6,000.00 €",
+        "type": "incorrect",
+        "mark": 1.5
+      }
+    }
+  },
+  "Q12": {
+    "questionText":
+      "En 2016, un marchand a vendu 342 vélos d'une valeur moyenne de 800€/pièce. Le marché total a écoulé 3.000 vélos d'une valeur moyenne de 400€. Qualitativement, quel est le pourcentage de son offre par rapport au marché ?",
+    "questionType": "MC",
+    "options": {
+      "Op1": {
+        "text": "8.40%",
+        "type": "incorrect",
+        "mark": 2
+      },
+      "Op2": {
+        "text": "10.10%",
+        "type": "incorrect",
+        "mark": 2
+      },
+      "Op3": {
+        "text": "13.30%",
+        "type": "incorrect",
+        "mark": 2
+      },
+      "Op4": {
+        "text": "22.80%",
+        "type": "correct",
+        "mark": 8
+      }
+    }
+  },
+  "Q13": {
+    "questionText": "Qu'entend-on par profession réglementée ?",
+    "questionType": "MC",
+    "options": {
+      "Op1": {
+        "text": "Une profession règlementée par les organisations syndicale.",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op2": {
+        "text": "Une profession pour laquelle on a besoin d’un A2",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op3": {
+        "text": "Une profession qui requiert un diplôme de gestion.",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op4": {
+        "text":
+          "Une profession qui nécessite une preuve de compétences professionnelles",
+        "type": "correct",
+        "mark": 4
+      }
+    }
+  },
+  "Q14": {
+    "questionText": "Indiquez les attitudes recommandables :",
+    "questionType": "MR",
+    "options": {
+      "Op1": {
+        "text":
+          "Je suis prêt à me remettre en question et m’améliorer tout le temps.",
+        "type": "correct",
+        "mark": 1.3333
+      },
+      "Op2": {
+        "text": "J’essaie toujours de m’adapter à la situation.",
+        "type": "correct",
+        "mark": 1.3333
+      },
+      "Op3": {
+        "text":
+          "Je suis fort et confiant en moi, je vais réussir là où les autres échouent.",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op4": {
+        "text":
+          "Je choisis un projet dans un secteur que je connais comme ma poche.",
+        "type": "correct",
+        "mark": 1.3333
+      }
+    }
+  },
+  "Q15": {
+    "questionText":
+      "Vous achetez une voiture 12.500€ HTVA. Les quotités professionnelles/privées sont de 70/30%. Quel est le montant de la TVA que le commerçant pourra récupérer ?",
+    "questionType": "MC",
+    "options": {
+      "Op1": {
+        "text": "787.50 €",
+        "type": "incorrect",
+        "mark": 1.5
+      },
+      "Op2": {
+        "text": "1,312.50 €",
+        "type": "correct",
+        "mark": 6
+      },
+      "Op3": {
+        "text": "2,625.50 €",
+        "type": "incorrect",
+        "mark": 1.5
+      },
+      "Op4": {
+        "text": "2,325.50 €",
+        "type": "incorrect",
+        "mark": 1.5
+      }
+    }
+  },
+  "Q16": {
+    "questionText":
+      "De quel délai dispose-t-on pour finaliser les comptes annuels de l’entreprise ?",
+    "questionType": "MC",
+    "options": {
+      "Op1": {
+        "text": "Le 30 juin de l’année suivante",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op2": {
+        "text": "Le 30 juin de la deuxième année suivante",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op3": {
+        "text": "6 mois avant la clôture de l’exercice fiscal",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op4": {
+        "text": "6 mois après la clôture de l’exercice fiscal",
+        "type": "correct",
+        "mark": 4
+      }
+    }
+  },
+  "Q17": {
+    "questionText":
+      "Quelles sont les informations à indiquer obligatoirement sur un virement ?",
+    "questionType": "MR",
+    "options": {
+      "Op1": {
+        "text": "Le numéro de compte du bénéficiaire",
+        "type": "correct",
+        "mark": 2
+      },
+      "Op2": {
+        "text": "Une communication",
+        "type": "incorrect",
+        "mark": 0.8
+      },
+      "Op3": {
+        "text": "Un montant",
+        "type": "correct",
+        "mark": 2
+      },
+      "Op4": {
+        "text": "Une date d’exécution",
+        "type": "incorrect",
+        "mark": 0.8
+      },
+      "Op5": {
+        "text": "Mon numéro d’entreprise",
+        "type": "incorrect",
+        "mark": 0.8
+      }
+    }
+  },
+  "Q18": {
+    "questionText": "Les versements anticipés d'impôts permettent de :",
+    "questionType": "MC",
+    "options": {
+      "Op1": {
+        "text": "Diminuer de bénéfice de la société",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op2": {
+        "text": "Diminuer le total de l'actif d'une société",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op3": {
+        "text":
+          "Eviter des majorations d'impôts lors de la quatrième année suivante",
+        "type": "correct",
+        "mark": 4
+      },
+      "Op4": {
+        "text": "D'éviter une régularisation des cotisations sociales",
+        "type": "incorrect",
+        "mark": 1
+      }
+    }
+  },
+  "Q19": {
+    "questionText":
+      "A partir de quand peut-on réaliser les comptes annuels de l’entreprise ?",
+    "questionType": "MC",
+    "options": {
+      "Op1": {
+        "text": "Dès le 1er janvier de chaque année",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op2": {
+        "text": "A partir du premier mois de l’année fiscale",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op3": {
+        "text": "Dès la clôture de son exercice fiscal",
+        "type": "correct",
+        "mark": 4
+      },
+      "Op4": {
+        "text": "Dès que toutes les déclarations TVA sont rendues",
+        "type": "incorrect",
+        "mark": 1
+      }
+    }
+  },
+  "Q20": {
+    "questionText": "Quelles sont les causes de faillite souvent citées ?",
+    "questionType": "MR",
+    "options": {
+      "Op1": {
+        "text":
+          "Des raisons structurelles : les ventes sont insuffisantes ou les coûts trop élevés pour réaliser des bénéfices",
+        "type": "correct",
+        "mark": 1.3333
+      },
+      "Op2": {
+        "text": "Des impôts trop élevés",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op3": {
+        "text": "Des méconnaissances en gestion",
+        "type": "correct",
+        "mark": 1.3333
+      },
+      "Op4": {
+        "text": "Sous capitalisation au départ",
+        "type": "correct",
+        "mark": 1.3333
+      }
+    }
+  },
+  "Q21": {
+    "questionText":
+      "Une entreprise achète des marchandises à son fournisseur pour 2.000€. Elle fait une marge de 60% en les revendant. A la fin de l’année, l’entreprise veut déstocker les invendus et accorde une remise de 20%. Les frais de ports sont de 100€. Elle accorde un escompte de 2%. Quel est le prix de vente TVAC ?",
+    "questionType": "MC",
+    "options": {
+      "Op1": {
+        "text": "2,950.20 €",
+        "type": "incorrect",
+        "mark": 2.5
+      },
+      "Op2": {
+        "text": "3,154.20 €",
+        "type": "correct",
+        "mark": 10
+      },
+      "Op3": {
+        "text": "3,250.20 €",
+        "type": "incorrect",
+        "mark": 2.5
+      },
+      "Op4": {
+        "text": "3,425.20 €",
+        "type": "incorrect",
+        "mark": 2.5
+      }
+    }
+  },
+  "Q22": {
+    "questionText":
+      "Une entreprise achète des marchandises pour un montant de 10.000€ hors TVA. Sachant que le taux de la TVA est de 21 %, calculez le montant de la TVA et le montant TVA comprise.",
+    "questionType": "MC",
+    "options": {
+      "Op1": {
+        "text": "11,200 €",
+        "type": "incorrect",
+        "mark": 2.5
+      },
+      "Op2": {
+        "text": "10,600 €",
+        "type": "incorrect",
+        "mark": 2.5
+      },
+      "Op3": {
+        "text": "12,100 €",
+        "type": "correct",
+        "mark": 10
+      },
+      "Op4": {
+        "text": "13,200 €",
+        "type": "incorrect",
+        "mark": 2.5
+      }
+    }
+  },
+  "Q23": {
+    "questionText":
+      "J’ai payé mon bureau 7.260€ TVA comprise de 21%. Calculez le prix hors TVA.",
+    "questionType": "MC",
+    "options": {
+      "Op1": {
+        "text": "1,260 €",
+        "type": "incorrect",
+        "mark": 2.5
+      },
+      "Op2": {
+        "text": "6,000 €",
+        "type": "correct",
+        "mark": 6
+      },
+      "Op3": {
+        "text": "7,040 €",
+        "type": "incorrect",
+        "mark": 1.5
+      },
+      "Op4": {
+        "text": "7,260 €",
+        "type": "incorrect",
+        "mark": 1.5
+      }
+    }
+  },
+  "Q24": {
+    "questionText":
+      "Quelles formalités le guichet d'entreprise peut-il réaliser pour vous ?",
+    "questionType": "MR",
+    "options": {
+      "Op1": {
+        "text": "Vous inscrire à la BCE (Banque Carrefour des Entreprises)",
+        "type": "correct",
+        "mark": 2
+      },
+      "Op2": {
+        "text": "Vous affilier à la TVA",
+        "type": "correct",
+        "mark": 2
+      },
+      "Op3": {
+        "text": "Faire votre comptabilité",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op4": {
+        "text": "Recouvrir les factures impayées par vos clients",
+        "type": "incorrect",
+        "mark": 1
+      }
+    }
+  },
+  "Q25": {
+    "questionText":
+      "J'investi 30.000€ pour créer ma société (SPRL). J'aurai besoin d'une voiture de 20.000€, de machines pour 10.000€, de stock pour 20.000€, d'argent en caisse pour 2.000€ et sur le compte en banque pour 18.000€. Faites le bilan et en calculez le montant de l’emprunt que je dois obtenir auprès de ma banque pour équilibrer ce bilan.",
+    "questionType": "MC",
+    "options": {
+      "Op1": {
+        "text": "70,000.00 €",
+        "type": "incorrect",
+        "mark": 2.5
+      },
+      "Op2": {
+        "text": "40,000.00 €",
+        "type": "correct",
+        "mark": 10
+      },
+      "Op3": {
+        "text": "60,000.00 €",
+        "type": "incorrect",
+        "mark": 2.5
+      },
+      "Op4": {
+        "text": "50,000.00 €",
+        "type": "incorrect",
+        "mark": 2.5
+      }
+    }
+  },
+  "Q26": {
+    "questionText": "On doit rédiger un plan financier lors de :",
+    "questionType": "MC",
+    "options": {
+      "Op1": {
+        "text": "L’achat d’un bien immobilier",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op2": {
+        "text": "La création d’une entreprise",
+        "type": "correct",
+        "mark": 4
+      },
+      "Op3": {
+        "text": "La contraction d’un prêt hypothécaire",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op4": {
+        "text": "L’ouverture d’un compte en banque",
+        "type": "incorrect",
+        "mark": 1
+      }
+    }
+  },
+  "Q27": {
+    "questionText":
+      "Jeanne a un chiffre d’affaire de 35.000€. Ses frais professionnels sont de 4.500€. Combien de cotisations sociales devra-t-elle payer pour cette année ?",
+    "questionType": "MC",
+    "options": {
+      "Op1": {
+        "text": "1205",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op2": {
+        "text": "1,601.25 €",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op3": {
+        "text": "4,535.25 €",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op4": {
+        "text": "6,405 €",
+        "type": "correct",
+        "mark": 4
+      }
+    }
+  },
+  "Q28": {
+    "questionText": "Cochez les bonnes réponses",
+    "questionType": "MR",
+    "options": {
+      "Op1": {
+        "text":
+          "On trouve les stocks et matières premières dans l’actif du bilan comptable",
+        "type": "correct",
+        "mark": 2
+      },
+      "Op2": {
+        "text":
+          "On trouve le bénéfice brut avant impôt dans le passif du bilan",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op3": {
+        "text": "On trouve l’impôt des sociétés dans le compte de résultat",
+        "type": "correct",
+        "mark": 2
+      },
+      "Op4": {
+        "text": "On trouve les amortissements dans l’actif",
+        "type": "incorrect",
+        "mark": 1
+      }
+    }
+  },
+  "Q29": {
+    "questionText": "Vrai ou faux ?",
+    "questionType": "TF",
+    "options": {
+      "Op1": {
+        "text": "Le montant de l’escompte est indiqué sur la facture",
+        "type": {
+          "correct": {
+            "op": "true",
+            "mark": 1
+          },
+          "incorrect": {
+            "op": "false",
+            "mark": 1
+          }
+        }
+      },
+      "Op2": {
+        "text": "C’est le vendeur qui rédige la facture",
+        "type": {
+          "correct": {
+            "op": "true",
+            "mark": 1
+          },
+          "incorrect": {
+            "op": "false",
+            "mark": 1
+          }
+        }
+      },
+      "Op3": {
+        "text":
+          "La TVA est un impôt payé par chaque intermédiaire qui manipule le produit",
+        "type": {
+          "correct": {
+            "op": "false",
+            "mark": 1
+          },
+          "incorrect": {
+            "op": "true",
+            "mark": 1
+          }
+        }
+      },
+      "Op4": {
+        "text":
+          "Le vendeur envoie un bon de commande et l’acheteur lui envoie une offre de prix",
+        "type": {
+          "correct": {
+            "op": "false",
+            "mark": 1
+          },
+          "incorrect": {
+            "op": "true",
+            "mark": 1
+          }
+        }
+      },
+      "Op5": {
+        "text":
+          "Un pharmacien est désavantagé par l’impôt qu’est la TVA car il achète ses fournitures à 21% de TVA et les revend seulement à 6% de TVA.",
+        "type": {
+          "correct": {
+            "op": "false",
+            "mark": 1
+          },
+          "incorrect": {
+            "op": "true",
+            "mark": 1
+          }
+        }
+      }
+    }
+  },
+  "Q30": {
+    "questionText":
+      "La clé du succès est la connaissance de soi. Donnez les attitudes appropriées.",
+    "questionType": "MR",
+    "options": {
+      "Op1": {
+        "text":
+          "Je m’occupe seulement de mon métier. La gestion est l’affaire du comptable.",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op2": {
+        "text": "Je connais mes points forts et faibles.",
+        "type": "correct",
+        "mark": 2
+      },
+      "Op3": {
+        "text":
+          "Je définis mes objectifs à l’avance et je poursuis mes buts avec exactitude.",
+        "type": "correct",
+        "mark": 2
+      },
+      "Op4": {
+        "text":
+          "Je ne me pose pas de questions et je me plonge dans le projet !",
+        "type": "incorrect",
+        "mark": 1
+      }
+    }
+  }
+}

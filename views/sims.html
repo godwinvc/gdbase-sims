@@ -6,13 +6,13 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h4 class="modal-title text-center text-primary">Account Activation Required</h4>
+                    <h4 class="modal-title text-center text-primary">Activez votre compte !</h4>
                 </div>
                 <div class="modal-body text-center">
                     <div style="width:95%;">
                         <h4>Hello {{userData.firstname}}!</h4>
-                        <p>We have sent you an email with the activation code at
-                            <b class="text-primary">{{userData.email}}</b> to activate your account.</p>
+                        <p>Nous vous avons envoyé un email contenant le code d'activation à 
+                            <b class="text-primary">{{userData.email}}</b>. Copiez-collez le ici :</p>
                         <div class="form-group" ng-class="{'has-error':activationState == 'invalid','has-success':activationState == 'activated'}">
                             <input type="text" class="form-control" name="activationCode" placeholder="Activation Code" ng-model="activationCodeEntered">
 

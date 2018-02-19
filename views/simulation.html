@@ -9,15 +9,27 @@
 
         <div class="card-content">
             <div class="container-fluid">
-                <h4>What is Lorem Ipsum?</h4>
+                <h4>« A lire avant de commencer. »</h4>
                 <br>
                 <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 remove-padding">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-                        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
-                        it to make a type specimen book. It has survived not only five centuries, but also the leap into
-                        electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
-                        release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
-                        software like Aldus PageMaker including versions of Lorem Ipsum</p>
+                    <p>L’examen de gestion de base est composé de 30 questions et vous avez 1h30 pour y répondre.
+                        <p>Il y a trois types de question :</p>
+                        <ul style="margin: 0px 25px;line-height: 15px;">
+                            <li>
+                                <p>Les questions pour lesquelles vous devez sélectionner plusieurs bonnes réponses</p>
+                            </li>
+                            <li>
+                                <p>Les questions pour lesquelles vous devez sélectionner une seule bonne réponse</p>
+                            </li>
+                            <li>
+                                <p>Les questions de type « vrai ou faux »</p>
+                            </li>
+                            <li>
+                                <p>Faites cette simulation afin de savoir si vous êtes prêts à passer l’examen.</p>
+                            </li>
+                        </ul>
+                    </p>
+                    <p>Bonne chance !</p>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                     <img src="https://www.gdbase.be/wp-content/uploads/2017/10/Max_GDBase.jpg" alt="GD Base Quiz" class="img-responsive intro-img">
@@ -49,7 +61,7 @@
 
         <div class="card-content">
             <div class="card-subhead">
-                <div class="col-sm-8">Marks:
+                <div class="col-sm-8">Nombre de points:
                     <b>{{currentMaxScore}}</b>
                 </div>
                 <div class="col-sm-4 text-right">Question:
@@ -59,8 +71,9 @@
             <div class="container-fluid">
                 <h5>
                     <span class="text-primary">Question {{currentQuestion}}:</span> {{currentQuestionData.questionText}}</h5>
-                <small>({{(currentQuestionData.questionType == 'MR')? 'Sélectionnez les bonnes réponses' : 'Sélectionnez la bonne
-                    réponse'}})
+                <small>({{(currentQuestionData.questionType == 'MR' && currentQuestionData.questionType != 'TF' )? 'Sélectionnez
+                    les bonnes réponses' : 'Sélectionnez la bonne réponse'}} {{currentQuestionData.questionType == 'TF' ?
+                    'Sélectionnez la bonne réponse by Vrai ou faux':null}})
                 </small>
                 <br>
                 <br>
@@ -88,7 +101,7 @@
             <div class="container-fluid">
                 <div class="col-sm-12" style="margin-top:10px;">
                     <button class="btn btn-primary btn-lg pull-right" style="border-radius:2px; margin-left:10px;" data-toggle="tooltip" data-placement="top"
-                        title="Next Question" ng-click="loadNextQuestion()" ng-disabled="currentQuestion == 30" ng-hide="currentQuestion == 30">
+                        title="Question suivante" ng-click="loadNextQuestion()" ng-disabled="currentQuestion == 30" ng-hide="currentQuestion == 30">
                         <i class="ion-ios-arrow-forward"></i>
                     </button>
                     <button class="btn btn-primary btn-lg pull-right" style="border-radius:2px; margin-left:10px;" data-toggle="tooltip" data-placement="top"
@@ -96,7 +109,7 @@
                         Valider votre examen
                     </button>
                     <button class="btn btn-default btn-lg pull-right" style="border-radius:2px; margin-left:10px;" data-toggle="tooltip" data-placement="top"
-                        title="Previous Question" ng-click="loadPreviousQuestion()" ng-disabled="currentQuestion == 1">
+                        title="Question précédente" ng-click="loadPreviousQuestion()" ng-disabled="currentQuestion == 1">
                         <i class="ion-ios-arrow-back"></i>
                     </button>
                 </div>
@@ -121,7 +134,8 @@
                     <h2 ng-show="((score / simData.TotalMarks) * 100) < simData.minMarks">Examen raté...</h2>
                     <h3 ng-class="{'text-success':((score / simData.TotalMarks) * 100) >= simData.minMarks, 'text-danger':((score / simData.TotalMarks) * 100) < simData.minMarks}">{{((score / simData.TotalMarks) * 100 ).toFixed(2)}}%</h3>
                     <br>
-                    <h4 ng-show="((score / simData.TotalMarks) * 100) >= simData.minMarks" style="width:95%">Félicitations, vous semblez prêt à réussir l'examen. Pour en être certain, profitez de nos 100 questions d'examen expliquées en vidéo.
+                    <h4 ng-show="((score / simData.TotalMarks) * 100) >= simData.minMarks" style="width:95%">Félicitations, vous semblez prêt à réussir l'examen. Pour en être certain, profitez de nos 100 questions
+                        d'examen expliquées en vidéo.
                     </h4>
                     <h4 ng-show="((score / simData.TotalMarks) * 100) < simData.minMarks" style="width:95%">Désolé, vous avez raté la simulation. Pour vous améliorer, profitez de nos 100 questions d'examen corrigées
                         en vidéo ou inscrivez-vous à une de nos formations.

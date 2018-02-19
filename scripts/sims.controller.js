@@ -6,7 +6,6 @@ angular.module("gdbaseSims")
         $http.post(baseURL + "./server/get-user-data.php", $stateParams.user)
             .then(function (response) {
                 $scope.userData = response.data;
-                console.log(response.data);
                 $scope.userSimData = JSON.parse(response.data.simulation);
                 checkAccActivation($scope.userSimData);
             }).catch(function (err) {
@@ -17,7 +16,6 @@ angular.module("gdbaseSims")
                 $('#activationModal').modal();
             }
         }
-
         $scope.activateAccount = function () {
             $scope.activationState = 'activating';
             if ($scope.activationCodeEntered === $scope.userSimData.activationCode) {
@@ -43,7 +41,6 @@ angular.module("gdbaseSims")
                 $scope.activationState = 'invalid';
             }
         }
-
 
         $scope.logoutHandler = function () {
             $http.post(baseURL + './server/logout.php', $stateParams.user).then(function (res) {

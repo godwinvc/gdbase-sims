@@ -36,3 +36,4 @@ require('../scripts/simulation.controller');
 
 //services
 require('../scripts/auth.service');
+require('../scripts/authSim.service');
