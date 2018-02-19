@@ -218,7 +218,7 @@
         "text":
           "Je ne m’en tiens pas aux règles. Il y a une solution légale pour tout.",
         "type": "correct",
-        "mark": 1.3333
+        "mark": 1.3334
       },
       "Op4": {
         "text": "Je sais me mettre dans la peau de mes clients.",
@@ -387,7 +387,7 @@
         "text":
           "Je choisis un projet dans un secteur que je connais comme ma poche.",
         "type": "correct",
-        "mark": 1.3333
+        "mark": 1.3334
       }
     }
   },
@@ -554,7 +554,7 @@
       "Op4": {
         "text": "Sous capitalisation au départ",
         "type": "correct",
-        "mark": 1.3333
+        "mark": 1.3334
       }
     }
   },
