@@ -6,14 +6,13 @@ $firstname = $email_data->firstname;
 $user_email = $email_data->email;
 $activation_code = $email_data->activationCode;
 
-$Email = new PHPMailer;
+$Email = new PHPMailer;$Email->CharSet = 'UTF-8';
 
 $Email->isSMTP();
 
 $Email->SMTPAuth = true;
 
 //$Email -> SMTPDebug = 2;
-
 $Email->Host = 'mail.gdbase.be';
 
 $Email->Username = 'training@gdbase.be';
