@@ -1,0 +1,881 @@
+{
+    "TimeLimit": {
+        "hours": 1,
+        "mins": 30,
+        "secs": 0
+    },
+    "TotalMarks": 215,
+    "minMarks": 50,
+    "Q1": {
+        "questionText": "Dans un bilan comptable, les éléments de l’actif et du passif sont classés de manière suivante :",
+        "questionType": "MC",
+        "options": {
+            "Op1": {
+                "text": "Par ordre croissant de liquidité pour l’actif et par ordre décroissant d’exigibilité pour le passif",
+                "type": "incorrect",
+                "mark": 1
+            },
+            "Op2": {
+                "text": "Par ordre décroissant de liquidité pour l’actif et par ordre décroissant d’exigibilité pour le passif",
+                "type": "incorrect",
+                "mark": 1
+            },
+            "Op3": {
+                "text": "Par ordre décroissant de liquidité pour l’actif et par ordre croissant d’exigibilité pour le passif",
+                "type": "incorrect",
+                "mark": 1
+            },
+            "Op4": {
+                "text": "Par ordre croissant de liquidité pour l’actif et par ordre croissant d’exigibilité pour le passif",
+                "type": "correct",
+                "mark": 4
+            }
+        }
+    },
+    "Q2": {
+        "questionText": "Quelles sont les prestations sociales auxquelles l’indépendant à droit lorsqu’il s’affilie à une caisse d’assurance sociale ?",
+        "questionType": "MR",
+        "options": {
+            "Op1": {
+                "text": "Allocations familiales",
+                "type": "correct",
+                "mark": 2
+            },
+            "Op2": {
+                "text": "Prime de fin d’année",
+                "type": "incorrect",
+                "mark": 1
+            },
+            "Op3": {
+                "text": "Assurance maladie petits risques",
+                "type": "correct",
+                "mark": 2
+            },
+            "Op4": {
+                "text": "13ième mois",
+                "type": "incorrect",
+                "mark": 1
+            },
+            "Op5": {
+                "text": "Allocations de chômage",
+                "type": "incorrect",
+                "mark": 1
+            },
+            "Op6": {
+                "text": "Assurance maladie gros risques",
+                "type": "correct",
+                "mark": 2
+            },
+            "Op7": {
+                "text": "Pension de retraite",
+                "type": "correct",
+                "mark": 2
+            },
+            "Op8": {
+                "text": "Avantage fiscal sur le placement de panneaux solaires",
+                "type": "incorrect",
+                "mark": 1
+            }
+        }
+    },
+    "Q3": {
+        "questionText": "Qu'est ce que le plan financier ?",
+        "questionType": "MC",
+        "options": {
+            "Op1": {
+                "text": "Un livre de comptabilité",
+                "type": "incorrect",
+                "mark": 1
+            },
+            "Op2": {
+                "text": "Le document qui doit être remis au notaire lors de la constitution de la société",
+                "type": "correct",
+                "mark": 3
+            },
+            "Op3": {
+                "text": "Un document obligatoire pour les entreprises étrangères",
+                "type": "incorrect",
+                "mark": 1
+            }
+        }
+    },
+    "Q4": {
+        "questionText": "Il y a un problème très urgent. Vous voulez consulter les employés. Quelle est la méthode la plus efficace ?",
+        "questionType": "MC",
+        "options": {
+            "Op1": {
+                "text": "Charger un employé de synthétiser le conseil de ses collègues.",
+                "type": "incorrect",
+                "mark": 1
+            },
+            "Op2": {
+                "text": "Une boîte à idées.",
+                "type": "incorrect",
+                "mark": 1
+            },
+            "Op3": {
+                "text": "Laisser parler quelques employés motivés.",
+                "type": "correct",
+                "mark": 3
+            }
+        }
+    },
+    "Q5": {
+        "questionText": "Une entreprise a un chiffre d’affaire de 120.000€. Pour ce faire, elle a du dépenser 35.000€ pour acheter ses matières premières et 40.000€ pour payer les salaires des employés. Les frais de transformation des matières premières sont de 15% des deux valeurs ci-dessus (matières premières et salaires). Le patron s’alloue un salaire de 1.000€ par mois et la société devra payer 8.000€ d’impôts. Quelle est la rentabilité de l’entreprise ?",
+        "questionType": "MC",
+        "options": {
+            "Op1": {
+                "text": "10.35%",
+                "type": "incorrect",
+                "mark": 2.5
+            },
+            "Op2": {
+                "text": "11.46%",
+                "type": "correct",
+                "mark": 10
+            },
+            "Op3": {
+                "text": "14.86%",
+                "type": "incorrect",
+                "mark": 2.5
+            },
+            "Op4": {
+                "text": "19.23%",
+                "type": "incorrect",
+                "mark": 2.5
+            }
+        }
+    },
+    "Q6": {
+        "questionText": "Une entreprise achète une machine pour 1.000€ HTVA et veut faire une marge de 25% en la revendant. Quel sera le prix de vente de cette machine sachant que les frais de transport sont de 50€. En fin 2015, l’entreprise accorde une remise de 10% sur la machine. Quel sera le prix de vente TVAC ?",
+        "questionType": "MC",
+        "options": {
+            "Op1": {
+                "text": "1,241.75 €",
+                "type": "incorrect",
+                "mark": 2.5
+            },
+            "Op2": {
+                "text": "1,321.75 €",
+                "type": "incorrect",
+                "mark": 2.5
+            },
+            "Op3": {
+                "text": "1,421.75 €",
+                "type": "correct",
+                "mark": 10
+            },
+            "Op4": {
+                "text": "1,521.75 €",
+                "type": "incorrect",
+                "mark": 2.5
+            }
+        }
+    },
+    "Q7": {
+        "questionText": "Une entreprise achète en 2017 une machine 30000€ et l'amorti linéairement sur base d'un taux de 20%. Quelle sera sa valeur résiduelle en 2019 ?",
+        "questionType": "MC",
+        "options": {
+            "Op1": {
+                "text": "0.00 €",
+                "type": "incorrect",
+                "mark": 2
+            },
+            "Op2": {
+                "text": "6,000.00 €",
+                "type": "incorrect",
+                "mark": 2
+            },
+            "Op3": {
+                "text": "12,000.00 €",
+                "type": "correct",
+                "mark": 10
+            },
+            "Op4": {
+                "text": "18,000.00 €",
+                "type": "incorrect",
+                "mark": 2
+            },
+            "Op5": {
+                "text": "24,000.00 €",
+                "type": "incorrect",
+                "mark": 2
+            }
+        }
+    },
+    "Q8": {
+        "questionText": "Le propriétaire du bâtiment peut mettre fin au bail :",
+        "questionType": "MR",
+        "options": {
+            "Op1": {
+                "text": "Tous les 9 ans en refusant au locataire la prolongation de son bail.",
+                "type": "correct",
+                "mark": 3
+            },
+            "Op2": {
+                "text": "Tous les 3 ans en envoyant au locataire un recommandé au moins 1 an avant la fin du triennat.",
+                "type": "correct",
+                "mark": 3
+            },
+            "Op3": {
+                "text": "Il ne peut pas, ce serait contraire aux droits du commerçant. Le bail dure au maximum 36 ans.",
+                "type": "incorrect",
+                "mark": 2
+            }
+        }
+    },
+    "Q9": {
+        "questionText": "Le propriétaire du bâtiment peut mettre fin au bail :",
+        "questionType": "MC",
+        "options": {
+            "Op1": {
+                "text": "Vous l’étudiez avec rigueur pour savoir à qui vous vous mesurerez",
+                "type": "correct",
+                "mark": 2
+            },
+            "Op2": {
+                "text": "Vous estimez ne pas avoir de concurrents puisque personne d’autre ne fait exactement ce que vous faite",
+                "type": "incorrect",
+                "mark": 1
+            }
+        }
+    },
+    "Q10": {
+        "questionText": "Quand doit-on s'affilier à une caisse sociale ?",
+        "questionType": "MC",
+        "options": {
+            "Op1": {
+                "text": "Dans les 90 jours qui suivent le début de l’activité d’indépendant",
+                "type": "incorrect",
+                "mark": 1
+            },
+            "Op2": {
+                "text": "L’affiliation peut se faire quand l’indépendant le décide",
+                "type": "incorrect",
+                "mark": 1
+            },
+            "Op3": {
+                "text": "Au plus tard le jour du début de l’activité d’indépendant",
+                "type": "correct",
+                "mark": 4
+            },
+            "Op4": {
+                "text": "L’affiliation n’est pas obligatoire",
+                "type": "incorrect",
+                "mark": 1
+            }
+        }
+    },
+    "Q11": {
+        "questionText": "Une entreprise vend 80000 articles à 10€/pièce HTVA. Chaque article est acheté 2,5€ HTVA et il n'y a pas d'autres frais variables dans cette entreprise. Les frais fixes sont de 350000€. Combien faut-il vendre d'articles pour atteindre le seuil de rentabilité ?",
+        "questionType": "MC",
+        "options": {
+            "Op1": {
+                "text": "36667 pièces",
+                "type": "incorrect",
+                "mark": 2.5
+            },
+            "Op2": {
+                "text": "46667 pièces",
+                "type": "correct",
+                "mark": 10
+            },
+            "Op3": {
+                "text": "56667 pièces",
+                "type": "incorrect",
+                "mark": 2.5
+            },
+            "Op4": {
+                "text": "66667 pièces",
+                "type": "incorrect",
+                "mark": 2.5
+            }
+        }
+    },
+    "Q12": {
+        "questionText": "Le revenu cadastral est :",
+        "questionType": "MC",
+        "options": {
+            "Op1": {
+                "text": "L'impôt foncier sur un bien immobilier",
+                "type": "incorrect",
+                "mark": 1
+            },
+            "Op2": {
+                "text": "Une redevance fixe annuelle sur les revenus de location d'un bien immobilier",
+                "type": "incorrect",
+                "mark": 1
+            },
+            "Op3": {
+                "text": "Le revenu annuel net dégagé par un bien immobilier",
+                "type": "correct",
+                "mark": 3
+            }
+        }
+    },
+    "Q13": {
+        "questionText": "Sur quel montant est calculée la TVA ? Cocher les bonnes réponses.",
+        "questionType": "MR",
+        "options": {
+            "Op1": {
+                "text": "le montant brut",
+                "type": "correct",
+                "mark": 2
+            },
+            "Op2": {
+                "text": "le montant brut + la remise – l’escompte",
+                "type": "incorrect",
+                "mark": 1.25
+            },
+            "Op3": {
+                "text": "le montant brut – la remise – l’escompte",
+                "type": "correct",
+                "mark": 2
+            },
+            "Op4": {
+                "text": "le montant brut + l’escompte",
+                "type": "incorrect",
+                "mark": 1.5
+            },
+            "Op5": {
+                "text": "le montant brut – la remise",
+                "type": "correct",
+                "mark": 2
+            },
+            "Op6": {
+                "text": "Le montant brut – la remise + frais de transport",
+                "type": "correct",
+                "mark": 2
+            },
+            "Op7": {
+                "text": "Le montant brut + frais de port + frais d’emballage",
+                "type": "correct",
+                "mark": 2
+            },
+            "Op8": {
+                "text": "Le montant brut – l'escompte + frais de port + frais d’emballage",
+                "type": "incorrect",
+                "mark": 1.25
+            }
+        }
+    },
+    "Q14": {
+        "questionText": "J’achète des marchandises pour 200€ et je désire faire 50% de bénéfice lors de la revente. Quel est le pourcentage de bénéfice par rapport au prix de vente ?",
+        "questionType": "MC",
+        "options": {
+            "Op1": {
+                "text": "20%",
+                "type": "incorrect",
+                "mark": 2
+            },
+            "Op2": {
+                "text": "25%",
+                "type": "incorrect",
+                "mark": 2
+            },
+            "Op3": {
+                "text": "30%",
+                "type": "incorrect",
+                "mark": 2
+            },
+            "Op4": {
+                "text": "33%",
+                "type": "correct",
+                "mark": 8
+            }
+        }
+    },
+    "Q15": {
+        "questionText": "Le chiffre d’affaires annuel d’un commerçant pour son exercice comptable s’élève à 30.000€. Les achats sont de 5.000€. Le stock de départ se chiffre à 790€ et le stock final à 1.020€. Quel est le bénéfice brut sur les ventes ?",
+        "questionType": "MC",
+        "options": {
+            "Op1": {
+                "text": "23,500 €",
+                "type": "incorrect",
+                "mark": 2.5
+            },
+            "Op2": {
+                "text": "24,300 €",
+                "type": "incorrect",
+                "mark": 2.5
+            },
+            "Op3": {
+                "text": "25,230 €",
+                "type": "correct",
+                "mark": 10
+            },
+            "Op4": {
+                "text": "25,430 €",
+                "type": "incorrect",
+                "mark": 2.5
+            }
+        }
+    },
+    "Q16": {
+        "questionText": "On amorti une machine d'une valeur de 20000€ de façon dégressive en 5 ans. L'amortissement de la première années sera de :",
+        "questionType": "MC",
+        "options": {
+            "Op1": {
+                "text": "5,000.00 €",
+                "type": "incorrect",
+                "mark": 2.5
+            },
+            "Op2": {
+                "text": "7,500.00 €",
+                "type": "incorrect",
+                "mark": 2.5
+            },
+            "Op3": {
+                "text": "8,000.00 €",
+                "type": "correct",
+                "mark": 10
+            },
+            "Op4": {
+                "text": "10,000.00 €",
+                "type": "incorrect",
+                "mark": 2.5
+            }
+        }
+    },
+    "Q17": {
+        "questionText": "Quelles attitudes symbolisent le bon sens du risque ? Cochez les bonnes .propositions.",
+        "questionType": "MR",
+        "options": {
+            "Op1": {
+                "text": "Je me plonge toujours immédiatement dans un projet sans réfléchir, de façon intuitive.",
+                "type": "incorrect",
+                "mark": 1
+            },
+            "Op2": {
+                "text": "Je considère un problème sous différents angles afin d’en apprécier toute la complexité.",
+                "type": "correct",
+                "mark": 1.5
+            },
+            "Op3": {
+                "text": "Je préfère ce qui est familier aux choses que je ne connais pas.",
+                "type": "correct",
+                "mark": 1.5
+            },
+            "Op4": {
+                "text": "Ce sont toujours les autres qui doivent tirer les marrons du feu.",
+                "type": "incorrect",
+                "mark": 1
+            },
+            "Op5": {
+                "text": "Je réfléchis toujours aux conséquences de mes actions. J’agis de manière proactive.",
+                "type": "correct",
+                "mark": 1.5
+            },
+            "Op6": {
+                "text": "Je veux connaître tous les faits avant de passer à l’action.",
+                "type": "correct",
+                "mark": 1.5
+            },
+            "Op7": {
+                "text": "J’adore la pression de crise. J’aime prendre des risques calculés.",
+                "type": "incorrect",
+                "mark": 1
+            },
+            "Op8": {
+                "text": "Je décide sur base de mon intuition. Je suis toujours mon cœur.",
+                "type": "incorrect",
+                "mark": 1
+            },
+            "Op9": {
+                "text": "Je prends des décisions tant à partir de pressentiments qu’à partir de faits incontestables.",
+                "type": "correct",
+                "mark": 1.5
+            },
+            "Op10": {
+                "text": "Je ne commence un projet qu’après avoir effectué une analyse profonde mais sans perdre de temps.",
+                "type": "correct",
+                "mark": 1.5
+            },
+            "Op11": {
+                "text": "Je prends des décisions à partir de preuves concrètes ou d’analyses étayées.",
+                "type": "correct",
+                "mark": 1.5
+            },
+            "Op12": {
+                "text": "Je résous des problèmes à l’aide d’une analyse profonde et d’une approche systématique.",
+                "type": "correct",
+                "mark": 1.5
+            }
+        }
+    },
+    "Q18": {
+        "questionText": "Une société a un chiffre d'affaire de 100000€. Elle a dû réaliser des frais professionnels dont certains sont partiellement déductibles. A savoir, de la matière première pour 23000€ (admis à 100%), des frais de restaurants pour 3500€ (admis à 69%), des frais de représentation pour 2000€ (admis à 50%) et des frais de vêtements de ville pour 500€ (admis à 0%). Cette société à un bénéfice de 15000€. Quel est le montant total des dépenses non admises ?",
+        "questionType": "MC",
+        "options": {
+            "Op1": {
+                "text": "2,385.00 €",
+                "type": "incorrect",
+                "mark": 2.5
+            },
+            "Op2": {
+                "text": "2,585.00 €",
+                "type": "correct",
+                "mark": 10
+            },
+            "Op3": {
+                "text": "3,285.00 €",
+                "type": "incorrect",
+                "mark": 2.5
+            },
+            "Op4": {
+                "text": "4,785.00 €",
+                "type": "incorrect",
+                "mark": 2.5
+            }
+        }
+    },
+    "Q19": {
+        "questionText": "Un artisan doit fabriquer un produit pour lequel il a besoin de matière première d'une valeur de 3000€ et de 20h de travail à 50€ par heure. En plus, les frais indirects de l'entreprise sont de 4000€ répartis au prorata de la charge salariale directe qui est de 100000€ par an. La marge bénéficiaire habituelle est de 15% du prix de revient. A combien sera vendu le produit (HTVA) ?",
+        "questionType": "MC",
+        "options": {
+            "Op1": {
+                "text": "3,546.00 €",
+                "type": "incorrect",
+                "mark": 2.5
+            },
+            "Op2": {
+                "text": "4,464.00 €",
+                "type": "correct",
+                "mark": 10
+            },
+            "Op3": {
+                "text": "4,646.00 €",
+                "type": "incorrect",
+                "mark": 2.5
+            },
+            "Op4": {
+                "text": "6,464.00 €",
+                "type": "incorrect",
+                "mark": 2.5
+            }
+        }
+    },
+    "Q20": {
+        "questionText": "Combien de temps doit-on conserver les pièces de nos comptabilités ?",
+        "questionType": "MC",
+        "options": {
+            "Op1": {
+                "text": "3 ans",
+                "type": "incorrect",
+                "mark": 1
+            },
+            "Op2": {
+                "text": "5 ans",
+                "type": "incorrect",
+                "mark": 1
+            },
+            "Op3": {
+                "text": "7 ans",
+                "type": "incorrect",
+                "mark": 1
+            },
+            "Op4": {
+                "text": "10 ans",
+                "type": "correct",
+                "mark": 4
+            }
+        }
+    },
+    "Q21": {
+        "questionText": "Dans un village il y a 18000 habitants et 10% d'entre eux vont faire leur courses das les communes voisines. Dans ces communes, il y a 36000 habitants et 5% viennent faire leurs courses chez nous. Chacun à un pouvoir d'achat de 100€ par an. Quel chiffre d'affaire vais-je viser dans mon Business Plan sachant que j'ai 17 concurrents ?",
+        "questionType": "MC",
+        "options": {
+            "Op1": {
+                "text": "18,00,000.00 €",
+                "type": "incorrect",
+                "mark": 2.5
+            },
+            "Op2": {
+                "text": "1,00,000.00 €",
+                "type": "correct",
+                "mark": 10
+            },
+            "Op3": {
+                "text": "20,000.00 €",
+                "type": "incorrect",
+                "mark": 2.5
+            },
+            "Op4": {
+                "text": "2,50,000.00 €",
+                "type": "incorrect",
+                "mark": 2.5
+            }
+        }
+    },
+    "Q22": {
+        "questionText": "Comment écrit-on un numéro d'entreprise ?",
+        "questionType": "MC",
+        "options": {
+            "Op1": {
+                "text": "T.V.A. BE 0123.456.789",
+                "type": "incorrect",
+                "mark": 0.5
+            },
+            "Op2": {
+                "text": "Numéro d’entreprise 123.456.789",
+                "type": "incorrect",
+                "mark": 0.5
+            },
+            "Op3": {
+                "text": "0123.456.789",
+                "type": "correct",
+                "mark": 3
+            },
+            "Op4": {
+                "text": "TVA 0123.456.789 RPM",
+                "type": "incorrect",
+                "mark": 0.5
+            },
+            "Op5": {
+                "text": "BE 0123.456.789",
+                "type": "incorrect",
+                "mark": 0.5
+            },
+            "Op6": {
+                "text": "Numéro T.V.A. : 0123.456.789",
+                "type": "incorrect",
+                "mark": 0.5
+            }
+        }
+    },
+    "Q23": {
+        "questionText": "Henri a un revenu brut de 27.000€. Si on considère qu’il n’a pas de frais professionnels, combien de cotisations sociales devra-t-il payer par trimestre ?",
+        "questionType": "MC",
+        "options": {
+            "Op1": {
+                "text": "700 €",
+                "type": "incorrect",
+                "mark": 2
+            },
+            "Op2": {
+                "text": "1,417.50 €",
+                "type": "correct",
+                "mark": 8
+            },
+            "Op3": {
+                "text": "2,800 €",
+                "type": "incorrect",
+                "mark": 2
+            },
+            "Op4": {
+                "text": "5,670 €",
+                "type": "incorrect",
+                "mark": 2
+            }
+        }
+    },
+    "Q24": {
+        "questionText": "Une société a un capital propre de 40.000€, des dettes à long terme de 40.000€ et des dettes à court terme de 20.000€. Quelle est son indépendance financière en % ?",
+        "questionType": "MC",
+        "options": {
+            "Op1": {
+                "text": "20%",
+                "type": "incorrect",
+                "mark": 2
+            },
+            "Op2": {
+                "text": "40%",
+                "type": "correct",
+                "mark": 8
+            },
+            "Op3": {
+                "text": "60%",
+                "type": "incorrect",
+                "mark": 2
+            },
+            "Op4": {
+                "text": "150%",
+                "type": "incorrect",
+                "mark": 2
+            }
+        }
+    },
+    "Q25": {
+        "questionText": "Quel capital doit-on libérer lors de la création d’une S.A. ?",
+        "questionType": "MC",
+        "options": {
+            "Op1": {
+                "text": "18,550 €",
+                "type": "incorrect",
+                "mark": 1
+            },
+            "Op2": {
+                "text": "6,200 €",
+                "type": "incorrect",
+                "mark": 1
+            },
+            "Op3": {
+                "text": "12,400 €",
+                "type": "incorrect",
+                "mark": 1
+            },
+            "Op4": {
+                "text": "61,500 €",
+                "type": "correct",
+                "mark": 4
+            }
+        }
+    },
+    "Q26": {
+        "questionText": "Quelles sont les étapes obligatoires lors de la création d’une activité en personne physique ?",
+        "questionType": "MR",
+        "options": {
+            "Op1": {
+                "text": "S’inscrire auprès d’une caisse d’assurance sociale",
+                "type": "correct",
+                "mark": 2
+            },
+            "Op2": {
+                "text": "S’aider d’un comptable agréé",
+                "type": "incorrect",
+                "mark": 1
+            },
+            "Op3": {
+                "text": "S’inscrire auprès d’un secrétariat social ",
+                "type": "incorrect",
+                "mark": 1
+            },
+            "Op4": {
+                "text": "Demander un numéro d’entreprise",
+                "type": "correct",
+                "mark": 2
+            },
+            "Op5": {
+                "text": "Remettre un certificat de bonne santé à sa caisse d’assurance sociale",
+                "type": "incorrect",
+                "mark": 1
+            },
+            "Op6": {
+                "text": "Ouvrir un compte bancaire",
+                "type": "incorrect",
+                "mark": 1
+            },
+            "Op7": {
+                "text": "Etre belge",
+                "type": "incorrect",
+                "mark": 1
+            },
+            "Op8": {
+                "text": "Présenter votre contrat de mariage (si je suis marié(e))",
+                "type": "correct",
+                "mark": 2
+            },
+            "Op9": {
+                "text": "Démontrer vos connaissances en gestion de base",
+                "type": "correct",
+                "mark": 2
+            },
+            "Op10": {
+                "text": "Posséder une carte professionnelle pour ressortissant étrangé (si je le suis)",
+                "type": "correct",
+                "mark": 2
+            }
+
+        }
+    },
+    "Q27": {
+        "questionText": "J’effectue des travaux dans mon habitation. L’entrepreneur me présente une facture de 7.200€ TVA comprise de 21 %. Mon habitation existe depuis plus de 15 ans et donc je peux bénéficier d’une TVA de 6%. Calculez le prix à payer TVA comprise de 6%.",
+        "questionType": "MC",
+        "options": {
+            "Op1": {
+                "text": "6,307.44 €",
+                "type": "correct",
+                "mark": 10
+            },
+            "Op2": {
+                "text": "6,703.44 €",
+                "type": "incorrect",
+                "mark": 2.5
+            },
+            "Op3": {
+                "text": "7,644.03 €",
+                "type": "incorrect",
+                "mark": 2.5
+            },
+            "Op4": {
+                "text": "7,603.44 €",
+                "type": "incorrect",
+                "mark": 2.5
+            }
+        }
+    },
+    "Q28": {
+        "questionText": "En Janvier, on achète des meubles pour 2500€ HTVA (21%) et une machine pour 15000€ HTVA (21%). Le même mois, on vend à 5 clients pour un total de 30000€ HTVA (21%). Calculez le solde TVA du mois de Janvier !",
+        "questionType": "MC",
+        "options": {
+            "Op1": {
+                "text": "On doit 6300€ à la TVA",
+                "type": "incorrect",
+                "mark": 2
+            },
+            "Op2": {
+                "text": "On doit 2625€ à la TVA",
+                "type": "correct",
+                "mark": 8
+            },
+            "Op3": {
+                "text": "La TVA nous doit 3675€",
+                "type": "incorrect",
+                "mark": 2
+            },
+            "Op4": {
+                "text": "La TVA nous doit 2625€",
+                "type": "incorrect",
+                "mark": 2
+            }
+        }
+    },
+    "Q29": {
+        "questionText": "Après approbation des comptes annuels de la société par l'assemblée générale dans quel délais doit-on les déposer à la Banque Nationale de Belgique ?",
+        "questionType": "MC",
+        "options": {
+            "Op1": {
+                "text": "Trente jours après l’approbation",
+                "type": "correct",
+                "mark": 4
+            },
+            "Op2": {
+                "text": "Le 1er janvier de l’année qui suit",
+                "type": "incorrect",
+                "mark": 1
+            },
+            "Op3": {
+                "text": "6 mois après l’approbation",
+                "type": "incorrect",
+                "mark": 1
+            },
+            "Op4": {
+                "text": "Dès la clôture de l’exercice fiscal",
+                "type": "incorrect",
+                "mark": 1
+            }
+        }
+    },
+    "Q30": {
+        "questionText": "A partir de quel âge peut-on s’inscrire à la B.C.E. (Banque Carrefour des Entreprises) ?",
+        "questionType": "MC",
+        "options": {
+            "Op1": {
+                "text": "14 ans",
+                "type": "incorrect",
+                "mark": 1
+            },
+            "Op2": {
+                "text": "18 ans",
+                "type": "correct",
+                "mark": 3
+            },
+
+            "Op3": {
+                "text": "21 ans",
+                "type": "incorrect",
+                "mark": 1
+            }
+        }
+    }
+}
