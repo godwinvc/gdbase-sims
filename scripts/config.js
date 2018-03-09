@@ -49,11 +49,6 @@ var runFunction = function($rootScope, $transitions, authService, $state) {
         console.log("Token missing");
         $state.go("login");
       }
-    } else {
-      $("#logoutBtn").hide();
-      $("section#content").css({
-        height: "700px"
-      });
     }
     if (trans.$to().name == "login") {
       if (localStorage.getItem("gdbaseToken") != null) {
