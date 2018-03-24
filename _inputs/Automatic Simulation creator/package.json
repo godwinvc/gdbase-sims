@@ -1,0 +1,15 @@
+{
+  "name": "creating-sims-data",
+  "version": "1.0.0",
+  "description": "",
+  "main": "jsoncreate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "xls-to-json": "^0.4.0",
+    "xlsx-to-json-lc": "^0.5.0"
+  }
+}

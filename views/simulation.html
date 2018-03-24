@@ -70,7 +70,7 @@
             </div>
             <div class="container-fluid">
                 <h5>
-                    <span class="text-primary">Question {{currentQuestion}}:</span> {{currentQuestionData.questionText}}</h5>
+                    <span class="text-primary">Question {{currentQuestion}}:</span> <span ng-bind-html="currentQuestionData.questionText"></span></h5>
                 <small>({{(currentQuestionData.questionType == 'MR' && currentQuestionData.questionType != 'TF' )? 'Sélectionnez
                     les bonnes réponses' : 'Sélectionnez la bonne réponse'}} {{currentQuestionData.questionType == 'TF' ?
                     'Sélectionnez la bonne réponse by Vrai ou faux':null}})
