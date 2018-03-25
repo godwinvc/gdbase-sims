@@ -1,0 +1,530 @@
+{
+  "Q1": {
+    "questionText": "Vrai ou faux ?",
+    "questionType": "TF",
+    "options": {
+      "Op1": {
+        "text":
+          "Pour être indépendant, il est obligatoire d'avoir un numéro d'entreprise mais pas obligatoire d'avoir un numéro de TVA",
+        "type": {
+          "correct": { "op": "false", "mark": 1 },
+          "incorrect": { "op": "true", "mark": 0.25 }
+        }
+      },
+      "Op2": {
+        "text":
+          "La Banque Carrefour des Entreprises collecte les cotisations sociales des indépendants",
+        "type": {
+          "correct": { "op": "false", "mark": 1 },
+          "incorrect": { "op": "true", "mark": 0.25 }
+        }
+      },
+      "Op3": {
+        "text":
+          "Une preuve de connaissance professionnelle peut être démontrée par un diplôme ou une expérience professionnelle probante",
+        "type": {
+          "correct": { "op": "true", "mark": 1 },
+          "incorrect": { "op": "false", "mark": 0.25 }
+        }
+      },
+      "Op4": {
+        "text": "L'AFSCA garanti la sécurité de la chaine alimentaire",
+        "type": {
+          "correct": { "op": "true", "mark": 1 },
+          "incorrect": { "op": "false", "mark": 0.25 }
+        }
+      }
+    }
+  },
+  "Q2": {
+    "questionText":
+      "J'achète des matériaux pour 400€. J'effectue 15h de travail à 50€ de l'heure. Les frais indirectes de l'entreprise sont de 10000€ répartis au prorata de la charge salariale directe de 750000€. Je fais une marge de 20% du prix de vente. Quel est le prix de vente HTVA ?",
+    "questionType": "MC",
+    "options": {
+      "Op1": { "text": "1,160.00", "type": "incorrect", "mark": 2.5 },
+      "Op2": { "text": "1,450.00", "type": "correct", "mark": 10 },
+      "Op3": { "text": "1,750.00", "type": "incorrect", "mark": 2.5 },
+      "Op4": { "text": "1,392.00", "type": "incorrect", "mark": 2.5 }
+    }
+  },
+  "Q3": {
+    "questionText":
+      "Quelles sont les sociétés de capitaux citées dans cette liste ?",
+    "questionType": "MR",
+    "options": {
+      "Op1": { "text": "SPRL", "type": "incorrect", "mark": 0.5 },
+      "Op2": { "text": "SCA", "type": "correct", "mark": 1.5 },
+      "Op3": { "text": "SCRL", "type": "incorrect", "mark": 0.5 },
+      "Op4": { "text": "SCRI", "type": "incorrect", "mark": 0.5 },
+      "Op5": { "text": "SA", "type": "correct", "mark": 1.5 },
+      "Op6": { "text": "SPRL-S", "type": "incorrect", "mark": 0.5 }
+    }
+  },
+  "Q4": {
+    "questionText": "Quel capital faut-il libérer pour créer une SPRL-U ?",
+    "questionType": "MC",
+    "options": {
+      "Op1": { "text": "1 €", "type": "incorrect", "mark": 0.5 },
+      "Op2": { "text": "6,200 €", "type": "incorrect", "mark": 0.5 },
+      "Op3": { "text": "12,400 €", "type": "correct", "mark": 2 },
+      "Op4": { "text": "18,550 €", "type": "incorrect", "mark": 0.5 }
+    }
+  },
+  "Q5": {
+    "questionText":
+      "Combien de temps dure la responsabilité du fondateur d'une société ?",
+    "questionType": "MC",
+    "options": {
+      "Op1": { "text": "1 an", "type": "incorrect", "mark": 0.5 },
+      "Op2": { "text": "2 ans", "type": "incorrect", "mark": 0.5 },
+      "Op3": { "text": "3 ans", "type": "correct", "mark": 2 },
+      "Op4": { "text": "5 ans", "type": "incorrect", "mark": 0.5 }
+    }
+  },
+  "Q6": {
+    "questionText":
+      "Une entreprise achète des articles 70€ HTVA. Elle réalise une marge de 30% sur le prix de vente. Elle vend 1000 articles par an. Les frais fixes sont de 10000€. Combien faut-il vendre d'articles pour atteindre le seuil de rentabilité ? (Rem : Les frais variables ne proviennent que des achats.)",
+    "questionType": "MC",
+    "options": {
+      "Op1": { "text": "3343 pièces", "type": "incorrect", "mark": 2.5 },
+      "Op2": { "text": "3334 pièces", "type": "correct", "mark": 10 },
+      "Op3": { "text": "3433 pièces", "type": "incorrect", "mark": 2.5 },
+      "Op4": { "text": "4333 pièces", "type": "incorrect", "mark": 2.5 }
+    }
+  },
+  "Q7": {
+    "questionText":
+      "On achète une machine 10000€ et on l'amorti de façon dégressive en 3 ans. Quel est la valeur résiduelle dans l'inventaire après 2 ans ?",
+    "questionType": "MC",
+    "options": {
+      "Op1": { "text": "2,500.00", "type": "incorrect", "mark": 2.5 },
+      "Op2": { "text": "2,000.00", "type": "correct", "mark": 10 },
+      "Op3": { "text": "3,333.33", "type": "incorrect", "mark": 2.5 },
+      "Op4": { "text": "6,000.00", "type": "incorrect", "mark": 2.5 }
+    }
+  },
+  "Q8": {
+    "questionText": "Cochez les bonnes réponses",
+    "questionType": "MR",
+    "options": {
+      "Op1": {
+        "text":
+          "L'indépendant complémentaire paye un forfait de cotisations sociale d'à peu près 77€ par trimestre",
+        "type": "correct",
+        "mark": 2
+      },
+      "Op2": {
+        "text":
+          "L'association de fait rend les acteurs de celle-ci solidairement responsables",
+        "type": "correct",
+        "mark": 2
+      },
+      "Op3": {
+        "text":
+          "Les formes juridiques \"en société\" n'offrent pas de séparation du patrimoine de l'indépendant et du patrimoine de la société",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op4": {
+        "text":
+          "Etre indépendant en personne physique nous permet de protéger notre patrimoine personnel en cas de faillite",
+        "type": "incorrect",
+        "mark": 1
+      }
+    }
+  },
+  "Q9": {
+    "questionText":
+      "Quelles formes juridiques ne vous offrent pas de limitation de responsabilité en cas de faillite ?",
+    "questionType": "MR",
+    "options": {
+      "Op1": { "text": "SPRL", "type": "incorrect", "mark": 0.5 },
+      "Op2": {
+        "text": "Indépendant en personne physique",
+        "type": "correct",
+        "mark": 1.5
+      },
+      "Op3": { "text": "SCRL", "type": "incorrect", "mark": 0.5 },
+      "Op4": { "text": "SCRI", "type": "correct", "mark": 1.5 },
+      "Op5": { "text": "SA", "type": "incorrect", "mark": 0.5 },
+      "Op6": { "text": "SPRL-S", "type": "incorrect", "mark": 0.5 }
+    }
+  },
+  "Q10": {
+    "questionText":
+      "Quels sont les avantages de la forme juridique de type \"en société\" ?",
+    "questionType": "MR",
+    "options": {
+      "Op1": {
+        "text": "Les frais de constitution",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op2": {
+        "text": "La répartition des parts d'un projet",
+        "type": "correct",
+        "mark": 2
+      },
+      "Op3": {
+        "text": "La comptabilité et la gestion simplifiée",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op4": {
+        "text": "La protection du patrimoine personnel de l'indépendant",
+        "type": "correct",
+        "mark": 2
+      }
+    }
+  },
+  "Q11": {
+    "questionText": "Cochez les affirmations correctes",
+    "questionType": "MR",
+    "options": {
+      "Op1": {
+        "text":
+          "Il faut impérativement passer devant le notaire pour rédiger un acte notarié dans le cas de la création d'une société",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op2": {
+        "text":
+          "Les frais de création d'un statut d'indépendant en personne physique sont bien moindre que ceux de la création d'une société",
+        "type": "correct",
+        "mark": 2
+      },
+      "Op3": {
+        "text":
+          "La comptabilité d'un indépndant en personne physique est en général plus simple que celle d'une société",
+        "type": "correct",
+        "mark": 2
+      },
+      "Op4": {
+        "text":
+          "Les sociétés et les personnes physique ont la même taxation sur leurs revenus professionnels",
+        "type": "incorrect",
+        "mark": 1
+      }
+    }
+  },
+  "Q12": {
+    "questionText":
+      "Les informations concernant les prestations de ventes de maquillage de soirée par un institut d’esthétique sont les suivantes :\n• quantité moyenne achetée par client et par an = 1,5 séances\n• nombre d’acheteurs (en 2017) = 86 personnes\n• prix moyen payé : 25 euros\nDéterminez le chiffre d’affaires en volume et en valeur d’entreprise d’esthétique (en valeur).",
+    "questionType": "MC",
+    "options": {
+      "Op1": { "text": "2,725 €", "type": "incorrect", "mark": 1.5 },
+      "Op2": { "text": "3,125 €", "type": "incorrect", "mark": 1.5 },
+      "Op3": { "text": "3,225 €", "type": "correct", "mark": 6 },
+      "Op4": { "text": "3,525 €", "type": "incorrect", "mark": 1.5 }
+    }
+  },
+  "Q13": {
+    "questionText":
+      "Une société a un chiffre d’affaire de 250.000€. Pour ce faire, elle a dû acheter pour 50.000€ de matières premières. Le stock en début d’année était de 7.900€ et le stock en fin d’année était de 10.200€. Les frais fixes de cette société sont de 100.000€. Quel est le bénéfice brut sur les ventes ?",
+    "questionType": "MC",
+    "options": {
+      "Op1": { "text": "40.92%", "type": "incorrect", "mark": 2 },
+      "Op2": { "text": "60.73%", "type": "incorrect", "mark": 2 },
+      "Op3": { "text": "80.92%", "type": "correct", "mark": 8 },
+      "Op4": { "text": "90.82%", "type": "incorrect", "mark": 2 }
+    }
+  },
+  "Q14": {
+    "questionText":
+      "Combien de temps les pièces comptables d'une entreprise doivent-elles être conservées ?",
+    "questionType": "MC",
+    "options": {
+      "Op1": { "text": "2 ans", "type": "incorrect", "mark": 0.5 },
+      "Op2": { "text": "5 ans", "type": "incorrect", "mark": 0.5 },
+      "Op3": { "text": "10 ans", "type": "correct", "mark": 2 },
+      "Op4": { "text": "15 ans", "type": "incorrect", "mark": 0.5 }
+    }
+  },
+  "Q15": {
+    "questionText": "Quel es le capital souscrit d'une SPRL ?",
+    "questionType": "MC",
+    "options": {
+      "Op1": { "text": "1 €", "type": "incorrect", "mark": 0.5 },
+      "Op2": { "text": "6,200 €", "type": "incorrect", "mark": 0.5 },
+      "Op3": { "text": "18,550 €", "type": "correct", "mark": 2 },
+      "Op4": { "text": "61,500 €", "type": "incorrect", "mark": 0.5 }
+    }
+  },
+  "Q16": {
+    "questionText":
+      "Une marchandise achetée 1.800€ est étiquetée 2.600€ hors TVA. Elle est vendue avec une remise de 5%. Quelle est la marge bénéficiaire sur le prix de vente final hors TVA ?",
+    "questionType": "MC",
+    "options": {
+      "Op1": { "text": "17.72%", "type": "incorrect", "mark": 2 },
+      "Op2": { "text": "27.12%", "type": "correct", "mark": 8 },
+      "Op3": { "text": "32.64%", "type": "incorrect", "mark": 2 },
+      "Op4": { "text": "37.22%", "type": "incorrect", "mark": 2 }
+    }
+  },
+  "Q17": {
+    "questionText":
+      "Quelles sont les caractéristiques de l'impôt des sociétés ?",
+    "questionType": "MR",
+    "options": {
+      "Op1": { "text": "Sa progressivité", "type": "incorrect", "mark": 1 },
+      "Op2": { "text": "Un taux fixe", "type": "correct", "mark": 2 },
+      "Op3": {
+        "text": "Tous les revenus sont considérés de la même façon",
+        "type": "correct",
+        "mark": 2
+      },
+      "Op4": {
+        "text": "Des quotités exemptées",
+        "type": "incorrect",
+        "mark": 1
+      }
+    }
+  },
+  "Q18": {
+    "questionText": "La solvabilité d'une entreprise, c'est :",
+    "questionType": "MC",
+    "options": {
+      "Op1": {
+        "text":
+          "la capacité d’une société à rembourser ses dettes à court terme",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op2": {
+        "text": "l’indépendance de l’entreprise vis-à-vis de tiers",
+        "type": "correct",
+        "mark": 3
+      },
+      "Op3": {
+        "text": "La rentabilité de l'entreprise",
+        "type": "incorrect",
+        "mark": 1
+      }
+    }
+  },
+  "Q19": {
+    "questionText":
+      "On achète un produit 80€ HTVA et on le vend en faisant une marge sur le prix de vente de 20%. Les frais de transport sont de 15€. On accorde une remise de 15% et un escompte de 2%. Quel est le prix de vente final TVAC (21%) ?",
+    "questionType": "MC",
+    "options": {
+      "Op1": { "text": "110.42", "type": "incorrect", "mark": 2.5 },
+      "Op2": { "text": "118.58", "type": "correct", "mark": 10 },
+      "Op3": { "text": "114.55", "type": "incorrect", "mark": 2.5 },
+      "Op4": { "text": "122.67", "type": "incorrect", "mark": 2.5 }
+    }
+  },
+  "Q20": {
+    "questionText": "Qu'est ce qu'un assujetti partiel à la TVA ?",
+    "questionType": "MC",
+    "options": {
+      "Op1": {
+        "text":
+          "Un indépendant qui effectue des prestations ou des ventes sur lesquelles la TVA s'applique",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op2": {
+        "text":
+          "Un indépendant qui effectue des prestations ou des ventes sur lesquelles la TVA s’applique sur une partie de celles-ci",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op3": {
+        "text":
+          "Un indépendant qui a une activité rémunérée hors champ d’application en plus d’effectuer des prestations ou des ventes soumises à la TVA",
+        "type": "correct",
+        "mark": 3
+      }
+    }
+  },
+  "Q21": {
+    "questionText":
+      "Une entre prise possède des machines pour un montant de 15.000€ et une voiture pour un montant de 7.000€. Elle les a financé en capital propre à la hauteur de 4.000€ et en emprunt bancaire à la hauteur de 18.000€. Quel est la somme du passif ?",
+    "questionType": "MC",
+    "options": {
+      "Op1": { "text": "4,000 €", "type": "incorrect", "mark": 1 },
+      "Op2": { "text": "7,000 €", "type": "incorrect", "mark": 1 },
+      "Op3": { "text": "18,000 €", "type": "incorrect", "mark": 1 },
+      "Op4": { "text": "22,000 €", "type": "correct", "mark": 4 }
+    }
+  },
+  "Q22": {
+    "questionText": "Quels éléments sont à classer au passif du bilan ?",
+    "questionType": "MR",
+    "options": {
+      "Op1": {
+        "text": "Les stock et matières premières",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op2": { "text": "Les dettes court terme", "type": "correct", "mark": 3 },
+      "Op3": { "text": "Le capital propre", "type": "correct", "mark": 3 },
+      "Op4": {
+        "text": "Les immobilisations incorporelles",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op5": {
+        "text": "Les valeurs disponibles",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op6": { "text": "Les créances client", "type": "incorrect", "mark": 1 }
+    }
+  },
+  "Q23": {
+    "questionText":
+      "Le chiffre d'affaires d'une société s'élève à 400000€ annuel. Dans ce chiffre d'affaires, on sait que le bénéfice brut est équivalent à 60% du prix des achats. Les stocks au cours de l'année sont de 40000€ au 1° janvier, 70000€ au 1° avril, 32000€ au 1° juillet, 20000€ au 1° octobre et 38000€ au 1° décembre. Combien de fois par an le stock est-il renouvelé ?",
+    "questionType": "MC",
+    "options": {
+      "Op1": { "text": "5,25 fois par an", "type": "incorrect", "mark": 2.5 },
+      "Op2": { "text": "6 fois par an", "type": "incorrect", "mark": 2.5 },
+      "Op3": { "text": "6,25 fois par an", "type": "correct", "mark": 10 },
+      "Op4": { "text": "7 fois par an", "type": "incorrect", "mark": 2.5 }
+    }
+  },
+  "Q24": {
+    "questionText": "Que retrouve-t-on dans le compte de résultat ?",
+    "questionType": "MR",
+    "options": {
+      "Op1": { "text": "Les amortissements", "type": "correct", "mark": 1.5 },
+      "Op2": {
+        "text": "Les dettes à court terme",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op3": {
+        "text": "Le résultat d'exploitation",
+        "type": "correct",
+        "mark": 1.5
+      },
+      "Op4": {
+        "text": "Les immobilisations incorporelles",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op5": {
+        "text": "Les impôts de l'exercice fiscal concerné",
+        "type": "correct",
+        "mark": 1.5
+      },
+      "Op6": { "text": "Le bénéfice net", "type": "correct", "mark": 1.5 }
+    }
+  },
+  "Q25": {
+    "questionText": "Cochez les bonnes réponses :",
+    "questionType": "MR",
+    "options": {
+      "Op1": {
+        "text":
+          "Avant d'avoir atteint le seuil de rentabilité, l'entreprise ne dégage pas de bénéfice sur l'exercice fiscal",
+        "type": "correct",
+        "mark": 1
+      },
+      "Op2": {
+        "text":
+          "Après avoir atteint le seuil de rentabilité, l'entreprise ne dégage pas de bénéfice sur l'exercice fiscal",
+        "type": "incorrect",
+        "mark": 0.75
+      },
+      "Op3": {
+        "text":
+          "Au seuil de rentabilité, l'entreprise à vendu autant qu'elle a fait des dépenses",
+        "type": "correct",
+        "mark": 1
+      },
+      "Op4": {
+        "text": "Les frais variables dépendent des volumes de production",
+        "type": "correct",
+        "mark": 1
+      }
+    }
+  },
+  "Q26": {
+    "questionText":
+      "En 2016, un marchand a vendu 342 vélos d'une valeur moyenne de 800€/pièce. Le marché total a écoulé 3000 vélos d'une valeur moyenne de 400€. Quantitativement, quel est le pourcentage de son offre par rapport au marché ?",
+    "questionType": "MC",
+    "options": {
+      "Op1": { "text": "9.42%", "type": "incorrect", "mark": 2.5 },
+      "Op2": { "text": "10.00%", "type": "incorrect", "mark": 2.5 },
+      "Op3": { "text": "11.40%", "type": "correct", "mark": 10 },
+      "Op4": { "text": "12.40%", "type": "incorrect", "mark": 2.5 }
+    }
+  },
+  "Q27": {
+    "questionText": "Qu'est ce qu'un indépendant \"franchisé de TVA ?",
+    "questionType": "MC",
+    "options": {
+      "Op1": {
+        "text": "Un indépendant qui ne doit pas payer de TVA sur ses achats",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op2": {
+        "text":
+          "Un indépendant qui ne doit pas manipuler de TVA car son chiffre d'affaires est inférieur à 25.000€",
+        "type": "correct",
+        "mark": 3
+      },
+      "Op3": {
+        "text":
+          "Un indépendant qui ne doit remplir qu'une déclaration TVA par an",
+        "type": "incorrect",
+        "mark": 1
+      }
+    }
+  },
+  "Q28": {
+    "questionText":
+      "Le prix de vente d’un véhicule mixte est de 20.000€ hors TVA (taux de 21%). Conditions promotionnelles : le vendeur vous offre la TVA. Exprimée en %, quelle sera la remise obtenue ?",
+    "questionType": "MC",
+    "options": {
+      "Op1": { "text": "15.17%", "type": "incorrect", "mark": 2 },
+      "Op2": { "text": "17.36%", "type": "correct", "mark": 8 },
+      "Op3": { "text": "21%", "type": "incorrect", "mark": 2 },
+      "Op4": { "text": "4,200 €", "type": "incorrect", "mark": 2 }
+    }
+  },
+  "Q29": {
+    "questionText":
+      "Si je réalise des travaux dans le bâtiment que je loue pour mon commerce (bail commercial) avec l'accord du propriétaire, alors...",
+    "questionType": "MR",
+    "options": {
+      "Op1": {
+        "text":
+          "Je pourrai exiger de recevoir la plus-value apportée au bâtiment lorsque le bail se finira.",
+        "type": "correct",
+        "mark": 2
+      },
+      "Op2": {
+        "text":
+          "Le propriétaire pourra exiger la remise en état de son bâtiment.",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op3": {
+        "text":
+          "Le propriétaire ne peut jamais exiger la remise en état en cas de bail commercial.",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op4": {
+        "text":
+          "Je ne suis pas obligé de remettre le bâtiment dans son état d'origine.",
+        "type": "correct",
+        "mark": 2
+      }
+    }
+  },
+  "Q30": {
+    "questionText":
+      "On achète un produit 210€ HTVA et on le vend en faisant une marge sur le prix de vente de 30%. Les frais de transport sont de 15€. On accorde une remise de 10% et un escompte de 2%. Quel est le prix de vente final TVAC (21%) ?",
+    "questionType": "MC",
+    "options": {
+      "Op1": { "text": "336.17", "type": "incorrect", "mark": 2.5 },
+      "Op2": { "text": "337.95", "type": "correct", "mark": 10 },
+      "Op3": { "text": "339.17", "type": "incorrect", "mark": 2.5 },
+      "Op4": { "text": "340.95", "type": "incorrect", "mark": 2.5 }
+    }
+  }
+}

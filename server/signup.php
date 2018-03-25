@@ -1,5 +1,6 @@
 <?php
 include './connection.php';
+require $_SERVER['DOCUMENT_ROOT'] . '/wordpress/wp-load.php';
 $signup_data = json_decode(file_get_contents('php://input'));
 // $signup_data = json_decode('{"firstname":"Godwin","lastname":"Rathnamary","email":"alfa.godwin.omega@gmail.com","mobile":"9704323232","username":"godwinvc","password":"$$$learning9"}');
 

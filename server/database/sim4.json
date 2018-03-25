@@ -1,0 +1,870 @@
+{
+  "TimeLimit": {
+    "hours": 0,
+    "mins": 0,
+    "secs": 10
+  },
+  "TotalMarks": 184,
+  "minMarks": 50,
+  "Q1": {
+    "questionText": "Cochez les bonnes manières de rassembler de nouvelles idées.",
+    "questionType": "MR",
+    "options": {
+      "Op1": {
+        "text": "Demander conseil à un employé de sa banque",
+        "type": "incorrect",
+        "mark": 0.1
+      },
+      "Op2": {
+        "text": "Analyser les statistiques des faillites",
+        "type": "correct",
+        "mark": 1
+      },
+      "Op3": {
+        "text": "Faire du brainstorming avec un collègue que vous connaissez depuis 20 ans",
+        "type": "correct",
+        "mark": 1
+      },
+      "Op4": {
+        "text": "Copier la concurrence",
+        "type": "correct",
+        "mark": 1
+      },
+      "Op5": {
+        "text": "Visiter des salons étrangers",
+        "type": "correct",
+        "mark": 1
+      },
+      "Op6": {
+        "text": "Naviguer sur le site web d’entreprises étrangères",
+        "type": "correct",
+        "mark": 1
+      },
+      "Op7": {
+        "text": "Participer à des colloques, des sessions d’information",
+        "type": "correct",
+        "mark": 1
+      },
+      "Op8": {
+        "text": "Visiter les clients de vos clients",
+        "type": "correct",
+        "mark": 1
+      },
+      "Op9": {
+        "text": "Visiter des entreprises d’autres secteurs",
+        "type": "correct",
+        "mark": 1
+      },
+      "Op10": {
+        "text": "Devenir client de son concurrent",
+        "type": "correct",
+        "mark": 1
+      }
+    }
+  },
+  "Q2": {
+    "questionText": "Qu’est ce qui peut DAVANTAGE nous faire réussir dans notre entreprise ?",
+    "questionType": "MC",
+    "options": {
+      "Op1": {
+        "text": "On a un moral fragile mais qui ne tente rien n’a rien.",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op2": {
+        "text": "On a analysé le marché de fond en comble et on connait exactement notre position.",
+        "type": "correct",
+        "mark": 4
+      },
+      "Op3": {
+        "text": "On copie précisément l’offre de la concurrence, après tout, si ça marche pour eux, ça marchera pour nous !",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op4": {
+        "text": "On innove pour mettre sur le marché un produit exceptionnel. Même si les clients ne sont pas convaincus de notre offre, ils le deviendront tôt ou tard.",
+        "type": "incorrect",
+        "mark": 1
+      }
+    }
+  },
+  "Q3": {
+    "questionText": "Quel capital est le capital souscrit d’une SPRLU ?",
+    "questionType": "MC",
+    "options": {
+      "Op1": {
+        "text": "6,200 €",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op2": {
+        "text": "12,400 €",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op3": {
+        "text": "3.100€ par personne",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op4": {
+        "text": "18,550 €",
+        "type": "correct",
+        "mark": 4
+      }
+    }
+  },
+  "Q4": {
+    "questionText": "Un indépendant achète  à son fournisseur une armoire 400€ HTVA. Il fixe un prix de vente de sorte de faire 40% de marge sur cette armoire. Quel est le prix de vente TVAC ?",
+    "questionType": "MC",
+    "options": {
+      "Op1": {
+        "text": "566.70 €",
+        "type": "incorrect",
+        "mark": 2.5
+      },
+      "Op2": {
+        "text": "576.70 €",
+        "type": "incorrect",
+        "mark": 2.5
+      },
+      "Op3": {
+        "text": "667.60 €",
+        "type": "incorrect",
+        "mark": 2.5
+      },
+      "Op4": {
+        "text": "677.60 €",
+        "type": "correct",
+        "mark": 10
+      }
+    }
+  },
+  "Q5": {
+    "questionText": "Le chiffre d’affaires d’une entreprise est de 20.000€ TVA comprise (21%). La marge bénéficiaire moyenne est de 39,50% sur le prix de vente hors TVA. Calculez le bénéfice de l’entreprise.",
+    "questionType": "MC",
+    "options": {
+      "Op1": {
+        "text": "5,643.34 €",
+        "type": "incorrect",
+        "mark": 2.5
+      },
+      "Op2": {
+        "text": "6,528.93 €",
+        "type": "correct",
+        "mark": 10
+      },
+      "Op3": {
+        "text": "6,784.24 €",
+        "type": "incorrect",
+        "mark": 2.5
+      },
+      "Op4": {
+        "text": "7,345.46 €",
+        "type": "incorrect",
+        "mark": 2.5
+      }
+    }
+  },
+  "Q6": {
+    "questionText": "J’achète des marchandises 10.000€ et mes frais s’élèvent à 5 % du prix d’achat. Je les revends en gagnant 25 % du prix de vente hors TVA. Quel est le bénéfice ?",
+    "questionType": "MC",
+    "options": {
+      "Op1": {
+        "text": "2,625 €",
+        "type": "correct",
+        "mark": 10
+      },
+      "Op2": {
+        "text": "3,250 €",
+        "type": "incorrect",
+        "mark": 2.5
+      },
+      "Op3": {
+        "text": "3,500 €",
+        "type": "incorrect",
+        "mark": 2.5
+      },
+      "Op4": {
+        "text": "4,000 €",
+        "type": "incorrect",
+        "mark": 2.5
+      }
+    }
+  },
+  "Q7": {
+    "questionText": "Quelles formalités doivent être remplies afin de créer une entreprise individuelle (dans le cadre d’une profession règlementée) ?",
+    "questionType": "MR",
+    "options": {
+      "Op1": {
+        "text": "Embaucher du personnel",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op2": {
+        "text": "Ouvrir un compte bancaire",
+        "type": "correct",
+        "mark": 1.6
+      },
+      "Op3": {
+        "text": "Demander un numéro d’entreprise auprès d’un guichet d’entreprise agréé",
+        "type": "correct",
+        "mark": 1.6
+      },
+      "Op4": {
+        "text": "Passer devant le notaire pour rédiger les statuts",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op5": {
+        "text": "S’affilier à une caisse d’assurance sociale",
+        "type": "correct",
+        "mark": 1.6
+      },
+      "Op6": {
+        "text": "Choisir le type d’entreprise (unipersonnelle ou société)",
+        "type": "correct",
+        "mark": 1.6
+      },
+      "Op7": {
+        "text": "S’inscrire auprès d’une mutuelle",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op8": {
+        "text": "Fournir une copie du certificat de mariage, si je suis marié(e)",
+        "type": "correct",
+        "mark": 1.6
+      }
+    }
+  },
+  "Q8": {
+    "questionText": "On achète une machine 30000€ et on l'amorti de façon dégressive en 4 ans. Quel est la valeur résiduelle dans l'inventaire après 2 ans ?",
+    "questionType": "MC",
+    "options": {
+      "Op1": {
+        "text": "18,000.00",
+        "type": "incorrect",
+        "mark": 2.5
+      },
+      "Op2": {
+        "text": "9,000.00",
+        "type": "correct",
+        "mark": 10
+      },
+      "Op3": {
+        "text": "15,000.00",
+        "type": "incorrect",
+        "mark": 2.5
+      },
+      "Op4": {
+        "text": "1,500.00",
+        "type": "incorrect",
+        "mark": 2.5
+      }
+    }
+  },
+  "Q9": {
+    "questionText": "En Janvier, on achète des matières premières pour 10000€ HTVA (21%) et une machine pour 5000€ HTVA (12%). Le même mois, on vend au client 1 pour 25000€ HTVA (6%) et au client 2 pour 12100€ TVAC (21%). Calculez le solde TVA du mois de Janvier !",
+    "questionType": "MC",
+    "options": {
+      "Op1": {
+        "text": "On doit 3600€ à la TVA",
+        "type": "incorrect",
+        "mark": 2.5
+      },
+      "Op2": {
+        "text": "On doit 900€ à la TVA",
+        "type": "correct",
+        "mark": 10
+      },
+      "Op3": {
+        "text": "La TVA nous doit 900€",
+        "type": "incorrect",
+        "mark": 2.5
+      },
+      "Op4": {
+        "text": "La TVA nous doit 3150€",
+        "type": "incorrect",
+        "mark": 2.5
+      }
+    }
+  },
+  "Q10": {
+    "questionText": "Vrai ou faux ?",
+    "questionType": "TF",
+    "options": {
+      "Op1": {
+        "text": "Le type d’innovation dépend du secteur dans lequel votre activité se situe",
+        "type": {
+          "correct": {
+            "op": "true",
+            "mark": 1
+          },
+          "incorrect": {
+            "op": "false",
+            "mark": 0.33
+          }
+        }
+      },
+      "Op2": {
+        "text": "Si l’entreprise marche bien, l’innovation n’est pas une priorité",
+        "type": {
+          "correct": {
+            "op": "false",
+            "mark": 1
+          },
+          "incorrect": {
+            "op": "true",
+            "mark": 0.33
+          }
+        }
+      },
+      "Op3": {
+        "text": "L‘innovation est seulement importante pour de grandes entreprises",
+        "type": {
+          "correct": {
+            "op": "false",
+            "mark": 1
+          },
+          "incorrect": {
+            "op": "true",
+            "mark": 0.33
+          }
+        }
+      }
+    }
+  },
+  "Q11": {
+    "questionText": "Dans une entreprise, dans quel délai doit-on déclarer un nouveau travailleur ?",
+    "questionType": "MC",
+    "options": {
+      "Op1": {
+        "text": "La veille de son premier jour de travail",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op2": {
+        "text": "Dès qu’il commence à travailler",
+        "type": "correct",
+        "mark": 4
+      },
+      "Op3": {
+        "text": "Une semaine avant le début de son contrat",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op4": {
+        "text": "Durant la première semaine de son contrat",
+        "type": "incorrect",
+        "mark": 1
+      }
+    }
+  },
+  "Q12": {
+    "questionText": "Une société transforme des matières premières pour 30.000€. Elle dépense 24.000€ en frais variable et 6.000€ en frais fixe. Quel est la valeur des frais fixes par rapport aux frais variables ?",
+    "questionType": "MC",
+    "options": {
+      "Op1": {
+        "text": "20%",
+        "type": "incorrect",
+        "mark": 2
+      },
+      "Op2": {
+        "text": "25%",
+        "type": "correct",
+        "mark": 8
+      },
+      "Op3": {
+        "text": "75%",
+        "type": "incorrect",
+        "mark": 2
+      },
+      "Op4": {
+        "text": "80%",
+        "type": "incorrect",
+        "mark": 2
+      }
+    }
+  },
+  "Q13": {
+    "questionText": "J’achète un article 1.600€ HTVA et je me le fais livrer au bureau pour 100€. Je veux revendre cet article. Quel sera mon prix de vente HTVA si je souhaite faire une marge bénéficiaire de 30 % ?",
+    "questionType": "MC",
+    "options": {
+      "Op1": {
+        "text": "2,120 €",
+        "type": "incorrect",
+        "mark": 2
+      },
+      "Op2": {
+        "text": "2,210 €",
+        "type": "correct",
+        "mark": 8
+      },
+      "Op3": {
+        "text": "2,220 €",
+        "type": "incorrect",
+        "mark": 2
+      },
+      "Op4": {
+        "text": "2,310 €",
+        "type": "incorrect",
+        "mark": 2
+      }
+    }
+  },
+  "Q14": {
+    "questionText": "Par quelles choses le succès de votre entreprise est-il garanti ?",
+    "questionType": "MR",
+    "options": {
+      "Op1": {
+        "text": "Adopter une idée qui a déjà eu du succès à l’étranger.",
+        "type": "correct",
+        "mark": 2
+      },
+      "Op2": {
+        "text": "Les choses qui ne demandent pas beaucoup temps et d’argent ont toujours du succès.",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op3": {
+        "text": "Démarrer une entreprise avec votre meilleur ami.",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op4": {
+        "text": "De bonnes connaissances professionnelles avec une idée originale.",
+        "type": "correct",
+        "mark": 2
+      }
+    }
+  },
+  "Q15": {
+    "questionText": "Que retrouve-t-on dans un plan d’affaires :",
+    "questionType": "MR",
+    "options": {
+      "Op1": {
+        "text": "La définition du projet",
+        "type": "correct",
+        "mark": 2
+      },
+      "Op2": {
+        "text": "Les chiffres d’affaires prévus pour les prochaines années",
+        "type": "correct",
+        "mark": 2
+      },
+      "Op3": {
+        "text": "La stratégie commerciale que nous mettrons en place",
+        "type": "correct",
+        "mark": 2
+      },
+      "Op4": {
+        "text": "Le numéro de plaque de la voiture de société",
+        "type": "incorrect",
+        "mark": 1.5
+      }
+    }
+  },
+  "Q16": {
+    "questionText": "L’assujetti au statut social des travailleurs indépendants doit payer des cotisations sociales. Quelle est la fréquence de ces payements ?",
+    "questionType": "MC",
+    "options": {
+      "Op1": {
+        "text": "Tous les mois",
+        "type": "incorrect",
+        "mark": 0.5
+      },
+      "Op2": {
+        "text": "Tous les 3 mois",
+        "type": "correct",
+        "mark": 2
+      },
+      "Op3": {
+        "text": "Une fois par an à partir de la quatrième année",
+        "type": "incorrect",
+        "mark": 0.5
+      },
+      "Op4": {
+        "text": "Tous les 20 du mois suivant",
+        "type": "incorrect",
+        "mark": 0.5
+      }
+    }
+  },
+  "Q17": {
+    "questionText": "Une entreprise vend 10.000 articles à 80€/pièce HTVA. Chaque article est acheté 30€ HTVA et il n'y a pas d'autres frais variables dans cette entreprise. Les frais fixes sont de 200000€. Combien faut-il vendre d'articles pour atteindre le seuil de rentabilité ?",
+    "questionType": "MC",
+    "options": {
+      "Op1": {
+        "text": "3000 pièces",
+        "type": "incorrect",
+        "mark": 2.5
+      },
+      "Op2": {
+        "text": "4000 pièces",
+        "type": "correct",
+        "mark": 10
+      },
+      "Op3": {
+        "text": "5000 Pièces",
+        "type": "incorrect",
+        "mark": 2.5
+      },
+      "Op4": {
+        "text": "6000 pièces",
+        "type": "incorrect",
+        "mark": 2.5
+      }
+    }
+  },
+  "Q18": {
+    "questionText": "Dans un compte de résultat, on a indiqué en 2006 un amortissement de 1.000€. Cela veut dire que :",
+    "questionType": "MC",
+    "options": {
+      "Op1": {
+        "text": "On a réduit le résultat d’exploitation de 1.000€ dans le compte de résultat",
+        "type": "correct",
+        "mark": 8
+      },
+      "Op2": {
+        "text": "On a fait un investissement de 1.000€ en 2006",
+        "type": "incorrect",
+        "mark": 2
+      },
+      "Op3": {
+        "text": "Le passif du bilan comptable sera réduit de 1.000€ en 2006",
+        "type": "incorrect",
+        "mark": 2
+      },
+      "Op4": {
+        "text": "L’actif du bilan comptable sera augmenté de 1.000€ en 2006",
+        "type": "incorrect",
+        "mark": 2
+      }
+    }
+  },
+  "Q19": {
+    "questionText": "Lors d’une transaction par carte de crédit, l’argent est soustrait de votre compte :",
+    "questionType": "MC",
+    "options": {
+      "Op1": {
+        "text": "Immédiatement",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op2": {
+        "text": "Le lendemain",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op3": {
+        "text": "A la fin de la semaine",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op4": {
+        "text": "A la fin du mois",
+        "type": "correct",
+        "mark": 4
+      }
+    }
+  },
+  "Q20": {
+    "questionText": "Que faut-il pour garantir la réussite de son entreprise ?",
+    "questionType": "MR",
+    "options": {
+      "Op1": {
+        "text": "Ne pas avoir peur d’être indépendant",
+        "type": "correct",
+        "mark": 3
+      },
+      "Op2": {
+        "text": "Ne pas vouloir prendre de risques",
+        "type": "incorrect",
+        "mark": 2
+      },
+      "Op3": {
+        "text": "Avoir une passion pour son métier",
+        "type": "correct",
+        "mark": 3
+      }
+    }
+  },
+  "Q21": {
+    "questionText": "Quel document sert à définir le projet de votre entreprise ?",
+    "questionType": "MC",
+    "options": {
+      "Op1": {
+        "text": "Le livre de recettes",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op2": {
+        "text": "Le journal des achats",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op3": {
+        "text": "Le business plan",
+        "type": "correct",
+        "mark": 3
+      }
+    }
+  },
+  "Q22": {
+    "questionText": "Quel organe est compétent pour traiter un petit litige commercial de maximum 1860€ entre client et commerçant ?",
+    "questionType": "MC",
+    "options": {
+      "Op1": {
+        "text": "Le tribunal civil",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op2": {
+        "text": "Le tribunal commercial",
+        "type": "correct",
+        "mark": 4
+      },
+      "Op3": {
+        "text": "Le juge de paix",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op4": {
+        "text": "Le greffe du tribunal de commerce",
+        "type": "incorrect",
+        "mark": 1
+      }
+    }
+  },
+  "Q23": {
+    "questionText": "Vrai ou faux  ?",
+    "questionType": "MC",
+    "options": {
+      "Op1": {
+        "text": "Les incapables juridiquement peuvent être des personnes mineures mais aussi des personnes majeures dans certaines circonstances.",
+        "type": "correct",
+        "mark": null
+      },
+      "Op2": {
+        "text": "A partir de 15 ans, l’enfant mineur peut être émancipé par jugement du tribunal de la jeunesse.",
+        "type": "correct",
+        "mark": null
+      },
+      "Op3": {
+        "text": "Il est toujours interdit de vendre à perte.",
+        "type": "correct",
+        "mark": null
+      },
+      "Op4": {
+        "text": "La responsabilité pénale est l’obligation de réparer le préjudice que l’on a causé à autrui.",
+        "type": "correct",
+        "mark": null
+      }
+    }
+  },
+  "Q24": {
+    "questionText": "Le mode de paiement par lequel le titulaire du compte demande à sa banque de payer automatiquement les\nfactures d’un fournisseur, lorsque ce dernier les lui présente, s’appelle :",
+    "questionType": "MC",
+    "options": {
+      "Op1": {
+        "text": "Le virement",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op2": {
+        "text": "La domiciliation",
+        "type": "correct",
+        "mark": 4
+      },
+      "Op3": {
+        "text": "L'ordre permanent",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op4": {
+        "text": "Le chèque",
+        "type": "incorrect",
+        "mark": 1
+      }
+    }
+  },
+  "Q25": {
+    "questionText": "J'achète des matériaux pour 3000€. J'effectue 10h de travail à 50€ de l'heure. Les frais indirectes de l'entreprise sont de 125000€ répartis au prorata de la charge salariale directe de 1000000€. Je fais une marge de 20% du prix de vente. Quel est le prix de vente HTVA ?",
+    "questionType": "MC",
+    "options": {
+      "Op1": {
+        "text": "3,475.00",
+        "type": "incorrect",
+        "mark": 2.5
+      },
+      "Op2": {
+        "text": "3,562.50",
+        "type": "correct",
+        "mark": 10
+      },
+      "Op3": {
+        "text": "4,275.00",
+        "type": "incorrect",
+        "mark": 2.5
+      },
+      "Op4": {
+        "text": "4,453.13",
+        "type": "incorrect",
+        "mark": 2.5
+      }
+    }
+  },
+  "Q26": {
+    "questionText": "Quelle est la durée minimale d’un bail commercial ?",
+    "questionType": "MC",
+    "options": {
+      "Op1": {
+        "text": "6 ans",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op2": {
+        "text": "9 ans",
+        "type": "correct",
+        "mark": 3
+      }
+    }
+  },
+  "Q27": {
+    "questionText": "Quel est le meilleur régime matrimonial pour un indépendant en personne physique ?",
+    "questionType": "MC",
+    "options": {
+      "Op1": {
+        "text": "Le régime légal",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op2": {
+        "text": "Le régime de séparation de biens",
+        "type": "correct",
+        "mark": 4
+      },
+      "Op3": {
+        "text": "Le régime de communauté universelle",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op4": {
+        "text": "La cohabitation légale",
+        "type": "incorrect",
+        "mark": 1
+      }
+    }
+  },
+  "Q28": {
+    "questionText": "En Janvier, on achète des matières premières pour 12100€ TVAC (21%) et une machine pour 30000€ HTVA (21%). Le même mois, on vend au client 1 pour 40000€ HTVA (21%) et au client 2 pour 15000€ HTVA (6%). Calculez le solde TVA du mois de Janvier.",
+    "questionType": "MC",
+    "options": {
+      "Op1": {
+        "text": "On doit 8400€ à la TVA",
+        "type": "incorrect",
+        "mark": 2.5
+      },
+      "Op2": {
+        "text": "On doit 900€ à la TVA",
+        "type": "correct",
+        "mark": 10
+      },
+      "Op3": {
+        "text": "La TVA nous doit 900€",
+        "type": "incorrect",
+        "mark": 2.5
+      },
+      "Op4": {
+        "text": "La TVA nous doit 8400€",
+        "type": "incorrect",
+        "mark": 2.5
+      }
+    }
+  },
+  "Q29": {
+    "questionText": "Vrai ou faux ?",
+    "questionType": "TF",
+    "options": {
+      "Op1": {
+        "text": "Lors d'un paiement par carte de crédit, le compte du débiteur est directement débité.",
+        "type": {
+          "correct": {
+            "op": "false",
+            "mark": 1
+          },
+          "incorrect": {
+            "op": "true",
+            "mark": 0.25
+          }
+        }
+      },
+      "Op2": {
+        "text": "Lors d’une vente à un particulier, il n’est en aucun cas nécessaire d'établir une facture.",
+        "type": {
+          "correct": {
+            "op": "false",
+            "mark": 1
+          },
+          "incorrect": {
+            "op": "true",
+            "mark": 0.25
+          }
+        }
+      },
+      "Op3": {
+        "text": "La tenue d’une comptabilité analytique n'est pas une obligation légale",
+        "type": {
+          "correct": {
+            "op": "true",
+            "mark": 1
+          },
+          "incorrect": {
+            "op": "false",
+            "mark": 0.25
+          }
+        }
+      },
+      "Op4": {
+        "text": "La TVA est une taxe manipulée par les intermédiaires de fabrication et de vente mais totalement à charge du consommateur final",
+        "type": {
+          "correct": {
+            "op": "true",
+            "mark": 1
+          },
+          "incorrect": {
+            "op": "false",
+            "mark": 0.25
+          }
+        }
+      }
+    }
+  },
+  "Q30": {
+    "questionText": "Lors d’une transaction par carte de débit, l’argent est soustrait de votre compte :",
+    "questionType": "MC",
+    "options": {
+      "Op1": {
+        "text": "Immédiatement",
+        "type": "correct",
+        "mark": 4
+      },
+      "Op2": {
+        "text": "Le lendemain",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op3": {
+        "text": "A la fin de la semaine",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op4": {
+        "text": "A la fin du mois",
+        "type": "incorrect",
+        "mark": 1
+      }
+    }
+  }
+}
