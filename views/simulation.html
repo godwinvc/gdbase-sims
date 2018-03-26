@@ -140,22 +140,24 @@
                     <h4 ng-show="((score / simData.TotalMarks) * 100) < simData.minMarks" style="width:95%">Désolé, vous avez raté la simulation. Pour vous améliorer, profitez de nos 100 questions d'examen corrigées
                         en vidéo ou inscrivez-vous à une de nos formations.
                     </h4>
-                    <!-- <button class="btn btn-default" ng-click="restSimulation()">Retake this simulation</button> -->
                 </div>
             </div>
         </div>
         <div class="card-footer">
             <div class="container-fluid">
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 pull-right" ng-show="((score / simData.TotalMarks) * 100) < simData.minMarks"
-                    style="padding-top:15px">
+                <div class="col-xs-12 col-sm-12 pull-right" ng-show="((score / simData.TotalMarks) * 100) < simData.minMarks"
+                    style="padding-top:15px" ng-class="{'col-md-4 col-lg-4': currentSimulationNum > 1,'col-md-6 col-lg-6': currentSimulationNum == 1}">
                     <button class="btn btn-primary btn-block" ng-click="goBackToSimSelect()">
                         M"inscrire à une bonne formation
                     </button>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 pull-right" style="padding-top:15px">
+                <div class="col-xs-12 col-sm-12 pull-right" style="padding-top:15px" ng-class="{'col-md-4 col-lg-4': currentSimulationNum > 1,'col-md-6 col-lg-6': currentSimulationNum == 1}">
                     <button class="btn btn-primary btn-block" ng-click="goBackToSimSelect()">
                         Avoir les 100 questions d'examen
                     </button>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 pull-right" style="padding-top:15px" ng-show="currentSimulationNum > 1">
+                    <button class="btn btn-primary btn-block" ng-click="restSimulation()">Reprise de cette simulation</button>
                 </div>
             </div>
         </div>

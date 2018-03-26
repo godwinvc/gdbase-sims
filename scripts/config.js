@@ -25,12 +25,9 @@ var runFunction = function($rootScope, $transitions, authService, $state) {
   // Angular Stuff
   $transitions.onBefore({}, function(trans) {
     if (trans.$to().name != "login" && trans.$to().name != "signup") {
-      // $('#logoutBtn').show();
-      // $('#logoutBtn').css('display', 'inline-block');
-      // $('section#content').css({
-      //   'height': '100%',
-      //   'min-height': '700px'
-      // });
+      $('section#content').css({
+        'height': '100%'
+      });
 
       if (localStorage.getItem("gdbaseToken") != null) {
         authService
@@ -49,6 +46,11 @@ var runFunction = function($rootScope, $transitions, authService, $state) {
         console.log("Token missing");
         $state.go("login");
       }
+    }else{
+      // change section height if signup or login page
+      $('section#content').css({
+        'height': '700px'
+      });
     }
     if (trans.$to().name == "login") {
       if (localStorage.getItem("gdbaseToken") != null) {

@@ -1,11 +1,8 @@
-.tf-group hr {
-  margin: 8px 0px;
-  text-align: center;
-  border: 1px solid #eee;
+.tf-group hr{
+    margin: 8px 0px;
+    text-align: center;
+    border: 1px solid #eee;
 }
-.question-li {
-  margin-left: 30px;
-  margin-top: 5px;
-  font-size: large;
-  line-height: 162%;
+.question-li{
+    margin-left: 30px; margin-top: 5px; font-size: large; line-height: 162%;
 }
