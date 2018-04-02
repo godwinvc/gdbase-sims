@@ -1,6 +1,6 @@
 <?php
 include './connection.php';
-require $_SERVER['DOCUMENT_ROOT'] . '/wordpress/wp-load.php';
+include('./import_wordpress.php');
 $login_data = json_decode(file_get_contents('php://input'));
 // $login_data = json_decode('{"username":"godwinvc","password":"$$$learning9"}');
 $username = $login_data->username;

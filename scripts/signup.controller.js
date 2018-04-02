@@ -20,7 +20,6 @@ angular.module("gdbaseSims")
       $http.post(baseURL + "./server/signup.php", signupData)
         .then(function (response) {
           if (response.data.signUp) {
-            console.log(response.data);
             $http.post(baseURL + "./server/send-activation-mail.php", {
                 "firstname": $scope.firstName,
                 "email": $scope.email,
@@ -29,9 +28,13 @@ angular.module("gdbaseSims")
               .then(function (res) {
                 if (res.data == "MailDelivered") {
                   localStorage.setItem("gdbaseToken", response.data.token.trim());
-                  $state.go('sims.select', {
-                    user: $scope.username
-                  });
+                  if (location.pathname == "/client/") {
+                    window.open('https://www.gdbase.be/client/','_self');
+                  } else {
+                    $state.go('sims.select', {
+                      user: $scope.username
+                    });
+                  }
                 } else {
                   console.log(res.data);
                   alert("Failed to Create Account! Please try again");

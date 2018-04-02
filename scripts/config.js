@@ -6,7 +6,7 @@ window.lout = function() {
 };
 var runFunction = function($rootScope, $transitions, authService, $state) {
   // jQuery Stuff
-  // var header = $('header').html();
+  // var header = $('header').html?v=1.0();
   // $('header').remove();
   // $('#main').prepend('<header class="fusion-header-wrapper" style="height: 134px;"> ' + header + ' </header>');
   // var menuBtn = $('[aria-label="Toggle mobile menu"]');
@@ -92,27 +92,27 @@ angular
       $stateProvider
         .state("login", {
           url: "/login",
-          templateUrl: baseURL + "views/login.html",
+          templateUrl: baseURL + "views/login.html?v=1.0",
           controller: "loginController"
         })
         .state("signup", {
           url: "/signup",
-          templateUrl: baseURL + "views/signup.html",
+          templateUrl: baseURL + "views/signup.html?v=1.0",
           controller: "signupController"
         })
         .state("sims", {
           url: "/:user",
-          templateUrl: baseURL + "views/sims.html",
+          templateUrl: baseURL + "views/sims.html?v=1.0",
           controller: "simsController"
         })
         .state("sims.select", {
           url: "/simulations",
-          templateUrl: baseURL + "views/sim_select.html",
+          templateUrl: baseURL + "views/sim_select.html?v=1.0",
           controller: "simSelectController"
         })
         .state("sims.simulation", {
           url: "/:currentSimulation",
-          templateUrl: baseURL + "views/simulation.html",
+          templateUrl: baseURL + "views/simulation.html?v=1.0",
           controller: "simulationController",
           resolve: {
             checkSims: [

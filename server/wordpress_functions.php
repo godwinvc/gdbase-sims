@@ -1,5 +1,5 @@
 <?php
-require $_SERVER['DOCUMENT_ROOT'] . '/wordpress/wp-load.php';
+include('./import_wordpress.php');
 $username = 'godwinvc2';
 $password = 'user@1234';
 $user_email = 'godwin.k01@elearningserv.com';

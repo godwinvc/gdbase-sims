@@ -214,7 +214,6 @@ angular.module("gdbaseSims")
     }
 
     function StartTimer() {
-      console.log($scope.simData.TimeLimit);
       var date = new Date();
       var pushEvery = 2;
       //var _countDownDate = new Date(date.setTime(date.getTime() + ($scope.simData.TimeLimit.hours * 60 * 60 * 1000) + ($scope.simData.TimeLimit.mins * 60 * 1000) + ($scope.simData.TimeLimit.secs * 1000))).toString();

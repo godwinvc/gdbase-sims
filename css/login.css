@@ -6,6 +6,7 @@ main.signup {
   width: 100%;
   min-height: 750px;
   padding-top: 5%;
+  margin-top: 100px;
   background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
 }
 
@@ -140,4 +141,15 @@ main.signup {
     border-radius: 30px;
     font-size: 16px;
   }
+}
+.forgot-pass{
+  background-color: transparent;
+  outline: none;
+  color: #ff6000;
+  cursor: pointer;
+  border: none;
+}
+
+.forgot-pass:hover{
+  text-decoration: underline;
 }

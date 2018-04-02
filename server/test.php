@@ -1,11 +1,10 @@
 <?php
-
     include("./connection.php");
+    $password = 'kingkiller_22';
+    $email = 'godwin@godwinvc.com';
+    $query = "UPDATE `students` SET `password` = '$password' WHERE `email` = '$email'";
 
-    $query = "INSERT INTO `students` (`firstname`, `lastname`, `email`, `mobile`, `username`, `password`, `token`, `simulation`) VALUES
-    ('firstname', 'lastname', 'email', 'mobile', 'username', 'password', 'token', 'simulation');";
-
-    function execute(PDO $conn, $sql) {
+    function execute_test(PDO $conn, $sql) {
         $affected = $conn->exec($sql);
         if ($affected === false) {
             $err = $conn->errorInfo();
@@ -17,5 +16,5 @@
             echo "Insterted Successfully";
         }
     }
-    print_r (execute($db, $query));
+    print_r (execute_test($db, $query));
 ?>

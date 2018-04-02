@@ -48,16 +48,97 @@
                             <br ng-show="!incorrectLogin">
                             <br ng-show="!incorrectLogin">
                             <button type="submit" class="btn btn-lg btn-primary submit" ng-click="loginHandler()">S'identifier</button>
-                            <p style="margin-top:25px;">
-                                <a class="link">Mot de passe oublié?</a>
-                                <br>
-                                <span class="login-txt">
-                                    <a ui-sref="signup">Créer un nouveau compte</a>
-                                </span>
-                            </p>
                         </div>
-
                     </form>
+                    <p style="margin-top:25px; text-align:center;">
+                        <button class="forgot-pass" ng-click="forgotPassword()">Mot de passe oublié?</button>
+                        <br>
+                        <span class="login-txt">
+                            <a ui-sref="signup">Créer un nouveau compte</a>
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Forgot password modal -->
+    <div id="forgotPassModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <!-- stage 1-->
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title text-center text-primary">Mot de passe oublié?</h4>
+                </div>
+                <div class="modal-body text-center">
+                    <div style="width:95%;" ng-show="passResetStage <= 3">
+                        <p>Veuillez entrer votre adresse email enregistrée</p>
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="passEmail" placeholder="Adresse e-mail" ng-model="passEmail" ng-blur="checkPassEmail()">
+
+                            <span class="text-danger" ng-show="!passValidEmail">
+                                <i class="fa fa-lg ion-ios-information"></i>
+                                S'il vous plaît, mettez une adresse email valide.
+                            </span>
+
+                            <span class="text-danger" ng-show="isPassUniqueEmail == '1'">
+                                <i class="fa fa-lg ion-ios-information"></i>
+                                Désolé, nous ne reconnaissons pas cette adresse e-mail.
+                            </span>
+                        </div>
+                    </div>
+                    <!-- Stage 2-->
+                    <div style="width:95%;" ng-show="passResetStage == 4">
+                        <p>Nous venons de vous envoyer le OTP</p>
+                        <small>OPT expire dans 0{{passRestTimer.mins}}:{{passRestTimer.secs
+                            < 9? '0': null}}{{passRestTimer.secs}}</small>
+                                <div class="form-group" ng-show="OTPState != 'expired'">
+                                    <input type="text" class="form-control" name="passOTP" placeholder="Entrez OTP" ng-model="passOTP">
+                                </div>
+                                <div class="text-center" ng-show="OTPState == 'incorrect'">
+                                    <span class="text-danger">
+                                        <i class="fa fa-lg ion-ios-information"></i>
+                                        Veuillez entrer le bon OTP.
+                                    </span>
+                                </div>
+                                <div ng-show="OTPState == 'expired'">
+                                    <span class="text-danger">
+                                        <i class="fa fa-lg ion-ios-information"></i>
+                                        OPT Expiré. Veuillez fermer cette fenêtre et réessayer.
+                                    </span>
+                                </div>
+                    </div>
+                    <!-- Stage 3-->
+                    <div style="width:95%;" ng-show="passResetStage == 5 || passResetStage == 5.5">
+                        <p>Veuillez entrer votre nouveau mot de passe</p>
+                        <form name="NewPassForm">
+                            <div class="form-group" ng-class="{'has-error': NewPassForm.password.$invalid && NewPassForm.password.$dirty || (validNewPassword > 0 && validNewPassword < 5)}">
+                                <input type="password" class="form-control" name="passOTP" placeholder="Entrez un nouveau mot de passe" ng-model="newPass" ng-change="validateNewPassword()">
+                                <small ng-class="{'text-danger': validNewPassword == 4}" ng-hide="validNewPassword < 4 && validNewPassword > 0">&nbsp;Utilisez au moins une lettre, un chiffre et sept caractères au total</small>
+                                <span ng-show="validNewPassword == 1">
+                                    <small class="text-danger">&nbsp; le mot de passe doit contenir au moins un chiffre</small>
+                                </span>
+                                <span ng-show="validNewPassword == 2">
+                                    <small class="text-danger">&nbsp; Le mot de passe doit contenir au moins un alphabet</small>
+                                </span>
+                                <span ng-show="validNewPassword == 3">
+                                    <small class="text-danger">&nbsp; Le mot de passe doit contenir au moins 6 lettres et chiffres combinés</small>
+                                </span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary btn-block" ng-class="{'btn-success':passResetStage == 6}" ng-click="passwordRest(passResetStage)"
+                        ng-disabled="passResetStage == 0 ||  passResetStage == 1.5 || OTPState == 'expired' || (validNewPassword > 0 && validNewPassword < 5) || passResetStage == 6 || passResetStage == 5.5">
+                        <i class="fa fa-cog fa-spin fa-lg fa-fw" ng-show="passResetStage == 1.5 || passResetStage == 5.5"></i>
+                        {{(passResetStage <= 3 ) ? 'Soumettre': null}}
+                        {{(passResetStage == 1.5) ? 'Envoi de mail...': null}}
+                        {{(passResetStage == 4 ) ? 'Confirmer OTP': null}}
+                        {{(passResetStage == 5 ) ? 'Changer le mot de passe': null}}
+                        {{(passResetStage == 5.5) ? 'Mise à jour du mot de passe ...': null}}
+                        {{(passResetStage == 6 ) ? 'Mot de passe mis à jour': null}} </button>
                 </div>
             </div>
         </div>
