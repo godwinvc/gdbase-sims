@@ -20,7 +20,7 @@ if (execute($db, $query)) {
         } else {
 
             // MailChimp Credintials
-            $apiKey = "4eed3b507b6bd11617c6aaa3311d464d-us15";
+            $apiKey = "c596a7a4971cb36a8028ca24fd280741-us15";
             $listID = "5ab10ced22";
 
             // MailChimp API URL
