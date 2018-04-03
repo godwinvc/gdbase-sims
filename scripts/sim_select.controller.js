@@ -1,8 +1,8 @@
 angular.module("gdbaseSims").controller("simSelectController", [
   "$scope",
   "$state",
-  function($scope, $state) {
-    var checkSimulationAccess = function(currentSimulationNum) {
+  function ($scope, $state) {
+    var checkSimulationAccess = function (currentSimulationNum) {
       if (currentSimulationNum == "simulation1") {
         if ($scope.userSimData.accountActivated) {
           return true;
@@ -21,12 +21,15 @@ angular.module("gdbaseSims").controller("simSelectController", [
         }
       }
     };
-    $scope.openSimulation = function(currentSimulationNum) {
+    $scope.openSimulation = function (currentSimulationNum) {
       if (checkSimulationAccess(currentSimulationNum)) {
         $state.go("sims.simulation", {
           currentSimulation: currentSimulationNum
         });
       }
     };
+    $scope.lockedSims = function (currentSimulationNum) {
+      window.open('https://www.gdbase.be/product/' + currentSimulationNum + '/', '_self');
+    }
   }
 ]);
