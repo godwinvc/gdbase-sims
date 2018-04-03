@@ -21,7 +21,7 @@ if (execute($db, $query)) {
 
             // MailChimp Credintials
             $apiKey = "4eed3b507b6bd11617c6aaa3311d464d-us15";
-            $listID = "ae92e0fcb4";
+            $listID = "5ab10ced22";
 
             // MailChimp API URL
             $memberID = md5(strtolower($signup_data->email));
