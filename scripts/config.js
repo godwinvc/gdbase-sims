@@ -1,10 +1,10 @@
-window.lout = function() {
+window.lout = function () {
   angular
     .element("#simsController")
     .scope()
     .logoutHandler();
 };
-var runFunction = function($rootScope, $transitions, authService, $state) {
+var runFunction = function ($rootScope, $transitions, authService, $state) {
   // jQuery Stuff
   // var header = $('header').html?v=1.1();
   // $('header').remove();
@@ -23,7 +23,7 @@ var runFunction = function($rootScope, $transitions, authService, $state) {
   });*/
 
   // Angular Stuff
-  $transitions.onBefore({}, function(trans) {
+  $transitions.onBefore({}, function (trans) {
     if (trans.$to().name != "login" && trans.$to().name != "signup") {
       $('section#content').css({
         'height': '100%'
@@ -35,7 +35,7 @@ var runFunction = function($rootScope, $transitions, authService, $state) {
             localStorage.getItem("gdbaseToken").split("|")[0],
             localStorage.getItem("gdbaseToken")
           )
-          .then(function(res) {
+          .then(function (res) {
             if (res != "good") {
               console.log("Token mismatch");
               localStorage.removeItem("gdbaseToken");
@@ -46,7 +46,7 @@ var runFunction = function($rootScope, $transitions, authService, $state) {
         console.log("Token missing");
         $state.go("login");
       }
-    }else{
+    } else {
       // change section height if signup or login page
       $('section#content').css({
         'height': '700px'
@@ -59,7 +59,7 @@ var runFunction = function($rootScope, $transitions, authService, $state) {
             localStorage.getItem("gdbaseToken").split("|")[0],
             localStorage.getItem("gdbaseToken")
           )
-          .then(function(res) {
+          .then(function (res) {
             if (res == "good") {
               console.log("Token matched");
               $state.go("sims.select", {
@@ -72,9 +72,9 @@ var runFunction = function($rootScope, $transitions, authService, $state) {
       }
     }
   });
-  $transitions.onSuccess({}, function(trans) {
+  $transitions.onSuccess({}, function (trans) {
     $('[data-toggle="tooltip"]').tooltip();
-    $('[data-toggle="tooltip"]').click(function() {
+    $('[data-toggle="tooltip"]').click(function () {
       $('[data-toggle="tooltip"]').tooltip("hide");
     });
   });
@@ -87,7 +87,7 @@ angular
     "$urlRouterProvider",
     "$locationProvider",
     "$injector",
-    function($stateProvider, $urlRouterProvider, $locationProvider, $injector) {
+    function ($stateProvider, $urlRouterProvider) {
       $urlRouterProvider.otherwise("/login");
       $stateProvider
         .state("login", {
@@ -120,25 +120,25 @@ angular
               "authSimService",
               "$stateParams",
               "$state",
-              function($q, authSimService, $stateParams, $state) {
+              function ($q, authSimService, $stateParams, $state) {
                 var deferred = $q.defer();
                 authSimService
                   .checkSimPayment(
                     $stateParams.user,
                     $stateParams.currentSimulation
                   )
-                  .then(function(res) {
+                  .then(function (res) {
                     if (res) {
                       deferred.resolve();
                     } else {
                       $state.go("sims.select");
-                      deferred.reject("Please pay for "+$stateParams.currentSimulation+" to gain access.");
+                      deferred.reject("Please pay for " + $stateParams.currentSimulation + " to gain access.");
                     }
                   })
-                  .catch(function(err) {
+                  .catch(function (err) {
                     console.error(err);
                   });
-                  return deferred.promise;
+                return deferred.promise;
               }
             ]
           }

@@ -39,7 +39,8 @@
                     </div>
                     <div class="col-sm-2"></div>
                     <div class="col-sm-8">
-                        <button class="btn btn-default btn-block btn-card" ng-class="{'btn-primary':userSimData.simulationMetadata.simulation2.paid}" ng-click="openSimulation('simulation2')">Faire la simulation 2
+                        <button class="btn btn-default btn-block btn-card" ng-class="{'btn-primary':userSimData.simulationMetadata.simulation2.paid}"
+                            ng-click="openSimulation('simulation2')">Acheter la simulation 2
                             <i class="icon ion-ios-arrow-forward pull-right"></i>
                         </button>
                     </div>
@@ -64,7 +65,8 @@
                     </div>
                     <div class="col-sm-2"></div>
                     <div class="col-sm-8">
-                        <button class="btn btn-default btn-block btn-card" ng-class="{'btn-primary':userSimData.simulationMetadata.simulation3.paid}" ng-click="openSimulation('simulation3')">Faire la simulation 3
+                        <button class="btn btn-default btn-block btn-card" ng-class="{'btn-primary':userSimData.simulationMetadata.simulation3.paid}"
+                            ng-click="openSimulation('simulation3')">Acheter la simulation 3
                             <i class="icon ion-ios-arrow-forward pull-right"></i>
                         </button>
                     </div>
@@ -88,7 +90,8 @@
                     </div>
                     <div class="col-sm-2"></div>
                     <div class="col-sm-8">
-                        <button class="btn btn-default btn-block btn-card" ng-class="{'btn-primary':userSimData.simulationMetadata.simulation4.paid}" ng-click="openSimulation('simulation4')">Faire la simulation 4
+                        <button class="btn btn-default btn-block btn-card" ng-class="{'btn-primary':userSimData.simulationMetadata.simulation4.paid}"
+                            ng-click="openSimulation('simulation4')">Acheter la simulation 4
                             <i class="icon ion-ios-arrow-forward pull-right"></i>
                         </button>
                     </div>
@@ -112,7 +115,8 @@
                     </div>
                     <div class="col-sm-2"></div>
                     <div class="col-sm-8">
-                        <button class="btn btn-default btn-block btn-card" ng-class="{'btn-primary':userSimData.simulationMetadata.simulation5.paid}" ng-click="openSimulation('simulation5')">Faire la simulation 5
+                        <button class="btn btn-default btn-block btn-card" ng-class="{'btn-primary':userSimData.simulationMetadata.simulation5.paid}"
+                            ng-click="openSimulation('simulation5')">Acheter la simulation 5
                             <i class="icon ion-ios-arrow-forward pull-right"></i>
                         </button>
                     </div>
@@ -136,7 +140,8 @@
                     </div>
                     <div class="col-sm-2"></div>
                     <div class="col-sm-8">
-                        <button class="btn btn-default btn-block btn-card" ng-class="{'btn-primary':userSimData.simulationMetadata.simulation6.paid}" ng-click="openSimulation('simulation6')">Faire la simulation 6
+                        <button class="btn btn-default btn-block btn-card" ng-class="{'btn-primary':userSimData.simulationMetadata.simulation6.paid}"
+                            ng-click="openSimulation('simulation6')">Acheter la simulation 6
                             <i class="icon ion-ios-arrow-forward pull-right"></i>
                         </button>
                     </div>
@@ -146,6 +151,36 @@
                     <i class="ion-android-lock"></i>
                 </div>
             </div>
+        </div>
+    </div>
+    <!-- products list -->
+
+    <div class="modal fade" id="products" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">{{selectedItem.title}}</h4>
+                </div>
+                <hr class="hr-text1">
+                <div class="modal-body text-center">
+                    <p>Le « thing that the client bought » a été ajouté au panier.</p>
+                </div>
+                <div class="modal-footer">
+                    <div class="container-fluid">
+                        <div class="col-sm-6">
+                            <button type="button" class="btn btn-default btn-block btn-lg" ng-click="continueShopping(selectedItem)"><i
+                                    class="fa fa-lg fa-shopping-cart"></i> Continuer les achats</button>
+                        </div>
+                        <div class="col-sm-6">
+                            <button type="button" class="btn btn-primary btn-block" ng-click="goToCheckout(selectedItem)"><i
+                                    class="fa fa-lg fa-paypal"></i> Payer</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 </main>
