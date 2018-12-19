@@ -72,9 +72,9 @@
     "questionType": "MC",
     "options": {
       "Op1": { "text": "1 €", "type": "incorrect", "mark": 0.5 },
-      "Op2": { "text": "6,200 €", "type": "incorrect", "mark": 0.5 },
-      "Op3": { "text": "18,550 €", "type": "incorrect", "mark": 0.5 },
-      "Op4": { "text": "61,500 €", "type": "correct", "mark": 2 }
+      "Op2": { "text": "6.200 €", "type": "incorrect", "mark": 0.5 },
+      "Op3": { "text": "18.550 €", "type": "incorrect", "mark": 0.5 },
+      "Op4": { "text": "61.500 €", "type": "correct", "mark": 2 }
     }
   },
   "Q5": {
@@ -108,10 +108,10 @@
       "On achète une machine 60000€ et on l'amorti de façon dégressive en 6 ans. Quel est la valeur résiduelle dans l'inventaire après 4 ans ?",
     "questionType": "MC",
     "options": {
-      "Op1": { "text": "20,000.00", "type": "incorrect", "mark": 2.5 },
-      "Op2": { "text": "6,666.66", "type": "correct", "mark": 10 },
-      "Op3": { "text": "16,666.66", "type": "incorrect", "mark": 2.5 },
-      "Op4": { "text": "3,000.00", "type": "incorrect", "mark": 2.5 }
+      "Op1": { "text": "20.000.00", "type": "incorrect", "mark": 2.5 },
+      "Op2": { "text": "6.666.66", "type": "correct", "mark": 10 },
+      "Op3": { "text": "16.666.66", "type": "incorrect", "mark": 2.5 },
+      "Op4": { "text": "3.000.00", "type": "incorrect", "mark": 2.5 }
     }
   },
   "Q8": {
@@ -262,9 +262,9 @@
     "questionType": "MC",
     "options": {
       "Op1": { "text": "1 €", "type": "correct", "mark": 2 },
-      "Op2": { "text": "6,200 €", "type": "incorrect", "mark": 0.5 },
-      "Op3": { "text": "12,400 €", "type": "incorrect", "mark": 0.5 },
-      "Op4": { "text": "18,550 €", "type": "incorrect", "mark": 0.5 }
+      "Op2": { "text": "6.200 €", "type": "incorrect", "mark": 0.5 },
+      "Op3": { "text": "12.400 €", "type": "incorrect", "mark": 0.5 },
+      "Op4": { "text": "18.550 €", "type": "incorrect", "mark": 0.5 }
     }
   },
   "Q16": {
@@ -355,10 +355,10 @@
       "Une entreprise possède des machines pour un montant de 20.000€ et une voiture pour un montant de 10.000€. Elle les a financé en capital propre à la hauteur de 5.000€ et en emprunt bancaire à la hauteur de 25.000€. Quel est la somme de l'actif ?",
     "questionType": "MC",
     "options": {
-      "Op1": { "text": "5,000 €", "type": "incorrect", "mark": 1 },
-      "Op2": { "text": "10,000 €", "type": "incorrect", "mark": 1 },
-      "Op3": { "text": "20,000 €", "type": "incorrect", "mark": 1 },
-      "Op4": { "text": "30,000 €", "type": "correct", "mark": 4 }
+      "Op1": { "text": "5.000 €", "type": "incorrect", "mark": 1 },
+      "Op2": { "text": "10.000 €", "type": "incorrect", "mark": 1 },
+      "Op3": { "text": "20.000 €", "type": "incorrect", "mark": 1 },
+      "Op4": { "text": "30.000 €", "type": "correct", "mark": 4 }
     }
   },
   "Q22": {
@@ -394,10 +394,10 @@
       "En 2017, une entreprise achète des marchandises pour 13000€. Son stock initial est de 3000€ et le stock final est de 5000€. Cette année, les ventes s'élèvent à 30000€ et les frais professionnels sont de 3500€. Quel est le bénéfice net ?",
     "questionType": "MC",
     "options": {
-      "Op1": { "text": "11,000.00", "type": "incorrect", "mark": 2.5 },
-      "Op2": { "text": "15,500.00", "type": "correct", "mark": 10 },
-      "Op3": { "text": "19,000.00", "type": "incorrect", "mark": 2.5 },
-      "Op4": { "text": "21,500.00", "type": "incorrect", "mark": 2.5 }
+      "Op1": { "text": "11.000.00", "type": "incorrect", "mark": 2.5 },
+      "Op2": { "text": "15.500.00", "type": "correct", "mark": 10 },
+      "Op3": { "text": "19.000.00", "type": "incorrect", "mark": 2.5 },
+      "Op4": { "text": "21.500.00", "type": "incorrect", "mark": 2.5 }
     }
   },
   "Q24": {
@@ -455,10 +455,10 @@
       "Dans un village de 15000 habitants et 3 concurrents, il y a un pouvoir d'achat de 20% qui s'écoule vers les communes voisines et un pouvoir d'achat affluant de 25%. Les communes voisines comptent au total 16000 habitants. La consommation moyenne s'élève à 125€. Quelle part de marché vais-je viser dans mon business plan ?",
     "questionType": "MC",
     "options": {
-      "Op1": { "text": "450,000.00", "type": "incorrect", "mark": 2.5 },
-      "Op2": { "text": "500,000.00", "type": "correct", "mark": 10 },
-      "Op3": { "text": "666,666.00", "type": "incorrect", "mark": 2.5 },
-      "Op4": { "text": "2,000,000.00", "type": "incorrect", "mark": 2.5 }
+      "Op1": { "text": "450.000.00", "type": "incorrect", "mark": 2.5 },
+      "Op2": { "text": "500.000.00", "type": "correct", "mark": 10 },
+      "Op3": { "text": "666.666.00", "type": "incorrect", "mark": 2.5 },
+      "Op4": { "text": "2.000.000.00", "type": "incorrect", "mark": 2.5 }
     }
   },
   "Q27": {
@@ -477,10 +477,10 @@
       "Vous achetez une nouvelle Skoda pour 14.000€ TVAC. Le concessionnaire annonce une promotion en déclarant « vous offrir la TVA ». Quel sera le nouveau prix de vente TVA comprise ?",
     "questionType": "MC",
     "options": {
-      "Op1": { "text": "10,340 €", "type": "incorrect", "mark": 2 },
-      "Op2": { "text": "12,540 €", "type": "incorrect", "mark": 2 },
-      "Op3": { "text": "13,280 €", "type": "incorrect", "mark": 2 },
-      "Op4": { "text": "11,570 €", "type": "correct", "mark": 8 }
+      "Op1": { "text": "10.340 €", "type": "incorrect", "mark": 2 },
+      "Op2": { "text": "12.540 €", "type": "incorrect", "mark": 2 },
+      "Op3": { "text": "13.280 €", "type": "incorrect", "mark": 2 },
+      "Op4": { "text": "11.570 €", "type": "correct", "mark": 8 }
     }
   },
   "Q29": {

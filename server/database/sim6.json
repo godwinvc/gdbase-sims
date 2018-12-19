@@ -48,10 +48,10 @@
       "J'achète des matériaux pour 400€. J'effectue 15h de travail à 50€ de l'heure. Les frais indirectes de l'entreprise sont de 10000€ répartis au prorata de la charge salariale directe de 750000€. Je fais une marge de 20% du prix de vente. Quel est le prix de vente HTVA ?",
     "questionType": "MC",
     "options": {
-      "Op1": { "text": "1,160.00", "type": "incorrect", "mark": 2.5 },
-      "Op2": { "text": "1,450.00", "type": "correct", "mark": 10 },
-      "Op3": { "text": "1,750.00", "type": "incorrect", "mark": 2.5 },
-      "Op4": { "text": "1,392.00", "type": "incorrect", "mark": 2.5 }
+      "Op1": { "text": "1.160.00", "type": "incorrect", "mark": 2.5 },
+      "Op2": { "text": "1.450.00", "type": "correct", "mark": 10 },
+      "Op3": { "text": "1.750.00", "type": "incorrect", "mark": 2.5 },
+      "Op4": { "text": "1.392.00", "type": "incorrect", "mark": 2.5 }
     }
   },
   "Q3": {
@@ -72,9 +72,9 @@
     "questionType": "MC",
     "options": {
       "Op1": { "text": "1 €", "type": "incorrect", "mark": 0.5 },
-      "Op2": { "text": "6,200 €", "type": "incorrect", "mark": 0.5 },
-      "Op3": { "text": "12,400 €", "type": "correct", "mark": 2 },
-      "Op4": { "text": "18,550 €", "type": "incorrect", "mark": 0.5 }
+      "Op2": { "text": "6.200 €", "type": "incorrect", "mark": 0.5 },
+      "Op3": { "text": "12.400 €", "type": "correct", "mark": 2 },
+      "Op4": { "text": "18.550 €", "type": "incorrect", "mark": 0.5 }
     }
   },
   "Q5": {
@@ -104,10 +104,10 @@
       "On achète une machine 10000€ et on l'amorti de façon dégressive en 3 ans. Quel est la valeur résiduelle dans l'inventaire après 2 ans ?",
     "questionType": "MC",
     "options": {
-      "Op1": { "text": "2,500.00", "type": "incorrect", "mark": 2.5 },
-      "Op2": { "text": "2,000.00", "type": "correct", "mark": 10 },
-      "Op3": { "text": "3,333.33", "type": "incorrect", "mark": 2.5 },
-      "Op4": { "text": "6,000.00", "type": "incorrect", "mark": 2.5 }
+      "Op1": { "text": "2.500.00", "type": "incorrect", "mark": 2.5 },
+      "Op2": { "text": "2.000.00", "type": "correct", "mark": 10 },
+      "Op3": { "text": "3.333.33", "type": "incorrect", "mark": 2.5 },
+      "Op4": { "text": "6.000.00", "type": "incorrect", "mark": 2.5 }
     }
   },
   "Q8": {
@@ -219,10 +219,10 @@
       "Les informations concernant les prestations de ventes de maquillage de soirée par un institut d’esthétique sont les suivantes :<ul class=\"question-li\"><li>quantité moyenne achetée par client et par an = 1,5 séances</li><li>nombre d’acheteurs (en 2017) = 86 personnes</li><li>prix moyen payé : 25 euros\nDéterminez le chiffre d’affaires en volume et en valeur d’entreprise d’esthétique (en valeur).</li></ul>",
     "questionType": "MC",
     "options": {
-      "Op1": { "text": "2,725 €", "type": "incorrect", "mark": 1.5 },
-      "Op2": { "text": "3,125 €", "type": "incorrect", "mark": 1.5 },
-      "Op3": { "text": "3,225 €", "type": "correct", "mark": 6 },
-      "Op4": { "text": "3,525 €", "type": "incorrect", "mark": 1.5 }
+      "Op1": { "text": "2.725 €", "type": "incorrect", "mark": 1.5 },
+      "Op2": { "text": "3.125 €", "type": "incorrect", "mark": 1.5 },
+      "Op3": { "text": "3.225 €", "type": "correct", "mark": 6 },
+      "Op4": { "text": "3.525 €", "type": "incorrect", "mark": 1.5 }
     }
   },
   "Q13": {
@@ -252,9 +252,9 @@
     "questionType": "MC",
     "options": {
       "Op1": { "text": "1 €", "type": "incorrect", "mark": 0.5 },
-      "Op2": { "text": "6,200 €", "type": "incorrect", "mark": 0.5 },
-      "Op3": { "text": "18,550 €", "type": "correct", "mark": 2 },
-      "Op4": { "text": "61,500 €", "type": "incorrect", "mark": 0.5 }
+      "Op2": { "text": "6.200 €", "type": "incorrect", "mark": 0.5 },
+      "Op3": { "text": "18.550 €", "type": "correct", "mark": 2 },
+      "Op4": { "text": "61.500 €", "type": "incorrect", "mark": 0.5 }
     }
   },
   "Q16": {
@@ -349,10 +349,10 @@
       "Une entre prise possède des machines pour un montant de 15.000€ et une voiture pour un montant de 7.000€. Elle les a financé en capital propre à la hauteur de 4.000€ et en emprunt bancaire à la hauteur de 18.000€. Quel est la somme du passif ?",
     "questionType": "MC",
     "options": {
-      "Op1": { "text": "4,000 €", "type": "incorrect", "mark": 1 },
-      "Op2": { "text": "7,000 €", "type": "incorrect", "mark": 1 },
-      "Op3": { "text": "18,000 €", "type": "incorrect", "mark": 1 },
-      "Op4": { "text": "22,000 €", "type": "correct", "mark": 4 }
+      "Op1": { "text": "4.000 €", "type": "incorrect", "mark": 1 },
+      "Op2": { "text": "7.000 €", "type": "incorrect", "mark": 1 },
+      "Op3": { "text": "18.000 €", "type": "incorrect", "mark": 1 },
+      "Op4": { "text": "22.000 €", "type": "correct", "mark": 4 }
     }
   },
   "Q22": {
@@ -489,7 +489,7 @@
       "Op1": { "text": "15.17%", "type": "incorrect", "mark": 2 },
       "Op2": { "text": "17.36%", "type": "correct", "mark": 8 },
       "Op3": { "text": "21%", "type": "incorrect", "mark": 2 },
-      "Op4": { "text": "4,200 €", "type": "incorrect", "mark": 2 }
+      "Op4": { "text": "4.200 €", "type": "incorrect", "mark": 2 }
     }
   },
   "Q29": {

@@ -93,12 +93,12 @@
     "questionType": "MC",
     "options": {
       "Op1": {
-        "text": "6,200 €",
+        "text": "6.200 €",
         "type": "incorrect",
         "mark": 1
       },
       "Op2": {
-        "text": "12,400 €",
+        "text": "12.400 €",
         "type": "incorrect",
         "mark": 1
       },
@@ -108,7 +108,7 @@
         "mark": 1
       },
       "Op4": {
-        "text": "18,550 €",
+        "text": "18.550 €",
         "type": "correct",
         "mark": 4
       }
@@ -145,22 +145,22 @@
     "questionType": "MC",
     "options": {
       "Op1": {
-        "text": "5,643.34 €",
+        "text": "5.643.34 €",
         "type": "incorrect",
         "mark": 2.5
       },
       "Op2": {
-        "text": "6,528.93 €",
+        "text": "6.528.93 €",
         "type": "correct",
         "mark": 10
       },
       "Op3": {
-        "text": "6,784.24 €",
+        "text": "6.784.24 €",
         "type": "incorrect",
         "mark": 2.5
       },
       "Op4": {
-        "text": "7,345.46 €",
+        "text": "7.345.46 €",
         "type": "incorrect",
         "mark": 2.5
       }
@@ -171,22 +171,22 @@
     "questionType": "MC",
     "options": {
       "Op1": {
-        "text": "2,625 €",
+        "text": "2.625 €",
         "type": "correct",
         "mark": 10
       },
       "Op2": {
-        "text": "3,250 €",
+        "text": "3.250 €",
         "type": "incorrect",
         "mark": 2.5
       },
       "Op3": {
-        "text": "3,500 €",
+        "text": "3.500 €",
         "type": "incorrect",
         "mark": 2.5
       },
       "Op4": {
-        "text": "4,000 €",
+        "text": "4.000 €",
         "type": "incorrect",
         "mark": 2.5
       }
@@ -243,22 +243,22 @@
     "questionType": "MC",
     "options": {
       "Op1": {
-        "text": "18,000.00",
+        "text": "18.000.00",
         "type": "incorrect",
         "mark": 2.5
       },
       "Op2": {
-        "text": "9,000.00",
+        "text": "9.000.00",
         "type": "correct",
         "mark": 10
       },
       "Op3": {
-        "text": "15,000.00",
+        "text": "15.000.00",
         "type": "incorrect",
         "mark": 2.5
       },
       "Op4": {
-        "text": "1,500.00",
+        "text": "1.500.00",
         "type": "incorrect",
         "mark": 2.5
       }
@@ -392,22 +392,22 @@
     "questionType": "MC",
     "options": {
       "Op1": {
-        "text": "2,120 €",
+        "text": "2.120 €",
         "type": "incorrect",
         "mark": 2
       },
       "Op2": {
-        "text": "2,210 €",
+        "text": "2.210 €",
         "type": "correct",
         "mark": 8
       },
       "Op3": {
-        "text": "2,220 €",
+        "text": "2.220 €",
         "type": "incorrect",
         "mark": 2
       },
       "Op4": {
-        "text": "2,310 €",
+        "text": "2.310 €",
         "type": "incorrect",
         "mark": 2
       }
@@ -694,22 +694,22 @@
     "questionType": "MC",
     "options": {
       "Op1": {
-        "text": "3,475.00",
+        "text": "3.475.00",
         "type": "incorrect",
         "mark": 2.5
       },
       "Op2": {
-        "text": "3,562.50",
+        "text": "3.562.50",
         "type": "correct",
         "mark": 10
       },
       "Op3": {
-        "text": "4,275.00",
+        "text": "4.275.00",
         "type": "incorrect",
         "mark": 2.5
       },
       "Op4": {
-        "text": "4,453.13",
+        "text": "4.453.13",
         "type": "incorrect",
         "mark": 2.5
       }
