@@ -40,7 +40,7 @@
                     <div class="col-sm-2"></div>
                     <div class="col-sm-8">
                         <button class="btn btn-default btn-block btn-card" ng-class="{'btn-primary':userSimData.simulationMetadata.simulation2.paid}"
-                            ng-click="openSimulation('simulation2')">Acheter la simulation 2
+                            ng-click="openSimulation('simulation2')">{{!userSimData.simulationMetadata.simulation2.paid? 'Acheter la simulation 2' : 'Faire la simulation 2'}}
                             <i class="icon ion-ios-arrow-forward pull-right"></i>
                         </button>
                     </div>
@@ -66,7 +66,7 @@
                     <div class="col-sm-2"></div>
                     <div class="col-sm-8">
                         <button class="btn btn-default btn-block btn-card" ng-class="{'btn-primary':userSimData.simulationMetadata.simulation3.paid}"
-                            ng-click="openSimulation('simulation3')">Acheter la simulation 3
+                            ng-click="openSimulation('simulation3')">{{!userSimData.simulationMetadata.simulation3.paid? 'Acheter la simulation 3' : 'Faire la simulation 3'}}
                             <i class="icon ion-ios-arrow-forward pull-right"></i>
                         </button>
                     </div>
@@ -91,7 +91,7 @@
                     <div class="col-sm-2"></div>
                     <div class="col-sm-8">
                         <button class="btn btn-default btn-block btn-card" ng-class="{'btn-primary':userSimData.simulationMetadata.simulation4.paid}"
-                            ng-click="openSimulation('simulation4')">Acheter la simulation 4
+                            ng-click="openSimulation('simulation4')">{{!userSimData.simulationMetadata.simulation4.paid? 'Acheter la simulation 4' : 'Faire la simulation 4'}}
                             <i class="icon ion-ios-arrow-forward pull-right"></i>
                         </button>
                     </div>
@@ -116,7 +116,7 @@
                     <div class="col-sm-2"></div>
                     <div class="col-sm-8">
                         <button class="btn btn-default btn-block btn-card" ng-class="{'btn-primary':userSimData.simulationMetadata.simulation5.paid}"
-                            ng-click="openSimulation('simulation5')">Acheter la simulation 5
+                            ng-click="openSimulation('simulation5')">{{!userSimData.simulationMetadata.simulation5.paid? 'Acheter la simulation 5' : 'Faire la simulation 5'}}
                             <i class="icon ion-ios-arrow-forward pull-right"></i>
                         </button>
                     </div>
@@ -141,7 +141,7 @@
                     <div class="col-sm-2"></div>
                     <div class="col-sm-8">
                         <button class="btn btn-default btn-block btn-card" ng-class="{'btn-primary':userSimData.simulationMetadata.simulation6.paid}"
-                            ng-click="openSimulation('simulation6')">Acheter la simulation 6
+                            ng-click="openSimulation('simulation6')">{{!userSimData.simulationMetadata.simulation6.paid? 'Acheter la simulation 6' : 'Faire la simulation 6'}}
                             <i class="icon ion-ios-arrow-forward pull-right"></i>
                         </button>
                     </div>

@@ -90,11 +90,11 @@
                     </div>
                     <!-- Stage 2-->
                     <div style="width:95%;" ng-show="passResetStage == 4">
-                        <p>Nous venons de vous envoyer le OTP</p>
-                        <small>OPT expire dans 0{{passRestTimer.mins}}:{{passRestTimer.secs
+                        <p>Entrez ici le code que nous venons de vous envoyer sur votre adresse email</p>
+                        <small>Le code expire dans 0{{passRestTimer.mins}}:{{passRestTimer.secs
                             < 9? '0': null}}{{passRestTimer.secs}}</small>
                                 <div class="form-group" ng-show="OTPState != 'expired'">
-                                    <input type="text" class="form-control" name="passOTP" placeholder="Entrez OTP" ng-model="passOTP">
+                                    <input type="text" class="form-control" name="passOTP" placeholder="Entrer le code" ng-model="passOTP">
                                 </div>
                                 <div class="text-center" ng-show="OTPState == 'incorrect'">
                                     <span class="text-danger">
@@ -135,7 +135,7 @@
                         <i class="fa fa-cog fa-spin fa-lg fa-fw" ng-show="passResetStage == 1.5 || passResetStage == 5.5"></i>
                         {{(passResetStage <= 3 ) ? 'Soumettre': null}}
                         {{(passResetStage == 1.5) ? 'Envoi de mail...': null}}
-                        {{(passResetStage == 4 ) ? 'Confirmer OTP': null}}
+                        {{(passResetStage == 4 ) ? 'Confirmer': null}}
                         {{(passResetStage == 5 ) ? 'Changer le mot de passe': null}}
                         {{(passResetStage == 5.5) ? 'Mise à jour du mot de passe ...': null}}
                         {{(passResetStage == 6 ) ? 'Mot de passe mis à jour': null}} </button>

@@ -14,7 +14,7 @@
                         <p>Nous vous avons envoyé un email contenant le code d'activation à 
                             <b class="text-primary">{{userData.email}}</b>. Copiez-collez le ici :</p>
                         <div class="form-group" ng-class="{'has-error':activationState == 'invalid','has-success':activationState == 'activated'}">
-                            <input type="text" class="form-control" name="activationCode" placeholder="Activation Code" ng-model="activationCodeEntered">
+                            <input type="text" class="form-control" name="activationCode" placeholder="Tapez ici le code d'activation" ng-model="activationCodeEntered">
 
                             <span class="text-danger" ng-show="activationState == 'invalid'">
                                 <i class="fa fa-lg ion-ios-information"></i> Invalid activation code. Please try again!
@@ -30,8 +30,8 @@
                     <button type="button" class="btn btn-primary btn-block" ng-class="{'btn-success':activationState == 'activated'}" ng-click="activateAccount()"
                         ng-disabled="activationState == 'activated' || activationState == 'activating'">
                         <i class="fa fa-cog fa-spin fa-lg fa-fw" ng-show="activationState == 'activating'"></i>
-                        {{(activationState == 'pending' || activationState == 'invalid')?"Aller à la simulation":null}} {{activationState == 'activating'?"Loading...":null}}
-                        {{activationState == 'activated'?"Account activated":null}}
+                        {{(activationState == 'pending' || activationState == 'invalid')?"Confirmer":null}} {{activationState == 'activating'?"Loading...":null}}
+                        {{activationState == 'activated'?"Compte activé":null}}
                     </button>
                 </div>
             </div>

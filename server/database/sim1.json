@@ -178,23 +178,23 @@
     "questionType": "MC",
     "options": {
       "Op1": {
-        "text": "18.00.000 €",
-        "type": "incorrect",
+        "text": "1.800.000 €",
+        "type": "correct",
         "mark": 1.5
       },
       "Op2": {
-        "text": "1.00.000 €",
+        "text": "100.000 €",
         "type": "correct",
         "mark": 6
       },
       "Op3": {
         "text": "20.000 €",
-        "type": "incorrect",
+        "type": "correct",
         "mark": 1.5
       },
       "Op4": {
-        "text": "2.50.000 €",
-        "type": "incorrect",
+        "text": "150.000 €",
+        "type": "correct",
         "mark": 1.5
       }
     }
