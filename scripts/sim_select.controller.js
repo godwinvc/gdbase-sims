@@ -9,7 +9,7 @@ angular.module("gdbaseSims").controller("simSelectController", [
       },
       simulation3:{
         title: 'Simulation 3',
-        productId: '965'
+        productId: '695'
       },
       simulation4:{
         title: 'Simulation 4',
