@@ -1,0 +1,686 @@
+{
+  "TimeLimit": { "hours": 1, "mins": 30, "secs": 0 },
+  "TotalMarks": 166,
+  "minMarks": 50,
+  "Q1": {
+    "questionText": "Vrai ou faux ?",
+    "questionType": "TF",
+    "options": {
+      "Op1": {
+        "text": "Lors d'une vente à un particulier, il n'est en aucun cas nécessaire d'établir une facture.",
+        "type": {
+          "correct": { "op": "false", "mark": 1 },
+          "incorrect": { "op": "true", "mark": 0.5 }
+        }
+      },
+      "Op2": {
+        "text": "Le type de marché influence la fixation des prix.",
+        "type": {
+          "correct": { "op": "true", "mark": 1 },
+          "incorrect": { "op": "false", "mark": 0.5 }
+        }
+      }
+    }
+  },
+  "Q2": {
+    "questionText": "Vous recevez une facture pour un montant de 1000€ TVAc. Quelques jours plus tard, le même fournisseur vous fait parvenir une note de crédit de 400€ TVAc. Combien allez-vous payer ?",
+    "questionType": "MC",
+    "options": {
+      "Op1": { "text": "1,600€", "type": "incorrect", "mark": 1 },
+      "Op2": { "text": "600€", "type": "correct", "mark": 4 },
+      "Op3": { "text": "1,400€", "type": "incorrect", "mark": 1 },
+      "Op4": { "text": "400€", "type": "incorrect", "mark": 1 }
+    }
+  },
+  "Q3": {
+    "questionText": "Indiquez le capital souscrit minimum pour une SPRL",
+    "questionType": "MC",
+    "options": {
+      "Op1": { "text": "6,200€", "type": "incorrect", "mark": 0.5 },
+      "Op2": { "text": "12,400€", "type": "incorrect", "mark": 0.5 },
+      "Op3": { "text": "15,500€", "type": "incorrect", "mark": 0.5 },
+      "Op4": { "text": "18,550€", "type": "correct", "mark": 2 }
+    }
+  },
+  "Q4": {
+    "questionText": "L'attitude suivante fait partie des 3 attitudes les + originales et performantes (3 sont vraies)",
+    "questionType": "TF",
+    "options": {
+      "Op1": {
+        "text": "Transformer contrainte en opportunité",
+        "type": {
+          "correct": { "op": "true", "mark": 1 },
+          "incorrect": { "op": "false", "mark": 0.2 }
+        }
+      },
+      "Op2": {
+        "text": "Faciliter la prise de risques",
+        "type": {
+          "correct": { "op": "false", "mark": 1 },
+          "incorrect": { "op": "true", "mark": 0.2 }
+        }
+      },
+      "Op3": {
+        "text": "Se mettre à la place des clients",
+        "type": {
+          "correct": { "op": "true", "mark": 1 },
+          "incorrect": { "op": "false", "mark": 0.2 }
+        }
+      },
+      "Op4": {
+        "text": "Désobéir aux règles habituelles",
+        "type": {
+          "correct": { "op": "false", "mark": 1 },
+          "incorrect": { "op": "true", "mark": 0.2 }
+        }
+      },
+      "Op5": {
+        "text": "Réinventer un métier",
+        "type": {
+          "correct": { "op": "true", "mark": 1 },
+          "incorrect": { "op": "false", "mark": 0.2 }
+        }
+      }
+    }
+  },
+  "Q5": {
+    "questionText": "La réussite d'un projet dépend de plusieurs facteurs. Quels sont les facteurs les plus déterminants pour la réussite d'un projet ?",
+    "questionType": "TF",
+    "options": {
+      "Op1": {
+        "text": "Les capacités de gestion de l'entrepreneur",
+        "type": {
+          "correct": { "op": "true", "mark": 1 },
+          "incorrect": { "op": "false", "mark": 0.2 }
+        }
+      },
+      "Op2": {
+        "text": "La cohérence projet-personne",
+        "type": {
+          "correct": { "op": "true", "mark": 1 },
+          "incorrect": { "op": "false", "mark": 0.2 }
+        }
+      },
+      "Op3": {
+        "text": "Les débouchés commerciaux",
+        "type": {
+          "correct": { "op": "true", "mark": 1 },
+          "incorrect": { "op": "false", "mark": 0.2 }
+        }
+      },
+      "Op4": {
+        "text": "La capacité à trouver des financements.",
+        "type": {
+          "correct": { "op": "true", "mark": 1 },
+          "incorrect": { "op": "false", "mark": 0.2 }
+        }
+      },
+      "Op5": {
+        "text": "La politique fiscale.",
+        "type": {
+          "correct": { "op": "false", "mark": 1 },
+          "incorrect": { "op": "true", "mark": 0.2 }
+        }
+      }
+    }
+  },
+  "Q6": {
+    "questionText": "Calculez le bénéfice net de l'entreprise Rusard SA à l'aide des données suivantes:\nCA annuel : 26000€\nStock de départ : 2500€\nMarchandises achetées au cours de l'année : 12500€\nFrais généraux : 3000€\nStock final : 2000€",
+    "questionType": "MC",
+    "options": {
+      "Op1": { "text": "60,00€", "type": "incorrect", "mark": 2.5 },
+      "Op2": { "text": "80,00€", "type": "incorrect", "mark": 2.5 },
+      "Op3": { "text": "85,00€", "type": "incorrect", "mark": 2.5 },
+      "Op4": { "text": "10,000€", "type": "correct", "mark": 10 }
+    }
+  },
+  "Q7": {
+    "questionText": "Etablir une étude de marché est nécessaire...",
+    "questionType": "TF",
+    "options": {
+      "Op1": {
+        "text": "Pour déterminer sa politique marketing",
+        "type": {
+          "correct": { "op": "true", "mark": 1 },
+          "incorrect": { "op": "false", "mark": 0.25 }
+        }
+      },
+      "Op2": {
+        "text": "Pour mieux connaître les tendances du marché",
+        "type": {
+          "correct": { "op": "true", "mark": 1 },
+          "incorrect": { "op": "false", "mark": 0.25 }
+        }
+      },
+      "Op3": {
+        "text": "Pour fixer des hypothèses de chiffre d'affaire",
+        "type": {
+          "correct": { "op": "true", "mark": 1 },
+          "incorrect": { "op": "false", "mark": 0.25 }
+        }
+      },
+      "Op4": {
+        "text": "Uniquement quand on a bcp de concurrents.",
+        "type": {
+          "correct": { "op": "false", "mark": 1 },
+          "incorrect": { "op": "true", "mark": 0.25 }
+        }
+      }
+    }
+  },
+  "Q8": {
+    "questionText": "Un capital de 10000€ sur le passif du bilan d'une entreprise veut dire que :",
+    "questionType": "MC",
+    "options": {
+      "Op1": {
+        "text": "La dette de l'entreprise à l'entrepreneur s'élève à 10000 €",
+        "type": "correct",
+        "mark": 4
+      },
+      "Op2": {
+        "text": "L'entreprise a réalisé un bénéfice de 10000€",
+        "type": "incorrect",
+        "mark": 1.333
+      },
+      "Op3": {
+        "text": "L'entreprise dispose de 10000€ sur son compte en banque",
+        "type": "incorrect",
+        "mark": 1.333
+      },
+      "Op4": {
+        "text": "L'entrepreneur a une dette de 10000€ envers son entreprise.",
+        "type": "incorrect",
+        "mark": 1.333
+      }
+    }
+  },
+  "Q9": {
+    "questionText": "Le développement des entreprises repose de plus en plus sur leur capacité à innover.\nCoche les réponses correctes ou fausses :",
+    "questionType": "TF",
+    "options": {
+      "Op1": {
+        "text": "L'innovation ne concerne que les grandes entreprises.",
+        "type": {
+          "correct": { "op": "false", "mark": 1 },
+          "incorrect": { "op": "true", "mark": 0.25 }
+        }
+      },
+      "Op2": {
+        "text": "L'innovation reste un objectif pas une fin en soi.",
+        "type": {
+          "correct": { "op": "true", "mark": 1 },
+          "incorrect": { "op": "false", "mark": 0.25 }
+        }
+      },
+      "Op3": {
+        "text": "Le type d'innovation à adopter dépend du secteur d'activité.",
+        "type": {
+          "correct": { "op": "true", "mark": 1 },
+          "incorrect": { "op": "false", "mark": 0.25 }
+        }
+      },
+      "Op4": {
+        "text": "Innover, c'est centrer la stratégie de l'organisation sur sa capacité à satisfaire de nouveaux besoins et à exploiter de nouveaux marchés.",
+        "type": {
+          "correct": { "op": "true", "mark": 1 },
+          "incorrect": { "op": "false", "mark": 0.25 }
+        }
+      }
+    }
+  },
+  "Q10": {
+    "questionText": "L'entreprise XXX SA réalise un chiffre d'affaire annuel de 120000€.\nLes achats de matières premières s'élèvent à 35000€.\nLes salaires payés sont de 40000€\nLes frais liés aux coûts directs(matières premières/salaires) s'élèvent à 15%.\nA combien d'euros le bénéfice de l'entreprise s'élève-t-il ?",
+    "questionType": "MC",
+    "options": {
+      "Op1": { "text": "37,350€", "type": "incorrect", "mark": 2.5 },
+      "Op2": { "text": "39,000€", "type": "incorrect", "mark": 2.5 },
+      "Op3": { "text": "39,750€", "type": "incorrect", "mark": 2.5 },
+      "Op4": { "text": "33,750€", "type": "correct", "mark": 10 }
+    }
+  },
+  "Q11": {
+    "questionText": "La réussite d'un projet repose essentiellement sur la personnalité du créateur.\nQuelle est l'affirmation suivante qui  traduit LE MIEUX un comportement entrepreneurial ?",
+    "questionType": "MC",
+    "options": {
+      "Op1": {
+        "text": "Je peux aussi bien réussir que mon patron.",
+        "type": "correct",
+        "mark": 4
+      },
+      "Op2": {
+        "text": "Je suis sans cesse à l'écoute de mon environnement.",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op3": {
+        "text": "J'ai confiance en moi et j'ai un sens calculé du risque.",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op4": {
+        "text": "J'ai le sens du business et je me fie à ma seule intuition.",
+        "type": "incorrect",
+        "mark": 1
+      }
+    }
+  },
+  "Q12": {
+    "questionText": "En matière de TVA, pendant combien d'années doit-on conserver ses documents ?",
+    "questionType": "MC",
+    "options": {
+      "Op1": { "text": "3", "type": "incorrect", "mark": 1 },
+      "Op2": { "text": "7", "type": "correct", "mark": 4 },
+      "Op3": { "text": "5", "type": "incorrect", "mark": 1 },
+      "Op4": { "text": "1", "type": "incorrect", "mark": 1 }
+    }
+  },
+  "Q13": {
+    "questionText": "Indiquez le capital minimum à apporter pour une société Anonyme.",
+    "questionType": "MC",
+    "options": {
+      "Op1": { "text": "12,400€", "type": "incorrect", "mark": 1 },
+      "Op2": { "text": "6,200€", "type": "incorrect", "mark": 1 },
+      "Op3": { "text": "61,500€", "type": "correct", "mark": 4 },
+      "Op4": { "text": "0€", "type": "incorrect", "mark": 1 }
+    }
+  },
+  "Q14": {
+    "questionText": "L'attitude décrite ci-dessous est l'une des 2 attitudes qui sont les plus représentatives de la volonté de prendre des risques inhérentes à la vie d'un indépendant.\nFace à une situation de crise :",
+    "questionType": "TF",
+    "options": {
+      "Op1": {
+        "text": "Vous sollicitez uniquement l'avis de spécialistes.",
+        "type": {
+          "correct": { "op": "true", "mark": 1 },
+          "incorrect": { "op": "false", "mark": 0.25 }
+        }
+      },
+      "Op2": {
+        "text": "Vous suivez votre intuition et vous vous en remettez au ne hasard.",
+        "type": {
+          "correct": { "op": "false", "mark": 1 },
+          "incorrect": { "op": "true", "mark": 0.25 }
+        }
+      },
+      "Op3": {
+        "text": "Ne vous découragez pas et vous vous concentrer sur les points importants.",
+        "type": {
+          "correct": { "op": "true", "mark": 1 },
+          "incorrect": { "op": "false", "mark": 0.25 }
+        }
+      },
+      "Op4": {
+        "text": "Vous jugez par vous-même de la situation et décidez quand vous avez réuni les éléments pour pouvoir prendre une décision.",
+        "type": {
+          "correct": { "op": "false", "mark": 1 },
+          "incorrect": { "op": "true", "mark": 0.25 }
+        }
+      }
+    }
+  },
+  "Q15": {
+    "questionText": "Un bail commercial est résiliable par le bailleur :",
+    "questionType": "MC",
+    "options": {
+      "Op1": {
+        "text": "Tous les ans avec un préavis de 6 mois.",
+        "type": "incorrect",
+        "mark": 0.5
+      },
+      "Op2": {
+        "text": "Tous les ans avec un préavis de 3 mois.",
+        "type": "incorrect",
+        "mark": 0.5
+      },
+      "Op3": {
+        "text": "A la fin de chaque triennat avec un préavis de 12 mois",
+        "type": "correct",
+        "mark": 3
+      },
+      "Op4": {
+        "text": "Annuellement avec un préavis de 12 mois.",
+        "type": "incorrect",
+        "mark": 0.5
+      },
+      "Op5": {
+        "text": "Annuellement avec un préavis de 6 mois.",
+        "type": "incorrect",
+        "mark": 0.5
+      },
+      "Op6": {
+        "text": "Annuellement avec un préavis de 3 mois.",
+        "type": "incorrect",
+        "mark": 0.5
+      }
+    }
+  },
+  "Q16": {
+    "questionText": "A partir de quelle année, un indépendant débutant qui s'établit pour la 1ère fois en tant qu'indépendant doit-il faire des versements anticipés pour éviter la majoration ?",
+    "questionType": "MC",
+    "options": {
+      "Op1": {
+        "text": "A partir de la 4ème année civile",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op2": {
+        "text": "A partir de la 1ère année civile",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op3": {
+        "text": "A partir de la 3ème année civile",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op4": {
+        "text": "A partir de l'année où il commence à faire des bénéfices.",
+        "type": "correct",
+        "mark": 4
+      }
+    }
+  },
+  "Q17": {
+    "questionText": "Parmi les notions suivantes, indiquez celles qui sont vraies et celles qui sont fausses.",
+    "questionType": "TF",
+    "options": {
+      "Op1": {
+        "text": "Les dotations aux amortissements sont dans les produits du compte de résultat.",
+        "type": {
+          "correct": { "op": "false", "mark": 1 },
+          "incorrect": { "op": "true", "mark": 0.25 }
+        }
+      },
+      "Op2": {
+        "text": "Le fonds de caisse se situe à l'actif du bilan.",
+        "type": {
+          "correct": { "op": "true", "mark": 1 },
+          "incorrect": { "op": "false", "mark": 0.25 }
+        }
+      },
+      "Op3": {
+        "text": "Les machines sont reprises à l'actif du bilan.",
+        "type": {
+          "correct": { "op": "true", "mark": 1 },
+          "incorrect": { "op": "false", "mark": 0.25 }
+        }
+      },
+      "Op4": {
+        "text": "Les intérêts payés sont repris à l'actif du bilan.",
+        "type": {
+          "correct": { "op": "false", "mark": 1 },
+          "incorrect": { "op": "true", "mark": 0.25 }
+        }
+      }
+    }
+  },
+  "Q18": {
+    "questionText": "Où doivent se trouver obligatoirement figurer les conditions de vente ?",
+    "questionType": "TF",
+    "options": {
+      "Op1": {
+        "text": "Sur le bon de commande avec 1 renvoi de l'endroit où elles se trouvent.",
+        "type": {
+          "correct": { "op": "true", "mark": 1 },
+          "incorrect": { "op": "false", "mark": 0.5 }
+        }
+      },
+      "Op2": {
+        "text": "Sur un document affiché à l'entrée du magasin où la vente à lieu.",
+        "type": {
+          "correct": { "op": "false", "mark": 1 },
+          "incorrect": { "op": "true", "mark": 0.5 }
+        }
+      }
+    }
+  },
+  "Q19": {
+    "questionText": "Une entreprise voudrait savoir s'il est rentable d'envisager la fabrication d'un nouveau produit.\nElle devrait connaitre à cet effet son seuil de rentabilité (break even point).\n\nLa production entrainerait les coûts suivants :\n- location hall de production : 60.000€ / an\n- amortissements machines : 170.000€ / an\n- Frais fixes divers : 98.000€ / an\n- Assurances : 5000€ / an\n- Salaire du personnel administratif  et de la direction :45.000€ / an\n\nLe coût variable s'élève à 124€ par marchandise produite.\nLe prix de vente se situerait au prix du marché concurrentiel de 169€ / pièce\n\nA combien de pièces s'élève le \"seuil de rentabilité\" de cet investissement ?",
+    "questionType": "MC",
+    "options": {
+      "Op1": { "text": "8400 pièces", "type": "correct", "mark": 10 },
+      "Op2": { "text": "10400 pièces", "type": "incorrect", "mark": 2.5 },
+      "Op3": { "text": "12500 pièces", "type": "incorrect", "mark": 2.5 },
+      "Op4": { "text": "15425 pièces", "type": "incorrect", "mark": 2.5 }
+    }
+  },
+  "Q20": {
+    "questionText": "Quelles sont les propositions qui définissent les objectifs d'un plan d'affaire ?",
+    "questionType": "TF",
+    "options": {
+      "Op1": {
+        "text": "Analyser le niveau de satisfaction des clients",
+        "type": {
+          "correct": { "op": "false", "mark": 1 },
+          "incorrect": { "op": "true", "mark": 0.2 }
+        }
+      },
+      "Op2": {
+        "text": "Fixer des objectifs clairs et précis",
+        "type": {
+          "correct": { "op": "true", "mark": 1 },
+          "incorrect": { "op": "false", "mark": 0.2 }
+        }
+      },
+      "Op3": {
+        "text": "Définir la meilleure stratégie pour l'entreprise",
+        "type": {
+          "correct": { "op": "true", "mark": 1 },
+          "incorrect": { "op": "false", "mark": 0.2 }
+        }
+      },
+      "Op4": {
+        "text": "Mesurer et analyser tous les risques",
+        "type": {
+          "correct": { "op": "true", "mark": 1 },
+          "incorrect": { "op": "false", "mark": 0.2 }
+        }
+      },
+      "Op5": {
+        "text": "Analyser la motivation du personnel",
+        "type": {
+          "correct": { "op": "false", "mark": 1 },
+          "incorrect": { "op": "true", "mark": 0.2 }
+        }
+      }
+    }
+  },
+  "Q21": {
+    "questionText": "Indiquez le numéro d'entreprise correct pour une entreprise d'une personne physique lors d'un achat à l'étranger.",
+    "questionType": "MC",
+    "options": {
+      "Op1": {
+        "text": "BE 0123.456.789 SPRL Bruxelles",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op2": { "text": "0123.456.789", "type": "correct", "mark": 5 },
+      "Op3": {
+        "text": "0123.456.789 SPRL Bruxelles",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op4": {
+        "text": "Pas de numéro d'entreprise",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op5": { "text": "BE 0123.456.789", "type": "incorrect", "mark": 1 }
+    }
+  },
+  "Q22": {
+    "questionText": "Un artisan doit fabriquer un produit pour lequel il a besoin :\n- Matières premières d'une valeur de 2000€\n-12h de travail à 120€/h\n- Les frais indirects de l'entreprise sont de 5000€ répartis au prorata de la charge salariale directe qui est de 240.000€.\n\nLa marge bénéficiaire est de 15% du prix de revient.\nA combien sera vendu le produit ?",
+    "questionType": "MC",
+    "options": {
+      "Op1": { "text": "3,956.00€", "type": "incorrect", "mark": 2.5 },
+      "Op2": { "text": "3,990.50€", "type": "correct", "mark": 10 },
+      "Op3": { "text": "4,038.42€", "type": "incorrect", "mark": 2.5 },
+      "Op4": { "text": "9,706.00€", "type": "incorrect", "mark": 2.5 }
+    }
+  },
+  "Q23": {
+    "questionText": "Le numéro d'entreprise",
+    "questionType": "TF",
+    "options": {
+      "Op1": {
+        "text": "Doit être repris sur toutes les factures",
+        "type": {
+          "correct": { "op": "true", "mark": 1 },
+          "incorrect": { "op": "false", "mark": 0.33 }
+        }
+      },
+      "Op2": {
+        "text": "Ne doit être repris que sur les bons de commande",
+        "type": {
+          "correct": { "op": "false", "mark": 1 },
+          "incorrect": { "op": "true", "mark": 0.33 }
+        }
+      },
+      "Op3": {
+        "text": "Doit être repris sur tous les documents commerciaux",
+        "type": {
+          "correct": { "op": "true", "mark": 1 },
+          "incorrect": { "op": "false", "mark": 0.33 }
+        }
+      }
+    }
+  },
+  "Q24": {
+    "questionText": "J'achète des marchandises 2000€ et je fais une marge de 40% sur le prix de vente. J'accorde une remise de 10% et un escompte de 2%. Quel est le prix de vente TVAC (21%) ?",
+    "questionType": "MC",
+    "options": {
+      "Op1": { "text": "3,940.00€", "type": "incorrect", "mark": 2.5 },
+      "Op2": { "text": "3,557.40€", "type": "correct", "mark": 10 },
+      "Op3": { "text": "2,940.00€", "type": "incorrect", "mark": 2.5 },
+      "Op4": { "text": "3,292.80€", "type": "incorrect", "mark": 2.5 }
+    }
+  },
+  "Q25": {
+    "questionText": "Qui doit s'inscrire à la BCE (Banque Carrefour des Entreprises) ?",
+    "questionType": "MC",
+    "options": {
+      "Op1": { "text": "Le comptable", "type": "incorrect", "mark": 1 },
+      "Op2": {
+        "text": "Le guichet d'entreprise",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op3": { "text": "Le candidat", "type": "correct", "mark": 4 },
+      "Op4": { "text": "Le banquier", "type": "incorrect", "mark": 1 }
+    }
+  },
+  "Q26": {
+    "questionText": "En Janvier, on achète des matières premières pour 10000€ HTVA (21%) et une machine pour 5000€ HTVA (12%). Le même mois, on vend au client 1 pour 25000€ HTVA (6%) et au client 2 pour 12100€ TVAC (21%). Calculez le solde TVA du mois de Janvier !",
+    "questionType": "MC",
+    "options": {
+      "Op1": {
+        "text": "On doit 3600€ à la TVA",
+        "type": "incorrect",
+        "mark": 2.5
+      },
+      "Op2": { "text": "On doit 900€ à la TVA", "type": "correct", "mark": 10 },
+      "Op3": {
+        "text": "La TVA nous doit 900€",
+        "type": "incorrect",
+        "mark": 2.5
+      },
+      "Op4": {
+        "text": "La TVA nous doit 3150€",
+        "type": "incorrect",
+        "mark": 2.5
+      }
+    }
+  },
+  "Q27": {
+    "questionText": "Le pourcentage de TVA est fixé à :",
+    "questionType": "TF",
+    "options": {
+      "Op1": {
+        "text": "6% sur le beurre",
+        "type": {
+          "correct": { "op": "true", "mark": 1 },
+          "incorrect": { "op": "false", "mark": 0.2 }
+        }
+      },
+      "Op2": {
+        "text": "12% sur le charbon",
+        "type": {
+          "correct": { "op": "true", "mark": 1 },
+          "incorrect": { "op": "false", "mark": 0.2 }
+        }
+      },
+      "Op3": {
+        "text": "21% sur le mazout de chauffage",
+        "type": {
+          "correct": { "op": "true", "mark": 1 },
+          "incorrect": { "op": "false", "mark": 0.2 }
+        }
+      },
+      "Op4": {
+        "text": "12% sur l'eau",
+        "type": {
+          "correct": { "op": "false", "mark": 1 },
+          "incorrect": { "op": "true", "mark": 0.2 }
+        }
+      },
+      "Op5": {
+        "text": "21% sur les prestations comptables",
+        "type": {
+          "correct": { "op": "true", "mark": 1 },
+          "incorrect": { "op": "false", "mark": 0.2 }
+        }
+      }
+    }
+  },
+  "Q28": {
+    "questionText": "J'investi 30.000€ pour créer ma société (SPRL). J'aurai besoin d'une voiture de 20.000€, de machines pour 10.000€, de stock pour 20.000€, d'argent en caisse pour 2.000€ et sur le compte en banque pour 18.000€. Faites le bilan et en calculez le montant de l’emprunt que je dois obtenir auprès de ma banque pour équilibrer ce bilan.",
+    "questionType": "MC",
+    "options": {
+      "Op1": { "text": "70,000.00€", "type": "incorrect", "mark": 2.5 },
+      "Op2": { "text": "40,000.00€", "type": "correct", "mark": 10 },
+      "Op3": { "text": "60,000.00€", "type": "incorrect", "mark": 2.5 },
+      "Op4": { "text": "50,000.00€", "type": "incorrect", "mark": 2.5 }
+    }
+  },
+  "Q29": {
+    "questionText": "Afin de lancer mon activité d'indépendant en personne physique en Wallonie ou a Bruxelles, de quels documents ai-je besoin ? (Cochez la ou les bonnes réponses)",
+    "questionType": "MR",
+    "options": {
+      "Op1": {
+        "text": "Aucun document n'est nécéssaire",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op2": {
+        "text": "Uniquement mon attestation de gestion de base (peu importe l'acticité)",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op3": {
+        "text": "Mon attestation de gestion de base ainsi que mon diplôme ou ma preuve de compétenace professionnelle (dans le cadre d'une profession réglementée)",
+        "type": "correct",
+        "mark": 2.5
+      },
+      "Op4": {
+        "text": "Uniquement mon diplôme ou ou ma preuve de compétenace professionnelle (dans le cadre d'une profession réglementée)",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op5": {
+        "text": "Uniquement mon attestation de gestion de base (s'il ne s'agit pas d'une profession  réglementée)",
+        "type": "correct",
+        "mark": 2.5
+      }
+    }
+  },
+  "Q30": {
+    "questionText": "On achète un produit 120€ HTVA et on le vend en faisant une marge sur le prix de vente de 40%. Les frais de transport sont de 25€. On accorde une remise de 15% et un escompte de 2%. Quel est le prix de vente final TVAC (21%) ?",
+    "questionType": "MC",
+    "options": {
+      "Op1": { "text": "231.23€", "type": "correct", "mark": 10 },
+      "Op2": { "text": "191.10€", "type": "incorrect", "mark": 2.5 },
+      "Op3": { "text": "242.30€", "type": "incorrect", "mark": 2.5 },
+      "Op4": { "text": "254.54€", "type": "incorrect", "mark": 2.5 }
+    }
+  }
+}

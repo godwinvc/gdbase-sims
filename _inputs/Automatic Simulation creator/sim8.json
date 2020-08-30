@@ -1,0 +1,603 @@
+{
+  "TimeLimit": {
+    "hours": 1,
+    "mins": 30,
+    "secs": 0
+  },
+  "TotalMarks": 138,
+  "minMarks": 50,
+  "Q1": {
+    "questionText": "L'entreprise GARFIELD SA réalise un chiffre d'affaires brut de 40.000€. Pendant un exercice, elle a acheté des marchandises pour un montant de 16.050€. Le stock initial des biens avait une valeur de 5.250€. Le stock final avait une valeur de 4.500€. Quel est le pourcentage des bénéfices par rapport au chiffre d'affaires annuel ?",
+    "questionType": "MC",
+    "options": {
+      "Op1": { "text": "59.88%", "type": "incorrect", "mark": 1 },
+      "Op2": { "text": "58%", "type": "correct", "mark": 4 },
+      "Op3": { "text": "61.75%", "type": "incorrect", "mark": 1 },
+      "Op4": { "text": "68%", "type": "incorrect", "mark": 1 }
+    }
+  },
+  "Q2": {
+    "questionText": "Vrai ou faux ?",
+    "questionType": "TF",
+    "options": {
+      "Op1": {
+        "text": "Les factures doivent toujours être signées par le gérant.",
+        "type": {
+          "correct": { "op": "false", "mark": 1 },
+          "incorrect": { "op": "true", "mark": 0.25 }
+        }
+      },
+      "Op2": {
+        "text": "Le mot facture doit apparaitre sur la facture.",
+        "type": {
+          "correct": { "op": "true", "mark": 1 },
+          "incorrect": { "op": "false", "mark": 0.25 }
+        }
+      },
+      "Op3": {
+        "text": "Il faut publier une facture uniquement pour un payement par virement.",
+        "type": {
+          "correct": { "op": "false", "mark": 1 },
+          "incorrect": { "op": "true", "mark": 0.25 }
+        }
+      },
+      "Op4": {
+        "text": "Il ne faut faire une facture que si votre client est indépendant.",
+        "type": {
+          "correct": { "op": "false", "mark": 1 },
+          "incorrect": { "op": "true", "mark": 0.25 }
+        }
+      }
+    }
+  },
+  "Q3": {
+    "questionText": "Un bien d'investissement est acquis pour 25.000€ Il est amorti en 5 ans. L'amortissement est dégressif. Quel est l'amortissement de la première année (en euros) ?",
+    "questionType": "MC",
+    "options": {
+      "Op1": { "text": "5.000€", "type": "incorrect", "mark": 1.5 },
+      "Op2": { "text": "10.000€", "type": "correct", "mark": 6 },
+      "Op3": { "text": "15.000€", "type": "incorrect", "mark": 1.5 },
+      "Op4": { "text": "20.000€", "type": "incorrect", "mark": 1.5 }
+    }
+  },
+  "Q4": {
+    "questionText": "Le passif de l'entreprise DUMBLEDORE SA se présente comme suit : capital propre : 40.000€, dettes à long terme : 40.000€, dette à court terme : 20.000€. Quel est le degré d'autonomie financière de l'entreprise, exprimé en % ?",
+    "questionType": "MC",
+    "options": {
+      "Op1": { "text": "50%", "type": "incorrect", "mark": 2 },
+      "Op2": { "text": "60%", "type": "incorrect", "mark": 2 },
+      "Op3": { "text": "40%", "type": "correct", "mark": 8 },
+      "Op4": { "text": "30%", "type": "incorrect", "mark": 2 }
+    }
+  },
+  "Q5": {
+    "questionText": "Quel est le meilleur régime matrimonial lorsque l'on est indépendant?",
+    "questionType": "MC",
+    "options": {
+      "Op1": { "text": "Le régime légal", "type": "incorrect", "mark": 0.5 },
+      "Op2": {
+        "text": "La séparation des biens",
+        "type": "correct",
+        "mark": 2
+      },
+      "Op3": {
+        "text": "La séparation des biens réduits aux acquets",
+        "type": "incorrect",
+        "mark": 0.5
+      },
+      "Op4": {
+        "text": "La communauté universelle",
+        "type": "incorrect",
+        "mark": 0.5
+      }
+    }
+  },
+  "Q6": {
+    "questionText": "Une SPRL peut-être constituée par 1 ou 2 personnes, ces personnes doivent-être:",
+    "questionType": "MC",
+    "options": {
+      "Op1": {
+        "text": "des personnes physiques",
+        "type": "incorrect",
+        "mark": 0.5
+      },
+      "Op2": {
+        "text": "des personnes morales",
+        "type": "incorrect",
+        "mark": 0.5
+      },
+      "Op3": {
+        "text": "soit des personnes physiques ou morales",
+        "type": "correct",
+        "mark": 2
+      },
+      "Op4": {
+        "text": "dans le cas d'une personne seule, uniquement une personne physique.",
+        "type": "incorrect",
+        "mark": 0.5
+      }
+    }
+  },
+  "Q7": {
+    "questionText": "Le business plan sert à:",
+    "questionType": "MC",
+    "options": {
+      "Op1": {
+        "text": "Décrire l'activité, le marché, la stratégie de marketing,...",
+        "type": "correct",
+        "mark": 2
+      },
+      "Op2": {
+        "text": "Évaluer le degré de satisfaction des clients.",
+        "type": "incorrect",
+        "mark": 0.5
+      },
+      "Op3": {
+        "text": "Uniquement évaluer l'estimation financière de la société.",
+        "type": "incorrect",
+        "mark": 0.5
+      },
+      "Op4": {
+        "text": "Mesurer le degré de motivation du personnel.",
+        "type": "incorrect",
+        "mark": 0.5
+      }
+    }
+  },
+  "Q8": {
+    "questionText": "En société, combien de fois par an minimum doit on tenir une assemblée générale :",
+    "questionType": "MC",
+    "options": {
+      "Op1": { "text": "Jamais", "type": "incorrect", "mark": 0.5 },
+      "Op2": { "text": "1 fois par an", "type": "correct", "mark": 2 },
+      "Op3": { "text": "2 fois par an", "type": "incorrect", "mark": 0.5 },
+      "Op4": { "text": "3 fois par an", "type": "incorrect", "mark": 0.5 }
+    }
+  },
+  "Q9": {
+    "questionText": "Qui décide de débuter une activité commerciale?",
+    "questionType": "MC",
+    "options": {
+      "Op1": {
+        "text": "Le guichet d'entreprise",
+        "type": "incorrect",
+        "mark": 0.5
+      },
+      "Op2": { "text": "Le comptable", "type": "incorrect", "mark": 0.5 },
+      "Op3": { "text": "Le candidat potentiel", "type": "correct", "mark": 2 },
+      "Op4": { "text": "La banque", "type": "incorrect", "mark": 0.5 }
+    }
+  },
+  "Q10": {
+    "questionText": "Combien de fois par an faut-il payer des cotisations sociales ?",
+    "questionType": "MC",
+    "options": {
+      "Op1": { "text": "- 1x", "type": "incorrect", "mark": 0.4 },
+      "Op2": { "text": "- 2x", "type": "incorrect", "mark": 0.4 },
+      "Op3": { "text": "- 3x", "type": "incorrect", "mark": 0.4 },
+      "Op4": { "text": "- 4x", "type": "correct", "mark": 2 },
+      "Op5": { "text": "- 5x", "type": "incorrect", "mark": 0.4 }
+    }
+  },
+  "Q11": {
+    "questionText": "Le numéro de compte et les données bancaires doivent figurer:",
+    "questionType": "MC",
+    "options": {
+      "Op1": {
+        "text": "sur toutes les factures",
+        "type": "correct",
+        "mark": 3
+      },
+      "Op2": {
+        "text": "sur les bons de commandes",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op3": {
+        "text": "sur tous les documents commerciaux",
+        "type": "incorrect",
+        "mark": 1
+      }
+    }
+  },
+  "Q12": {
+    "questionText": "Les frais professionnels et de comptabilité sont déductible:",
+    "questionType": "MC",
+    "options": {
+      "Op1": { "text": "à 100% les 2", "type": "incorrect", "mark": 1 },
+      "Op2": {
+        "text": "à 100% pour les frais de comptabilité et 50% en frais professionnel",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op3": {
+        "text": "100% pour les frais professionnels et à 50% pour les frais de comptabilité",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op4": {
+        "text": "à 100% pour les frais de comptabilité et au prorata pour les frais professionnels",
+        "type": "correct",
+        "mark": 4
+      }
+    }
+  },
+  "Q13": {
+    "questionText": "Les tickets de caisses des dépenses de la société doivent figurer:",
+    "questionType": "MR",
+    "options": {
+      "Op1": {
+        "text": "dans le livre des recettes",
+        "type": "incorrect",
+        "mark": 0.5
+      },
+      "Op2": {
+        "text": "dans le livre d'achat afin de récupérer la TVA",
+        "type": "correct",
+        "mark": 1
+      },
+      "Op3": {
+        "text": "dans le journal de trésorerie",
+        "type": "correct",
+        "mark": 1
+      },
+      "Op4": {
+        "text": "ne doivent pas obligatoirement être conservé dans la comptabilité.",
+        "type": "incorrect",
+        "mark": 0.5
+      }
+    }
+  },
+  "Q14": {
+    "questionText": "J'achète des marchandises 2000€ et je fais une marge de 40% sur le prix de vente. J'accorde une remise de 10% et un escompte de 2%. Quel est le prix de vente TVAC (21%) ?",
+    "questionType": "MC",
+    "options": {
+      "Op1": { "text": "3940", "type": "incorrect", "mark": 2.5 },
+      "Op2": { "text": "3557.4", "type": "correct", "mark": 10 },
+      "Op3": { "text": "2940", "type": "incorrect", "mark": 2.5 },
+      "Op4": { "text": "3292.8", "type": "incorrect", "mark": 2.5 }
+    }
+  },
+  "Q15": {
+    "questionText": "Dans un village il y a 18000 habitants et 10% d'entre eux vont faire leur courses das les communes voisines. Dans ces communes, il y a 36000 habitants et 5% viennent faire leurs courses chez nous. Chacun à un pouvoir d'achat de 100€ par an. Quel chiffre d'affaire vais-je viser dans mon Business Plan sachant que j'ai 17 concurrents ?",
+    "questionType": "MC",
+    "options": {
+      "Op1": { "text": "1800000", "type": "incorrect", "mark": 2.5 },
+      "Op2": { "text": "20000", "type": "incorrect", "mark": 2.5 },
+      "Op3": { "text": "100000", "type": "correct", "mark": 10 },
+      "Op4": { "text": "250000", "type": "incorrect", "mark": 2.5 }
+    }
+  },
+  "Q16": {
+    "questionText": "En Janvier, on achète des matières premières pour 10000€ HTVA (21%) et une machine pour 1210€ TVAC (21%). Le même mois, on vend pour 20000€ HTVA de rénovation (6%) et pour 5000€ HTVA pour de la nouvelle construction (21%). Calculez le solde TVA du mois de Janvier !",
+    "questionType": "MC",
+    "options": {
+      "Op1": {
+        "text": "On doit 2250€ à la TVA",
+        "type": "incorrect",
+        "mark": 2
+      },
+      "Op2": { "text": "On doit 60€ à la TVA", "type": "incorrect", "mark": 2 },
+      "Op3": {
+        "text": "La TVA nous doit 2310€",
+        "type": "incorrect",
+        "mark": 2
+      },
+      "Op4": { "text": "La TVA nous doit 60€", "type": "correct", "mark": 8 }
+    }
+  },
+  "Q17": {
+    "questionText": "La comptabilité double est :",
+    "questionType": "MR",
+    "options": {
+      "Op1": {
+        "text": "Obligatoire pour les SPRL et SA",
+        "type": "correct",
+        "mark": 1
+      },
+      "Op2": {
+        "text": "Toujours obligatoire",
+        "type": "incorrect",
+        "mark": 0.5
+      },
+      "Op3": {
+        "text": "Facultative pour les personnes physiques",
+        "type": "correct",
+        "mark": 1
+      },
+      "Op4": {
+        "text": "Facultative pour les SPRL et SA",
+        "type": "incorrect",
+        "mark": 0.5
+      }
+    }
+  },
+  "Q18": {
+    "questionText": "Notre société réalise un chiffre d'affaire de 280000€. Pour ce faire, on a acheté pour 100000€ de matière première et payé des salaires pour 80000€. Les frais de transformation sont de 10% des deux valeurs ci-dessus. De plus le patron s'alloue un salaire de 2000€ par mois et l'impôt des sociétés est de 18000€. Quel est la rentabilité de notre entreprise ?",
+    "questionType": "MC",
+    "options": {
+      "Op1": { "text": "13.12%", "type": "incorrect", "mark": 2.5 },
+      "Op2": { "text": "14.29%", "type": "correct", "mark": 10 },
+      "Op3": { "text": "16.76%", "type": "incorrect", "mark": 2.5 },
+      "Op4": { "text": "17.29%", "type": "incorrect", "mark": 2.5 }
+    }
+  },
+  "Q19": {
+    "questionText": "Le comptable est obligatoire pour :",
+    "questionType": "MC",
+    "options": {
+      "Op1": {
+        "text": "La comptabilité d'une personne physique.",
+        "type": "incorrect",
+        "mark": 0.5
+      },
+      "Op2": {
+        "text": "La comptabilité d'une société.",
+        "type": "correct",
+        "mark": 2
+      },
+      "Op3": {
+        "text": "Tous les indépendants (quelque soit la forme).",
+        "type": "incorrect",
+        "mark": 0.5
+      },
+      "Op4": {
+        "text": "Les personnes mariées sous le régime de séparation de biens.",
+        "type": "incorrect",
+        "mark": 0.5
+      }
+    }
+  },
+  "Q20": {
+    "questionText": "Une entreprise achète des articles 70€ HTVA. Elle réalise une marge de 30% sur le prix de vente. Elle vend 1000 articles par an. Les frais fixes sont de 10000€. Combien faut-il vendre d'articles pour atteindre le seuil de rentabilité ? (Rem : Les frais variables ne proviennent que des achats.)",
+    "questionType": "MC",
+    "options": {
+      "Op1": { "text": "3343 pièces", "type": "incorrect", "mark": 2.5 },
+      "Op2": { "text": "3433 pièces", "type": "incorrect", "mark": 2.5 },
+      "Op3": { "text": "3334 pièces", "type": "correct", "mark": 10 },
+      "Op4": { "text": "4333 pièces", "type": "incorrect", "mark": 2.5 }
+    }
+  },
+  "Q21": {
+    "questionText": "La déclaration DIMONA est obligatoire lors de :",
+    "questionType": "MC",
+    "options": {
+      "Op1": {
+        "text": "La creation d'une société.",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op2": {
+        "text": "L'engagement d'un nouveau salarié.",
+        "type": "correct",
+        "mark": 4
+      },
+      "Op3": {
+        "text": "L'ouverture d'un compte bacaire professionnel.",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op4": {
+        "text": "La création de votre statut d'indépendant (si vous êtes étranger).",
+        "type": "incorrect",
+        "mark": 1
+      }
+    }
+  },
+  "Q22": {
+    "questionText": "Vrai ou faux ?",
+    "questionType": "TF",
+    "options": {
+      "Op1": {
+        "text": "Le bail commercial est conclu pour une durée de 9 ans.",
+        "type": {
+          "correct": { "op": "true", "mark": 1 },
+          "incorrect": { "op": "false", "mark": 0.25 }
+        }
+      },
+      "Op2": {
+        "text": "Le bail commercial est conclu pour une durée de 3 ans.",
+        "type": {
+          "correct": { "op": "false", "mark": 1 },
+          "incorrect": { "op": "true", "mark": 0.25 }
+        }
+      },
+      "Op3": {
+        "text": "Le bail commercial n'est pas renouvelable.",
+        "type": {
+          "correct": { "op": "false", "mark": 1 },
+          "incorrect": { "op": "true", "mark": 0.25 }
+        }
+      },
+      "Op4": {
+        "text": "Le bail commercial peut durer jusqu'à 36 ans.",
+        "type": {
+          "correct": { "op": "true", "mark": 1 },
+          "incorrect": { "op": "false", "mark": 0.25 }
+        }
+      }
+    }
+  },
+  "Q23": {
+    "questionText": "A quoi sert la comptabilité ?",
+    "questionType": "MR",
+    "options": {
+      "Op1": {
+        "text": "A communiquer vers l'extérieure.",
+        "type": "correct",
+        "mark": 1
+      },
+      "Op2": {
+        "text": "A nous démarquer commercialement",
+        "type": "incorrect",
+        "mark": 0.75
+      },
+      "Op3": {
+        "text": "A la gestion de votre entreprise.",
+        "type": "correct",
+        "mark": 1
+      },
+      "Op4": {
+        "text": "A voir venir les ennuis financiers.",
+        "type": "correct",
+        "mark": 1
+      }
+    }
+  },
+  "Q24": {
+    "questionText": "Dans le cadre du bail commercial, si vous faites des travaux avec l'accord du propriétaire... (Cochez les bonnes réponses)",
+    "questionType": "MR",
+    "options": {
+      "Op1": {
+        "text": "Vous pourrez lui réclamer une partie de la plus-value apportée au bâtiment !",
+        "type": "correct",
+        "mark": 2
+      },
+      "Op2": {
+        "text": "Le propriétaire pourra vous obliger à remettre le bâtiment en état lors de votre départ.",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op3": {
+        "text": "Vous ne pourrez jamais réclamer le plus-value apportée.",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op4": {
+        "text": "Le propriétaire ne pourra pas vous obliger à remettre le bâtiment en état lors de votre départ.",
+        "type": "correct",
+        "mark": 2
+      }
+    }
+  },
+  "Q25": {
+    "questionText": "En Janvier, on achète des matières premières pour 10000€ HTVA (21%) et une machine pour 5000€ HTVA (12%). Le même mois, on vend au client 1 pour 25000€ HTVA (6%) et au client 2 pour 12100€ TVAC (21%). Calculez le solde TVA du mois de Janvier !",
+    "questionType": "MC",
+    "options": {
+      "Op1": {
+        "text": "On doit 3600€ à la TVA",
+        "type": "incorrect",
+        "mark": 2.5
+      },
+      "Op2": { "text": "On doit 900€ à la TVA", "type": "correct", "mark": 10 },
+      "Op3": {
+        "text": "La TVA nous doit 900€",
+        "type": "incorrect",
+        "mark": 2.5
+      },
+      "Op4": {
+        "text": "La TVA nous doit 3150€",
+        "type": "incorrect",
+        "mark": 2.5
+      }
+    }
+  },
+  "Q26": {
+    "questionText": "Quel est le capital souscrit d'une SPRL-S ?",
+    "questionType": "MC",
+    "options": {
+      "Op1": { "text": "1", "type": "incorrect", "mark": 0.5 },
+      "Op2": { "text": "6200", "type": "incorrect", "mark": 0.5 },
+      "Op3": { "text": "12400", "type": "incorrect", "mark": 0.5 },
+      "Op4": { "text": "18550", "type": "correct", "mark": 2 }
+    }
+  },
+  "Q27": {
+    "questionText": "Le secrétariat social vous aide pour :",
+    "questionType": "MC",
+    "options": {
+      "Op1": {
+        "text": "Le calcul de vos cotisations sociale et réceptionne vos payements.",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op2": {
+        "text": "L'engagement d'un nouveau travailleur.",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op3": {
+        "text": "La gestion administrative d'un nouveau travailleur.",
+        "type": "correct",
+        "mark": 5
+      },
+      "Op4": {
+        "text": "Le calcul de vos impôts.",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op5": {
+        "text": "La gestion de vos factures.",
+        "type": "incorrect",
+        "mark": 1
+      }
+    }
+  },
+  "Q28": {
+    "questionText": "Le plan financier sert à :",
+    "questionType": "MR",
+    "options": {
+      "Op1": {
+        "text": "Calculer la rentabilité de votre future entreprise.",
+        "type": "correct",
+        "mark": 2
+      },
+      "Op2": {
+        "text": "Convaincre de futurs clients.",
+        "type": "incorrect",
+        "mark": 1
+      },
+      "Op3": {
+        "text": "Être remis au notaire lors de la constitution d'une société.",
+        "type": "correct",
+        "mark": 2
+      },
+      "Op4": {
+        "text": "Aider votre comptable pour comprendre le fonctionnement de votre entreprise.",
+        "type": "incorrect",
+        "mark": 1
+      }
+    }
+  },
+  "Q29": {
+    "questionText": "Les frais de restaurant sont déductibles à :",
+    "questionType": "MC",
+    "options": {
+      "Op1": {
+        "text": "0% (ce ne sont pas des frais professionnels)",
+        "type": "incorrect",
+        "mark": 0.5
+      },
+      "Op2": { "text": "50%", "type": "incorrect", "mark": 0.5 },
+      "Op3": { "text": "69%", "type": "correct", "mark": 2 },
+      "Op4": {
+        "text": "100% (Ce sont entièrement des frais professionnels)",
+        "type": "incorrect",
+        "mark": 0.5
+      }
+    }
+  },
+  "Q30": {
+    "questionText": "Quels sont les éléments à retrouver sur vos factures ? (Cochez les bonnes réponses)",
+    "questionType": "MR",
+    "options": {
+      "Op1": {
+        "text": "Le numéro de compte de votre client.",
+        "type": "incorrect",
+        "mark": 0.6
+      },
+      "Op2": { "text": "Le mot facture", "type": "correct", "mark": 1 },
+      "Op3": {
+        "text": "L'adresse de votre entreprise.",
+        "type": "correct",
+        "mark": 1
+      },
+      "Op4": { "text": "Un numéro de facture.", "type": "correct", "mark": 1 },
+      "Op5": {
+        "text": "Le nom et l'adresse de votre comptable.",
+        "type": "incorrect",
+        "mark": 0.6
+      }
+    }
+  }
+}

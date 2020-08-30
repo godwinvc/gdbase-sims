@@ -41,9 +41,11 @@ simulation 2: 694,
 simulation 3: 695,
 simulation 4: 696,
 simulation 5: 700,
-simulation 6: 701
+simulation 6: 701,
+simulation 7: 701,
+simulation 8: 701,
 */
-$product_ids = array(694, 695, 696, 700, 701);
+$product_ids = array(694, 695, 696, 700, 701, 701, 701);
 
 /*if( has_bought_items( '', $product_ids ) )
     echo "<p>You have already purchased one of this products</p>";
@@ -55,6 +57,8 @@ $simulations = array(
     "simulation4" => false,
     "simulation5" => false,
     "simulation6" => false,
+    "simulation7" => false,
+    "simulation8" => false,
 );
 for( $i = 0; $i < count($product_ids); $i++){
      $simulations['simulation'. ($i + 2)] = has_bought_items( '', array($product_ids[$i]) );

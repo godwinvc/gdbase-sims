@@ -17,7 +17,7 @@ angular.module("gdbaseSims")
         username: $scope.username,
         password: $scope.password
       }
-      $http.post(baseURL + './server/login.php', loginData).then(function (response) {
+      $http.post(apiURL + './server/login.php', loginData).then(function (response) {
         if (response.data !== 'ERROR') {
           localStorage.setItem("gdbaseToken", response.data.trim());
           if (location.pathname == "/client/") {
@@ -48,7 +48,7 @@ angular.module("gdbaseSims")
           $scope.passResetStage = 0;
         } else {
           $scope.passValidEmail = true;
-          $http.post(baseURL + "./server/pass-reset-email.php", $scope.passEmail)
+          $http.post(apiURL + "./server/pass-reset-email.php", $scope.passEmail)
             .then(function (response) {
               $scope.isPassUniqueEmail = "0";
               $scope.passValidEmail = true;
@@ -97,13 +97,13 @@ angular.module("gdbaseSims")
         activation_code: activation_code,
         otp: localStorage.getItem('gdbaseOTP')
       };
-      $http.post(baseURL + "./server/send-password-reset-mail.php", data)
+      $http.post(apiURL + "./server/send-password-reset-mail.php", data)
         .then(function (res) {
           $scope.passResetStage = 4;
           console.log(res);
           startTimer();
           if (activation_code) {
-            $http.post(baseURL + "./server/send-activation-mail.php", data)
+            $http.post(apiURL + "./server/send-activation-mail.php", data)
               .then(function (res2) {
                 console.log("Both mails delivered to the given address");
               }).catch(function (err) {
@@ -220,7 +220,7 @@ angular.module("gdbaseSims")
         email: resetData.email,
         password: $scope.newPass
       }
-      $http.post(baseURL + "./server/change-password.php", data)
+      $http.post(apiURL + "./server/change-password.php", data)
         .then(function (res) {
           console.log(res.data);
           if(res.data == "changedSucessfully"){

@@ -18,7 +18,7 @@ angular.module("gdbaseSims")
     $scope.currentMaxScore = null;
     $scope.score = 0;
     $scope.beginSimulation = function (simNum) {
-      $http.get(baseURL + "./server/database/sim"+ $scope.currentSimulationNum+".json")
+      $http.get(apiURL + "./server/database/sim"+ $scope.currentSimulationNum+".json")
         .then(function (response) {
           $scope.simData = response.data;
           if ($scope.userSimData[$scope.currentSimulation] == undefined) {
@@ -252,7 +252,7 @@ angular.module("gdbaseSims")
       $scope.userSimData.simulationMetadata[$scope.currentSimulation].timeTaken = $scope.timer;
 
       // and then push
-      $http.post(baseURL + "./server/update-sim-data.php", {
+      $http.post(apiURL + "./server/update-sim-data.php", {
           "username": $stateParams.user,
           "simulation": $scope.userSimData
         })

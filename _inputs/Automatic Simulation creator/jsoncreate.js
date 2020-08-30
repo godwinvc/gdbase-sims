@@ -4,14 +4,14 @@ xljson(
   {
     input: "sims.xls", // input xls
     output: "output.json", // output json
-    sheet: "Simulation 6" // specific sheetname
+    sheet: "Simulation 7" // specific sheetname
   },
   function(err, result) {
     if (err) {
       console.error(err);
     } else {
       //   console.log(convertToSim(result));
-      fs.writeFile("sim6.json", JSON.stringify(convertToSim(result)), function(
+      fs.writeFile("sim7.json", JSON.stringify(convertToSim(result)), function(
         err
       ) {
         if (err) throw err;
@@ -99,7 +99,7 @@ const buildTF = (Qnum, obj, simJSON) => {
     simJSON[Qnum].options.Op1.type = {};
     simJSON[Qnum].options.Op1.type.correct = {};
     simJSON[Qnum].options.Op1.type.incorrect = {};
-    if (obj["Good answer"].toLowerCase() == "true") {
+    if (obj["Good answer"].toLowerCase() == "true" || obj["Good answer"].toLowerCase() == "t") {
       simJSON[Qnum].options.Op1.type.correct.op = "true";
       let arr = obj.Marks.split(" ");
       simJSON[Qnum].options.Op1.type.correct.mark = parseFloat(
@@ -109,7 +109,7 @@ const buildTF = (Qnum, obj, simJSON) => {
       simJSON[Qnum].options.Op1.type.incorrect.mark = parseFloat(
         divBits(arr[arr.indexOf("false") + 1], Qnum)
       );
-    } else if (obj["Good answer"].toLowerCase() == "false") {
+    } else if (obj["Good answer"].toLowerCase() == "false" || obj["Good answer"].toLowerCase() == "f") {
       simJSON[Qnum].options.Op1.type.correct.op = "false";
       let arr = obj.Marks.split(" ");
       simJSON[Qnum].options.Op1.type.correct.mark = parseFloat(
@@ -131,7 +131,7 @@ const buildTF = (Qnum, obj, simJSON) => {
     simJSON[Qnum].options[curOp].type = {};
     simJSON[Qnum].options[curOp].type.correct = {};
     simJSON[Qnum].options[curOp].type.incorrect = {};
-    if (obj["Good answer"].toLowerCase() == "true") {
+    if (obj["Good answer"].toLowerCase() == "true" || obj["Good answer"].toLowerCase() == "t") {
       simJSON[Qnum].options[curOp].type.correct.op = "true";
       let arr = obj.Marks.split(" ");
       simJSON[Qnum].options[curOp].type.correct.mark = parseFloat(
@@ -141,7 +141,7 @@ const buildTF = (Qnum, obj, simJSON) => {
       simJSON[Qnum].options[curOp].type.incorrect.mark = parseFloat(
         divBits(arr[arr.indexOf("false") + 1], Qnum)
       );
-    } else if (obj["Good answer"].toLowerCase() == "false") {
+    } else if (obj["Good answer"].toLowerCase() == "false" || obj["Good answer"].toLowerCase() == "f") {
       simJSON[Qnum].options[curOp].type.correct.op = "false";
       let arr = obj.Marks.split(" ");
       simJSON[Qnum].options[curOp].type.correct.mark = parseFloat(

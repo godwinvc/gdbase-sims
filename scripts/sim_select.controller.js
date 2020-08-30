@@ -23,6 +23,14 @@ angular.module("gdbaseSims").controller("simSelectController", [
         title: 'Simulation 6',
         productId: '701'
       },
+      simulation7:{
+        title: 'Simulation 7',
+        productId: '701'
+      },
+      simulation8:{
+        title: 'Simulation 8',
+        productId: '701'
+      },
     }
     $scope.selectedItem = {};
     var checkSimulationAccess = function (currentSimulationNum) {

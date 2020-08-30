@@ -1,12 +1,14 @@
 if (location.origin == "https://www.gdbase.be") {
     // production
     window.baseURL = "https://www.gdbase.be/simulations/";
+    window.apiURL = window.baseURL; 
     window.$ = jQuery;
 } else {
     // development
     window.jQuery = require('jquery');
     window.$ = jQuery;
     window.baseURL = "";
+    window.apiURL = "https://www.gdbase.be/simulations/";
 }
 
 window.angular = require('angular');

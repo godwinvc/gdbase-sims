@@ -17,10 +17,10 @@ angular.module("gdbaseSims")
         username: $scope.username,
         password: $scope.password
       };
-      $http.post(baseURL + "./server/signup.php", signupData)
+      $http.post(apiURL + "./server/signup.php", signupData)
         .then(function (response) {
           if (response.data.signUp) {
-            $http.post(baseURL + "./server/send-activation-mail.php", {
+            $http.post(apiURL + "./server/send-activation-mail.php", {
                 "firstname": $scope.firstName,
                 "email": $scope.email,
                 "activationCode": response.data.activationCode
@@ -54,7 +54,7 @@ angular.module("gdbaseSims")
         });
     };
     $scope.validateUsername = function () {
-      $http.post(baseURL + "./server/username-avalibility.php", $scope.username)
+      $http.post(apiURL + "./server/username-avalibility.php", $scope.username)
         .then(function (response) {
           $scope.isUnique = response.data.trim();
         })
@@ -68,7 +68,7 @@ angular.module("gdbaseSims")
       }
     };
     $scope.validateEmail = function () {
-      $http.post(baseURL + "./server/email-avalibility.php", $scope.email)
+      $http.post(apiURL + "./server/email-avalibility.php", $scope.email)
         .then(function (response) {
           $scope.isUniqueEmail = response.data.trim();
         })

@@ -152,6 +152,60 @@
                 </div>
             </div>
         </div>
+        <!-- simulation 7 -->
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <div class="card" ng-class="{'active':userSimData.simulationMetadata.simulation7.paid}">
+                <div class="container-fluid">
+                    <div class="col-sm-12">
+                        <div class="text-center card-title">
+                            <h4>
+                                <b>Simulation 7</b>
+                            </h4>
+                            <p style="margin:0px;">30 autres questions officielles d’examen</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-8">
+                        <button class="btn btn-default btn-block btn-card" ng-class="{'btn-primary':userSimData.simulationMetadata.simulation7.paid}"
+                            ng-click="openSimulation('simulation7')">{{!userSimData.simulationMetadata.simulation7.paid? 'Acheter la simulation 7' : 'Faire la simulation 7'}}
+                            <i class="icon ion-ios-arrow-forward pull-right"></i>
+                        </button>
+                    </div>
+                    <div class="col-sm-2"></div>
+                </div>
+                <div class="card-locked" ng-hide="userSimData.simulationMetadata.simulation7.paid" ng-click="lockedSims('simulation7')">
+                    <i class="ion-android-lock"></i>
+                </div>
+            </div>
+        </div>
+        <!--  -->
+        <!-- simulation 8  -->
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <div class="card" ng-class="{'active':userSimData.simulationMetadata.simulation8.paid}">
+                <div class="container-fluid">
+                    <div class="col-sm-12">
+                        <div class="text-center card-title">
+                            <h4>
+                                <b>Simulation 8</b>
+                            </h4>
+                            <p style="margin:0px;">30 autres questions officielles d’examen</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-8">
+                        <button class="btn btn-default btn-block btn-card" ng-class="{'btn-primary':userSimData.simulationMetadata.simulation8.paid}"
+                            ng-click="openSimulation('simulation8')">{{!userSimData.simulationMetadata.simulation8.paid? 'Acheter la simulation 8' : 'Faire la simulation 8'}}
+                            <i class="icon ion-ios-arrow-forward pull-right"></i>
+                        </button>
+                    </div>
+                    <div class="col-sm-2"></div>
+                </div>
+                <div class="card-locked" ng-hide="userSimData.simulationMetadata.simulation8.paid" ng-click="lockedSims('simulation8')">
+                    <i class="ion-android-lock"></i>
+                </div>
+            </div>
+        </div>
+        <!--  -->
     </div>
     <!-- products list -->
 

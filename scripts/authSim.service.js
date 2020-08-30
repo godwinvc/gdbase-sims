@@ -3,7 +3,7 @@ angular.module("gdbaseSims").service("authSimService", [
   function($http) {
     this.checkSimPayment = function(username, sim) {
       return $http
-        .post(baseURL + "./server/get-user-data.php", username)
+        .post(apiURL + "./server/get-user-data.php", username)
         .then(function(response) {
           var simData = JSON.parse(response.data.simulation);
           return simData.simulationMetadata[sim].paid;

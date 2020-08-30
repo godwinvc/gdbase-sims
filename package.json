@@ -4,6 +4,8 @@
   "description": "GDBase Site Simulations developed by godwinvc",
   "main": "imports.js",
   "scripts": {
+    "start": "webpack --progress --watch",
+    "serve": "webpack-dev-server --hot --inline --open --port 4200",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -27,16 +29,16 @@
   },
   "homepage": "https://github.com/godwinvc/gdbase-sims#readme",
   "dependencies": {
-    "angular": "1.6.8",
-    "bootstrap": "4.0.0",
-    "jquery": "3.3.1",
-    "angular-animate": "1.6.3",
-    "angular-sanitize": "1.6.3",
-    "angular-ui-router": "1.0.0-beta.2",
-    "animate.css": "3.5.2",
-    "bootstrap-sass": "3.3.7",
-    "font-awesome": "4.6.3",
-    "ionicons": "3.0.0"
+    "angular": "1.8.0",
+    "angular-animate": "^1.8.0",
+    "angular-sanitize": "^1.8.0",
+    "angular-ui-router": "^1.0.28",
+    "animate.css": "^4.1.0",
+    "bootstrap": "4.3.1",
+    "bootstrap-sass": "3.4.1",
+    "font-awesome": "^4.7.0",
+    "ionicons": "3.0.0",
+    "jquery": "3.5.0"
   },
   "devDependencies": {
     "copy-webpack-plugin": "4.0.1",
@@ -50,6 +52,6 @@
     "style-loader": "0.13.1",
     "url-loader": "0.5.7",
     "webpack": "1.14.0",
-    "webpack-dev-server": "1.15.2"
+    "webpack-dev-server": "^3.11.0"
   }
 }
