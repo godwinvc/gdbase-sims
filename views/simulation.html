@@ -78,10 +78,10 @@
                     <div class="tf-group" ng-repeat="(opk,opv) in currentQuestionData.options">
                         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">{{opv.text}}</div>
                         <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
-                            <button class="btn btn-block" ng-click="OpSelectionHandler({'opk':opk, 'ans':'true'})" ng-class="{'btn-primary':currSelectedOptions[opk].ans == 'true'}">Vrai</button>
+                            <button class="btn btn-block btn-unselected" ng-click="OpSelectionHandler({'opk':opk, 'ans':'true'})" ng-class="{'btn-selected':currSelectedOptions[opk].ans == 'true'}">Vrai</button>
                         </div>
                         <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
-                            <button class="btn btn-block" ng-click="OpSelectionHandler({'opk':opk, 'ans':'false'})" ng-class="{'btn-primary':currSelectedOptions[opk].ans == 'false'}">Faux</button>
+                            <button class="btn btn-block btn-unselected" ng-click="OpSelectionHandler({'opk':opk, 'ans':'false'})" ng-class="{'btn-selected':currSelectedOptions[opk].ans == 'false'}">Faux</button>
                         </div>
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                             <hr>

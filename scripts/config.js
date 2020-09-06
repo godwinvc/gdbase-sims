@@ -5,6 +5,12 @@ window.lout = function () {
     .logoutHandler();
 };
 var runFunction = function ($rootScope, $transitions, authService, $state) {
+  
+  // App Version
+  var appVersion = "1.0";
+  console.log(`%cSimulation App Version: ${appVersion}`, 'color:#f60; font-size:large');
+
+
   // jQuery Stuff
   // var header = $('header').html?v=1.1();
   // $('header').remove();

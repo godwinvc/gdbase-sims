@@ -46,3 +46,18 @@ header .fusion-row {
 body.modal-open .fusion-header-wrapper {
   z-index: 5 !important;
 }
+
+.btn-unselected, .btn-unselected:focus, .btn-unselected:active,.btn-unselected:hover {
+  background-color: whitesmoke;
+  color:black;
+} 
+
+.btn-selected, .btn-selected:focus, .btn-selected:active{
+  background-color: #f60;
+  color:white;
+}
+
+.btn-selected:hover{
+  background-color: #CC5200;
+  color:white;
+}
