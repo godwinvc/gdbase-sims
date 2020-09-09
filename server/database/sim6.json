@@ -1,4 +1,4 @@
-{
+﻿{
   "TimeLimit": {
       "hours": 1,
       "mins": 30,
@@ -48,10 +48,10 @@
       "J'achète des matériaux pour 400€. J'effectue 15h de travail à 50€ de l'heure. Les frais indirectes de l'entreprise sont de 10000€ répartis au prorata de la charge salariale directe de 750000€. Je fais une marge de 20% du prix de vente. Quel est le prix de vente HTVA ?",
     "questionType": "MC",
     "options": {
-      "Op1": { "text": "1.160.00", "type": "incorrect", "mark": 2.5 },
-      "Op2": { "text": "1.450.00", "type": "correct", "mark": 10 },
-      "Op3": { "text": "1.750.00", "type": "incorrect", "mark": 2.5 },
-      "Op4": { "text": "1.392.00", "type": "incorrect", "mark": 2.5 }
+      "Op1": { "text": "1.160€", "type": "incorrect", "mark": 2.5 },
+      "Op2": { "text": "1.450€", "type": "correct", "mark": 10 },
+      "Op3": { "text": "1.750€", "type": "incorrect", "mark": 2.5 },
+      "Op4": { "text": "1.392€", "type": "incorrect", "mark": 2.5 }
     }
   },
   "Q3": {
@@ -71,10 +71,10 @@
     "questionText": "Quel capital faut-il libérer pour créer une SPRL-U ?",
     "questionType": "MC",
     "options": {
-      "Op1": { "text": "1 €", "type": "incorrect", "mark": 0.5 },
-      "Op2": { "text": "6.200 €", "type": "incorrect", "mark": 0.5 },
-      "Op3": { "text": "12.400 €", "type": "correct", "mark": 2 },
-      "Op4": { "text": "18.550 €", "type": "incorrect", "mark": 0.5 }
+      "Op1": { "text": "1€", "type": "incorrect", "mark": 0.5 },
+      "Op2": { "text": "6.200€", "type": "incorrect", "mark": 0.5 },
+      "Op3": { "text": "12.400€", "type": "correct", "mark": 2 },
+      "Op4": { "text": "18.550€", "type": "incorrect", "mark": 0.5 }
     }
   },
   "Q5": {
@@ -93,10 +93,10 @@
       "Une entreprise achète des articles 70€ HTVA. Elle réalise une marge de 30% sur le prix de vente. Elle vend 1000 articles par an. Les frais fixes sont de 10000€. Combien faut-il vendre d'articles pour atteindre le seuil de rentabilité ? (Rem : Les frais variables ne proviennent que des achats.)",
     "questionType": "MC",
     "options": {
-      "Op1": { "text": "3343 pièces", "type": "incorrect", "mark": 2.5 },
-      "Op2": { "text": "3334 pièces", "type": "correct", "mark": 10 },
-      "Op3": { "text": "3433 pièces", "type": "incorrect", "mark": 2.5 },
-      "Op4": { "text": "4333 pièces", "type": "incorrect", "mark": 2.5 }
+      "Op1": { "text": "330 pièces", "type": "incorrect", "mark": 2.5 },
+      "Op2": { "text": "333 pièces", "type": "correct", "mark": 10 },
+      "Op3": { "text": "343 pièces", "type": "incorrect", "mark": 2.5 },
+      "Op4": { "text": "370 pièces", "type": "incorrect", "mark": 2.5 }
     }
   },
   "Q7": {
@@ -104,10 +104,10 @@
       "On achète une machine 10000€ et on l'amorti de façon dégressive en 3 ans. Quel est la valeur résiduelle dans l'inventaire après 2 ans ?",
     "questionType": "MC",
     "options": {
-      "Op1": { "text": "2.500.00", "type": "incorrect", "mark": 2.5 },
-      "Op2": { "text": "2.000.00", "type": "correct", "mark": 10 },
-      "Op3": { "text": "3.333.33", "type": "incorrect", "mark": 2.5 },
-      "Op4": { "text": "6.000.00", "type": "incorrect", "mark": 2.5 }
+      "Op1": { "text": "2.500€", "type": "incorrect", "mark": 2.5 },
+      "Op2": { "text": "2.000€", "type": "correct", "mark": 10 },
+      "Op3": { "text": "3.333,33€", "type": "incorrect", "mark": 2.5 },
+      "Op4": { "text": "6.000€", "type": "incorrect", "mark": 2.5 }
     }
   },
   "Q8": {
@@ -219,10 +219,10 @@
       "Les informations concernant les prestations de ventes de maquillage de soirée par un institut d’esthétique sont les suivantes :<ul class=\"question-li\"><li>quantité moyenne achetée par client et par an = 1,5 séances</li><li>nombre d’acheteurs (en 2017) = 86 personnes</li><li>prix moyen payé : 25 euros\nDéterminez le chiffre d’affaires en volume et en valeur d’entreprise d’esthétique (en valeur).</li></ul>",
     "questionType": "MC",
     "options": {
-      "Op1": { "text": "2.725 €", "type": "incorrect", "mark": 1.5 },
-      "Op2": { "text": "3.125 €", "type": "incorrect", "mark": 1.5 },
-      "Op3": { "text": "3.225 €", "type": "correct", "mark": 6 },
-      "Op4": { "text": "3.525 €", "type": "incorrect", "mark": 1.5 }
+      "Op1": { "text": "2.725€", "type": "incorrect", "mark": 1.5 },
+      "Op2": { "text": "3.125€", "type": "incorrect", "mark": 1.5 },
+      "Op3": { "text": "3.225€", "type": "correct", "mark": 6 },
+      "Op4": { "text": "3.525€", "type": "incorrect", "mark": 1.5 }
     }
   },
   "Q13": {
@@ -230,10 +230,10 @@
       "Une société a un chiffre d’affaire de 250.000€. Pour ce faire, elle a dû acheter pour 50.000€ de matières premières. Le stock en début d’année était de 7.900€ et le stock en fin d’année était de 10.200€. Les frais fixes de cette société sont de 100.000€. Quel est le bénéfice brut sur les ventes ?",
     "questionType": "MC",
     "options": {
-      "Op1": { "text": "40.92%", "type": "incorrect", "mark": 2 },
-      "Op2": { "text": "60.73%", "type": "incorrect", "mark": 2 },
-      "Op3": { "text": "80.92%", "type": "correct", "mark": 8 },
-      "Op4": { "text": "90.82%", "type": "incorrect", "mark": 2 }
+      "Op1": { "text": "40,92%", "type": "incorrect", "mark": 2 },
+      "Op2": { "text": "60,73%", "type": "incorrect", "mark": 2 },
+      "Op3": { "text": "80,92%", "type": "correct", "mark": 8 },
+      "Op4": { "text": "90,82%", "type": "incorrect", "mark": 2 }
     }
   },
   "Q14": {
@@ -251,10 +251,10 @@
     "questionText": "Quel es le capital souscrit d'une SPRL ?",
     "questionType": "MC",
     "options": {
-      "Op1": { "text": "1 €", "type": "incorrect", "mark": 0.5 },
-      "Op2": { "text": "6.200 €", "type": "incorrect", "mark": 0.5 },
-      "Op3": { "text": "18.550 €", "type": "correct", "mark": 2 },
-      "Op4": { "text": "61.500 €", "type": "incorrect", "mark": 0.5 }
+      "Op1": { "text": "1€", "type": "incorrect", "mark": 0.5 },
+      "Op2": { "text": "6.200€", "type": "incorrect", "mark": 0.5 },
+      "Op3": { "text": "18.550€", "type": "correct", "mark": 2 },
+      "Op4": { "text": "61.500€", "type": "incorrect", "mark": 0.5 }
     }
   },
   "Q16": {
@@ -262,10 +262,10 @@
       "Une marchandise achetée 1.800€ est étiquetée 2.600€ hors TVA. Elle est vendue avec une remise de 5%. Quelle est la marge bénéficiaire sur le prix de vente final hors TVA ?",
     "questionType": "MC",
     "options": {
-      "Op1": { "text": "17.72%", "type": "incorrect", "mark": 2 },
-      "Op2": { "text": "27.12%", "type": "correct", "mark": 8 },
-      "Op3": { "text": "32.64%", "type": "incorrect", "mark": 2 },
-      "Op4": { "text": "37.22%", "type": "incorrect", "mark": 2 }
+      "Op1": { "text": "17,72%", "type": "incorrect", "mark": 2 },
+      "Op2": { "text": "27,12%", "type": "correct", "mark": 8 },
+      "Op3": { "text": "32,64%", "type": "incorrect", "mark": 2 },
+      "Op4": { "text": "37,22%", "type": "incorrect", "mark": 2 }
     }
   },
   "Q17": {
@@ -314,10 +314,10 @@
       "On achète un produit 80€ HTVA et on le vend en faisant une marge sur le prix de vente de 20%. Les frais de transport sont de 15€. On accorde une remise de 15% et un escompte de 2%. Quel est le prix de vente final TVAC (21%) ?",
     "questionType": "MC",
     "options": {
-      "Op1": { "text": "110.42", "type": "incorrect", "mark": 2.5 },
-      "Op2": { "text": "118.58", "type": "correct", "mark": 10 },
-      "Op3": { "text": "114.55", "type": "incorrect", "mark": 2.5 },
-      "Op4": { "text": "122.67", "type": "incorrect", "mark": 2.5 }
+      "Op1": { "text": "110,42€", "type": "incorrect", "mark": 2.5 },
+      "Op2": { "text": "118,58€", "type": "correct", "mark": 10 },
+      "Op3": { "text": "114,55€", "type": "incorrect", "mark": 2.5 },
+      "Op4": { "text": "122,67€", "type": "incorrect", "mark": 2.5 }
     }
   },
   "Q20": {
@@ -349,10 +349,10 @@
       "Une entre prise possède des machines pour un montant de 15.000€ et une voiture pour un montant de 7.000€. Elle les a financé en capital propre à la hauteur de 4.000€ et en emprunt bancaire à la hauteur de 18.000€. Quel est la somme du passif ?",
     "questionType": "MC",
     "options": {
-      "Op1": { "text": "4.000 €", "type": "incorrect", "mark": 1 },
-      "Op2": { "text": "7.000 €", "type": "incorrect", "mark": 1 },
-      "Op3": { "text": "18.000 €", "type": "incorrect", "mark": 1 },
-      "Op4": { "text": "22.000 €", "type": "correct", "mark": 4 }
+      "Op1": { "text": "4.000€", "type": "incorrect", "mark": 1 },
+      "Op2": { "text": "7.000€", "type": "incorrect", "mark": 1 },
+      "Op3": { "text": "18.000€", "type": "incorrect", "mark": 1 },
+      "Op4": { "text": "22.000€", "type": "correct", "mark": 4 }
     }
   },
   "Q22": {
@@ -381,7 +381,7 @@
   },
   "Q23": {
     "questionText":
-      "Le chiffre d'affaires d'une société s'élève à 400000€ annuel. Dans ce chiffre d'affaires, on sait que le bénéfice brut est équivalent à 60% du prix des achats. Les stocks au cours de l'année sont de 40000€ au 1° janvier, 70000€ au 1° avril, 32000€ au 1° juillet, 20000€ au 1° octobre et 38000€ au 1° décembre. Combien de fois par an le stock est-il renouvelé ?",
+      "Le chiffre d'affaires d'une société s'élève à 400.000€ annuel. Dans ce chiffre d'affaires, on sait que le bénéfice brut est équivalent à 60% du prix des achats. Les stocks au cours de l'année sont de 40.000€ au 1° janvier, 70.000€ au 1° avril, 32.000€ au 1° juillet, 20.000€ au 1° octobre et 38.000€ au 1° décembre. Combien de fois par an le stock est-il renouvelé ?",
     "questionType": "MC",
     "options": {
       "Op1": { "text": "5,25 fois par an", "type": "incorrect", "mark": 2.5 },
@@ -452,10 +452,10 @@
       "En 2016, un marchand a vendu 342 vélos d'une valeur moyenne de 800€/pièce. Le marché total a écoulé 3000 vélos d'une valeur moyenne de 400€. Quantitativement, quel est le pourcentage de son offre par rapport au marché ?",
     "questionType": "MC",
     "options": {
-      "Op1": { "text": "9.42%", "type": "incorrect", "mark": 2.5 },
-      "Op2": { "text": "10.00%", "type": "incorrect", "mark": 2.5 },
-      "Op3": { "text": "11.40%", "type": "correct", "mark": 10 },
-      "Op4": { "text": "12.40%", "type": "incorrect", "mark": 2.5 }
+      "Op1": { "text": "9,42%", "type": "incorrect", "mark": 2.5 },
+      "Op2": { "text": "10,00%", "type": "incorrect", "mark": 2.5 },
+      "Op3": { "text": "11,40%", "type": "correct", "mark": 10 },
+      "Op4": { "text": "12,40%", "type": "incorrect", "mark": 2.5 }
     }
   },
   "Q27": {
@@ -486,10 +486,10 @@
       "Le prix de vente d’un véhicule mixte est de 20.000€ hors TVA (taux de 21%). Conditions promotionnelles : le vendeur vous offre la TVA. Exprimée en %, quelle sera la remise obtenue ?",
     "questionType": "MC",
     "options": {
-      "Op1": { "text": "15.17%", "type": "incorrect", "mark": 2 },
-      "Op2": { "text": "17.36%", "type": "correct", "mark": 8 },
+      "Op1": { "text": "15,17%", "type": "incorrect", "mark": 2 },
+      "Op2": { "text": "17,36%", "type": "correct", "mark": 8 },
       "Op3": { "text": "21%", "type": "incorrect", "mark": 2 },
-      "Op4": { "text": "4.200 €", "type": "incorrect", "mark": 2 }
+      "Op4": { "text": "4.200€", "type": "incorrect", "mark": 2 }
     }
   },
   "Q29": {
@@ -528,10 +528,10 @@
       "On achète un produit 210€ HTVA et on le vend en faisant une marge sur le prix de vente de 30%. Les frais de transport sont de 15€. On accorde une remise de 10% et un escompte de 2%. Quel est le prix de vente final TVAC (21%) ?",
     "questionType": "MC",
     "options": {
-      "Op1": { "text": "336.17", "type": "incorrect", "mark": 2.5 },
-      "Op2": { "text": "337.95", "type": "correct", "mark": 10 },
-      "Op3": { "text": "339.17", "type": "incorrect", "mark": 2.5 },
-      "Op4": { "text": "340.95", "type": "incorrect", "mark": 2.5 }
+      "Op1": { "text": "336,17€", "type": "incorrect", "mark": 2.5 },
+      "Op2": { "text": "337,95€", "type": "correct", "mark": 10 },
+      "Op3": { "text": "339,17€", "type": "incorrect", "mark": 2.5 },
+      "Op4": { "text": "340,95€", "type": "incorrect", "mark": 2.5 }
     }
   }
 }

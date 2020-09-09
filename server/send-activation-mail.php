@@ -1,27 +1,36 @@
 <?php
-require 'vendor/autoload.php';
+     use PHPMailer\PHPMailer\PHPMailer;
+     use PHPMailer\PHPMailer\SMTP;
+     use PHPMailer\PHPMailer\Exception;
+     
+     require("./vendor/phpmailer/phpmailer/src/PHPMailer.php");
+     require("./vendor/phpmailer/phpmailer/src/SMTP.php");
+     require("./vendor/phpmailer/phpmailer/src/Exception.php");
+
+
 $email_data = json_decode(file_get_contents('php://input'));
 // $email_data = json_decode('{"firstname":"Godwin","email":"alfa.godwin.omega@gmail.com","activationCode":"ABC123456"}');
 $firstname = $email_data->firstname;
 $user_email = $email_data->email;
-$activation_code = $email_data->activationCode;
+$gdbaseOTP = $email_data->otp;
 
-$Email = new PHPMailer;$Email->CharSet = 'UTF-8';
+$Email = new PHPMailer;
 
-$Email->isSMTP();
+// $Email -> isSMTP();
 
-$Email->SMTPAuth = true;
+$Email -> SMTPAuth = false;
 
-//$Email -> SMTPDebug = 2;
-$Email->Host = 'mail.gdbase.be';
+// $Email -> SMTPDebug = 2;
+
+$Email -> Host = 'localhost';
+
+// $Email -> SMTPSecure = 'STARTTLS';
+
+$Email -> Port = '25';
 
 $Email->Username = 'training@gdbase.be';
 
 $Email->Password = 'NMHjZbAQh12fyr';
-
-$Email->SMTPSecure = 'ssl';
-
-$Email->Port = '465';
 
 $Email->From = "training@gdbase.be";
 

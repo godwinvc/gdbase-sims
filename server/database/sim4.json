@@ -1,8 +1,8 @@
-{
+﻿{
   "TimeLimit": {
-    "hours": 0,
-    "mins": 0,
-    "secs": 10
+    "hours": 1,
+    "mins": 30,
+    "secs": 0
   },
   "TotalMarks": 184,
   "minMarks": 50,
@@ -93,12 +93,12 @@
     "questionType": "MC",
     "options": {
       "Op1": {
-        "text": "6.200 €",
+        "text": "6.200€",
         "type": "incorrect",
         "mark": 1
       },
       "Op2": {
-        "text": "12.400 €",
+        "text": "12.400€",
         "type": "incorrect",
         "mark": 1
       },
@@ -108,7 +108,7 @@
         "mark": 1
       },
       "Op4": {
-        "text": "18.550 €",
+        "text": "18.550€",
         "type": "correct",
         "mark": 4
       }
@@ -119,22 +119,22 @@
     "questionType": "MC",
     "options": {
       "Op1": {
-        "text": "566.70 €",
+        "text": "566,70€",
         "type": "incorrect",
         "mark": 2.5
       },
       "Op2": {
-        "text": "576.70 €",
+        "text": "576,70€",
         "type": "incorrect",
         "mark": 2.5
       },
       "Op3": {
-        "text": "667.60 €",
+        "text": "667,60€",
         "type": "incorrect",
         "mark": 2.5
       },
       "Op4": {
-        "text": "677.60 €",
+        "text": "677,60€",
         "type": "correct",
         "mark": 10
       }
@@ -145,48 +145,48 @@
     "questionType": "MC",
     "options": {
       "Op1": {
-        "text": "5.643.34 €",
+        "text": "5.643,34€",
         "type": "incorrect",
         "mark": 2.5
       },
       "Op2": {
-        "text": "6.528.93 €",
+        "text": "6.528,93€",
         "type": "correct",
         "mark": 10
       },
       "Op3": {
-        "text": "6.784.24 €",
+        "text": "6.784,24€",
         "type": "incorrect",
         "mark": 2.5
       },
       "Op4": {
-        "text": "7.345.46 €",
+        "text": "7.345,46€",
         "type": "incorrect",
         "mark": 2.5
       }
     }
   },
   "Q6": {
-    "questionText": "J’achète des marchandises 10.000€ et mes frais s’élèvent à 5 % du prix d’achat. Je les revends en gagnant 25 % du prix de vente hors TVA. Quel est le bénéfice ?",
+    "questionText": "J’achète des marchandises 10.000€ et mes frais s’élèvent à 5% du prix d’achat. Je les revends en gagnant 25% du prix de vente hors TVA. Quel est le bénéfice ?",
     "questionType": "MC",
     "options": {
       "Op1": {
-        "text": "2.625 €",
+        "text": "2.625€",
         "type": "correct",
         "mark": 10
       },
       "Op2": {
-        "text": "3.250 €",
+        "text": "3.250€",
         "type": "incorrect",
         "mark": 2.5
       },
       "Op3": {
-        "text": "3.500 €",
+        "text": "3.500€",
         "type": "incorrect",
         "mark": 2.5
       },
       "Op4": {
-        "text": "4.000 €",
+        "text": "4.000€",
         "type": "incorrect",
         "mark": 2.5
       }
@@ -239,37 +239,37 @@
     }
   },
   "Q8": {
-    "questionText": "On achète une machine 30000€ et on l'amorti de façon dégressive en 4 ans. Quel est la valeur résiduelle dans l'inventaire après 2 ans ?",
+    "questionText": "On achète une machine 30.000€ et on l'amorti de façon dégressive en 4 ans. Quel est la valeur résiduelle dans l'inventaire après 2 ans ?",
     "questionType": "MC",
     "options": {
       "Op1": {
-        "text": "18.000.00",
+        "text": "18.000€",
         "type": "incorrect",
         "mark": 2.5
       },
       "Op2": {
-        "text": "9.000.00",
+        "text": "9.000€",
         "type": "correct",
         "mark": 10
       },
       "Op3": {
-        "text": "15.000.00",
+        "text": "15.000€",
         "type": "incorrect",
         "mark": 2.5
       },
       "Op4": {
-        "text": "1.500.00",
+        "text": "1.500€",
         "type": "incorrect",
         "mark": 2.5
       }
     }
   },
   "Q9": {
-    "questionText": "En Janvier, on achète des matières premières pour 10000€ HTVA (21%) et une machine pour 5000€ HTVA (12%). Le même mois, on vend au client 1 pour 25000€ HTVA (6%) et au client 2 pour 12100€ TVAC (21%). Calculez le solde TVA du mois de Janvier !",
+    "questionText": "En Janvier, on achète des matières premières pour 10.000€ HTVA (21%) et une machine pour 5000€ HTVA (12%). Le même mois, on vend au client 1 pour 25.000€ HTVA (6%) et au client 2 pour 12.100€ TVAC (21%). Calculez le solde TVA du mois de Janvier !",
     "questionType": "MC",
     "options": {
       "Op1": {
-        "text": "On doit 3600€ à la TVA",
+        "text": "On doit 3.600€ à la TVA",
         "type": "incorrect",
         "mark": 2.5
       },
@@ -284,7 +284,7 @@
         "mark": 2.5
       },
       "Op4": {
-        "text": "La TVA nous doit 3150€",
+        "text": "La TVA nous doit 3.150€",
         "type": "incorrect",
         "mark": 2.5
       }
@@ -392,22 +392,22 @@
     "questionType": "MC",
     "options": {
       "Op1": {
-        "text": "2.120 €",
+        "text": "2.120€",
         "type": "incorrect",
         "mark": 2
       },
       "Op2": {
-        "text": "2.210 €",
+        "text": "2.210€",
         "type": "correct",
         "mark": 8
       },
       "Op3": {
-        "text": "2.220 €",
+        "text": "2.220€",
         "type": "incorrect",
         "mark": 2
       },
       "Op4": {
-        "text": "2.310 €",
+        "text": "2.310€",
         "type": "incorrect",
         "mark": 2
       }
@@ -492,26 +492,26 @@
     }
   },
   "Q17": {
-    "questionText": "Une entreprise vend 10.000 articles à 80€/pièce HTVA. Chaque article est acheté 30€ HTVA et il n'y a pas d'autres frais variables dans cette entreprise. Les frais fixes sont de 200000€. Combien faut-il vendre d'articles pour atteindre le seuil de rentabilité ?",
+    "questionText": "Une entreprise vend 10.000 articles à 80€/pièce HTVA. Chaque article est acheté 30€ HTVA et il n'y a pas d'autres frais variables dans cette entreprise. Les frais fixes sont de 200.000€. Combien faut-il vendre d'articles pour atteindre le seuil de rentabilité ?",
     "questionType": "MC",
     "options": {
       "Op1": {
-        "text": "3000 pièces",
+        "text": "3.000 pièces",
         "type": "incorrect",
         "mark": 2.5
       },
       "Op2": {
-        "text": "4000 pièces",
+        "text": "4.000 pièces",
         "type": "correct",
         "mark": 10
       },
       "Op3": {
-        "text": "5000 Pièces",
+        "text": "5.000 Pièces",
         "type": "incorrect",
         "mark": 2.5
       },
       "Op4": {
-        "text": "6000 pièces",
+        "text": "6.000 pièces",
         "type": "incorrect",
         "mark": 2.5
       }
@@ -639,27 +639,59 @@
   },
   "Q23": {
     "questionText": "Vrai ou faux  ?",
-    "questionType": "MC",
+    "questionType": "TF",
     "options": {
       "Op1": {
         "text": "Les incapables juridiquement peuvent être des personnes mineures mais aussi des personnes majeures dans certaines circonstances.",
-        "type": "correct",
-        "mark": null
+        "type": {
+          "correct": {
+            "op": "true",
+            "mark": 1
+          },
+          "incorrect": {
+            "op": "false",
+            "mark": 0.25
+          }
+        }
       },
       "Op2": {
         "text": "A partir de 15 ans, l’enfant mineur peut être émancipé par jugement du tribunal de la jeunesse.",
-        "type": "correct",
-        "mark": null
+        "type": {
+          "correct": {
+            "op": "true",
+            "mark": 1
+          },
+          "incorrect": {
+            "op": "false",
+            "mark": 0.25
+          }
+        }
       },
       "Op3": {
         "text": "Il est toujours interdit de vendre à perte.",
-        "type": "correct",
-        "mark": null
+        "type": {
+          "correct": {
+            "op": "false",
+            "mark": 1
+          },
+          "incorrect": {
+            "op": "true",
+            "mark": 0.25
+          }
+        }
       },
       "Op4": {
         "text": "La responsabilité pénale est l’obligation de réparer le préjudice que l’on a causé à autrui.",
-        "type": "correct",
-        "mark": null
+        "type": {
+          "correct": {
+            "op": "false",
+            "mark": 1
+          },
+          "incorrect": {
+            "op": "true",
+            "mark": 0.25
+          }
+        }
       }
     }
   },
@@ -690,26 +722,26 @@
     }
   },
   "Q25": {
-    "questionText": "J'achète des matériaux pour 3000€. J'effectue 10h de travail à 50€ de l'heure. Les frais indirectes de l'entreprise sont de 125000€ répartis au prorata de la charge salariale directe de 1000000€. Je fais une marge de 20% du prix de vente. Quel est le prix de vente HTVA ?",
+    "questionText": "J'achète des matériaux pour 3000€. J'effectue 10h de travail à 50€ de l'heure. Les frais indirectes de l'entreprise sont de 125.000€ répartis au prorata de la charge salariale directe de 1.000.000€. Je fais une marge de 20% du prix de vente. Quel est le prix de vente HTVA ?",
     "questionType": "MC",
     "options": {
       "Op1": {
-        "text": "3.475.00",
+        "text": "3.475€",
         "type": "incorrect",
         "mark": 2.5
       },
       "Op2": {
-        "text": "3.562.50",
+        "text": "3.562€",
         "type": "correct",
         "mark": 10
       },
       "Op3": {
-        "text": "4.275.00",
+        "text": "4.275€",
         "type": "incorrect",
         "mark": 2.5
       },
       "Op4": {
-        "text": "4.453.13",
+        "text": "4.453€",
         "type": "incorrect",
         "mark": 2.5
       }
@@ -758,11 +790,11 @@
     }
   },
   "Q28": {
-    "questionText": "En Janvier, on achète des matières premières pour 12100€ TVAC (21%) et une machine pour 30000€ HTVA (21%). Le même mois, on vend au client 1 pour 40000€ HTVA (21%) et au client 2 pour 15000€ HTVA (6%). Calculez le solde TVA du mois de Janvier.",
+    "questionText": "En Janvier, on achète des matières premières pour 12.100€ TVAC (21%) et une machine pour 30.000€ HTVA (21%). Le même mois, on vend au client 1 pour 40.000€ HTVA (21%) et au client 2 pour 15.000€ HTVA (6%). Calculez le solde TVA du mois de Janvier.",
     "questionType": "MC",
     "options": {
       "Op1": {
-        "text": "On doit 8400€ à la TVA",
+        "text": "On doit 8.400€ à la TVA",
         "type": "incorrect",
         "mark": 2.5
       },
@@ -777,7 +809,7 @@
         "mark": 2.5
       },
       "Op4": {
-        "text": "La TVA nous doit 8400€",
+        "text": "La TVA nous doit 8.400€",
         "type": "incorrect",
         "mark": 2.5
       }
