@@ -12,7 +12,7 @@ $email_data = json_decode(file_get_contents('php://input'));
 // $email_data = json_decode('{"firstname":"Godwin","email":"alfa.godwin.omega@gmail.com","activationCode":"ABC123456"}');
 $firstname = $email_data->firstname;
 $user_email = $email_data->email;
-$gdbaseOTP = $email_data->otp;
+$activation_code = $email_data->activationCode;
 
 $Email = new PHPMailer;
 
