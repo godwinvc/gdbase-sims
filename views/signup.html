@@ -56,7 +56,7 @@
                             </span>
                         </div>
                         <div class="form-group" ng-class="{'has-error': signupform.password.$invalid && signupform.password.$dirty || (validPassword > 0 && validPassword < 5)}">
-                            <input type="password" class="form-control" name="pwd" placeholder="créer un mot de passe" ng-model="password" ng-change="validatePassword()"
+                            <input type="password" autocomplete="new-password" class="form-control" name="pwd" placeholder="créer un mot de passe" ng-model="password" ng-change="validatePassword()"
                                 required>
                             <small ng-class="{'text-danger': validPassword == 4}" ng-hide="validPassword < 4 && validPassword > 0">&nbsp;Utilisez au moins une lettre, un chiffre et sept caractères au total</small>
                             <span ng-show="validPassword == 1">

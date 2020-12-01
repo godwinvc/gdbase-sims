@@ -56,7 +56,6 @@ angular.module("gdbaseSims")
                 $scope.passResetStage = 1;
                 var res = response.data.response;
                 resetData = response.data;
-                console.log(resetData);
                 if (res == 'addedToWordpress') {
                   $scope.passResetStage = 2;
 
@@ -89,18 +88,18 @@ angular.module("gdbaseSims")
       }
     };
 
-    function sendResetMail(firstname, user_email, activation_code) {
+    function sendResetMail(firstname, user_email, username, activation_code) {
       localStorage.setItem('gdbaseOTP', generateOTP());
       var data = {
         firstname: firstname,
         email: user_email,
         activation_code: activation_code,
+        username: username,
         otp: localStorage.getItem('gdbaseOTP')
       };
       $http.post(apiURL + "./server/send-password-reset-mail.php", data)
         .then(function (res) {
           $scope.passResetStage = 4;
-          console.log(res);
           startTimer();
           if (activation_code) {
             $http.post(apiURL + "./server/send-activation-mail.php", data)
@@ -141,10 +140,10 @@ angular.module("gdbaseSims")
     $scope.passwordRest = function (stage) {
       if (stage == 2) {
         $scope.passResetStage = 1.5;
-        sendResetMail(resetData.firstname, resetData.email, resetData.activationCode);
+        sendResetMail(resetData.firstname, resetData.email, resetData.username ,resetData.activationCode);
       } else if (stage == 3) {
         $scope.passResetStage = 1.5;
-        sendResetMail(resetData.firstname, resetData.email);
+        sendResetMail(resetData.firstname, resetData.email, resetData.username);
       } else if (stage == 4) {
         checkOTP();
       } else if (stage == 5) {
@@ -220,9 +219,8 @@ angular.module("gdbaseSims")
         email: resetData.email,
         password: $scope.newPass
       }
-      $http.post(apiURL + "./server/change-password.php", data)
+      $http.post(apiURL + "./server/change-pwd.php", data)
         .then(function (res) {
-          console.log(res.data);
           if(res.data == "changedSucessfully"){
             $scope.passResetStage = 6;
           }else{

@@ -42,8 +42,9 @@ var runFunction = function ($rootScope, $transitions, authService, $state) {
             localStorage.getItem("gdbaseToken")
           )
           .then(function (res) {
+            console.log({res, toke: localStorage.getItem("gdbaseToken")});
             if (res != "good") {
-              console.log("Token mismatch");
+              console.log("Token mismatch 1");
               localStorage.removeItem("gdbaseToken");
               $state.go("login");
             }
@@ -72,7 +73,7 @@ var runFunction = function ($rootScope, $transitions, authService, $state) {
                 user: localStorage.getItem("gdbaseToken").split("|")[0]
               });
             } else {
-              console.log("Token mismatch");
+              console.log("Token mismatch 2");
             }
           });
       }

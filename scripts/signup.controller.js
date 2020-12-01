@@ -36,7 +36,6 @@ angular.module("gdbaseSims")
                     });
                   }
                 } else {
-                  console.log(res.data);
                   alert("Failed to Create Account! Please try again");
                   $scope.signupSuccess = false;
                 }

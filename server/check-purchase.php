@@ -42,10 +42,10 @@ simulation 3: 695,
 simulation 4: 696,
 simulation 5: 700,
 simulation 6: 701,
-simulation 7: 701,
-simulation 8: 701,
+simulation 7: 4228,
+simulation 8: 4229,
 */
-$product_ids = array(694, 695, 696, 700, 701, 701, 701);
+$product_ids = array(694, 695, 696, 700, 701, 4228, 4229);
 
 /*if( has_bought_items( '', $product_ids ) )
     echo "<p>You have already purchased one of this products</p>";

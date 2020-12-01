@@ -10,7 +10,8 @@ if ($allUsers != false && email_exists($email_entered)) {
     echo json_encode(array(
         'response' => 'mailCode',
         'email'=> $email_entered,
-        'firstname' => $allUsers['firstname']
+        'firstname' => $allUsers['firstname'],
+        'username' => $allUsers['username']
     ));
 } elseif ($allUsers != false && !email_exists($email_entered)) {
     // found in my database but not in wordpress

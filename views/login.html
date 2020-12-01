@@ -34,7 +34,7 @@
                             </div>
                             <div class="col-sm-11 remove-padding">
                                 <div class="form-group" ng-class="{'has-error':incorrectLogin}">
-                                    <input type="password" class="form-control" id="password" placeholder="mot de passe" ng-model="password" ng-change="inputChangeHandler()"
+                                    <input type="password" class="form-control" id="password" placeholder="mot de passe" ng-model="password" ng-change="inputChangeHandler()" autocomplete="current-password"
                                         required>
                                 </div>
                             </div>
@@ -114,7 +114,7 @@
                         <p>Veuillez entrer votre nouveau mot de passe</p>
                         <form name="NewPassForm">
                             <div class="form-group" ng-class="{'has-error': NewPassForm.password.$invalid && NewPassForm.password.$dirty || (validNewPassword > 0 && validNewPassword < 5)}">
-                                <input type="password" class="form-control" name="passOTP" placeholder="Entrez un nouveau mot de passe" ng-model="newPass" ng-change="validateNewPassword()">
+                                <input type="password" autocomplete="new-password" class="form-control" name="passOTP" placeholder="Entrez un nouveau mot de passe" ng-model="newPass" ng-change="validateNewPassword()">
                                 <small ng-class="{'text-danger': validNewPassword == 4}" ng-hide="validNewPassword < 4 && validNewPassword > 0">&nbsp;Utilisez au moins une lettre, un chiffre et sept caractères au total</small>
                                 <span ng-show="validNewPassword == 1">
                                     <small class="text-danger">&nbsp; le mot de passe doit contenir au moins un chiffre</small>

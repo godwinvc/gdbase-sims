@@ -37,6 +37,7 @@ body.modal-open {
   padding-right: 0px !important;
   position: fixed;
   height: 100%;
+  width: 100%;
 }
 
 header .fusion-row {

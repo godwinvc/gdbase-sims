@@ -39,40 +39,40 @@ angular.module("gdbaseSims").controller("simsController", [
         $("#activationModal").modal();
       }
     };
-    $http
-      .get(apiURL + "./server/check-purchase.php")
-      .then(function (res) {
-        var purchaseData = null;
-        if (typeof res.data == "object") {
-          purchaseData = res.data;
-          if (!purchaseData.simulation2) {
-            purchaseData = null;
-          }
-        }
-        if (purchaseData != null) {
-          Object.keys(purchaseData).forEach(function (v, i) {
-            $scope.userSimData.simulationMetadata[v].paid = purchaseData[v];
-          });
-          updateUserData();
-        }
-      })
-      .catch(function (err) {
-        console.error(err);
-      });
+    // $http
+    //   .get(apiURL + "./server/check-purchase.php")
+    //   .then(function (res) {
+    //     var purchaseData = null;
+    //     if (typeof res.data == "object") {
+    //       purchaseData = res.data;
+    //       if (!purchaseData.simulation2) {
+    //         purchaseData = null;
+    //       }
+    //     }
+    //     if (purchaseData != null) {
+    //       Object.keys(purchaseData).forEach(function (v, i) {
+    //         $scope.userSimData.simulationMetadata[v].paid = purchaseData[v];
+    //       });
+    //       updateUserData();
+    //     }
+    //   })
+    //   .catch(function (err) {
+    //     console.error(err);
+    //   });
 
-    function updateUserData() {
-      $http
-        .post(apiURL + "./server/update-sim-data.php", {
-          username: $stateParams.user,
-          simulation: $scope.userSimData,
-        })
-        .then(function (res) {
-          console.log(res.data);
-        })
-        .catch(function (err) {
-          console.error(err);
-        });
-    }
+    // function updateUserData() {
+    //   $http
+    //     .post(apiURL + "./server/update-sim-data.php", {
+    //       username: $stateParams.user,
+    //       simulation: $scope.userSimData,
+    //     })
+    //     .then(function (res) {
+    //       console.log(res.data);
+    //     })
+    //     .catch(function (err) {
+    //       console.error(err);
+    //     });
+    // }
     $scope.activateAccount = function () {
       $scope.activationState = "activating";
       if ($scope.activationCodeEntered === $scope.userSimData.activationCode) {
