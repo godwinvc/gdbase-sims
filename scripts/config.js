@@ -7,7 +7,7 @@ window.lout = function () {
 var runFunction = function ($rootScope, $transitions, authService, $state) {
   
   // App Version
-  var appVersion = "1.0";
+  var appVersion = "1.1";
   console.log(`%cSimulation App Version: ${appVersion}`, 'color:#f60; font-size:large');
 
 

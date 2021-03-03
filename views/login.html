@@ -115,7 +115,7 @@
                         <form name="NewPassForm">
                             <div class="form-group" ng-class="{'has-error': NewPassForm.password.$invalid && NewPassForm.password.$dirty || (validNewPassword > 0 && validNewPassword < 5)}">
                                 <input type="password" autocomplete="new-password" class="form-control" name="passOTP" placeholder="Entrez un nouveau mot de passe" ng-model="newPass" ng-change="validateNewPassword()">
-                                <small ng-class="{'text-danger': validNewPassword == 4}" ng-hide="validNewPassword < 4 && validNewPassword > 0">&nbsp;Utilisez au moins une lettre, un chiffre et sept caractères au total</small>
+                                <small ng-class="{'text-danger': validNewPassword == 4}" ng-hide="validNewPassword < 4 && validNewPassword > 0">&nbsp;Mot de passe requis</small>
                                 <span ng-show="validNewPassword == 1">
                                     <small class="text-danger">&nbsp; le mot de passe doit contenir au moins un chiffre</small>
                                 </span>

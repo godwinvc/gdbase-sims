@@ -170,45 +170,46 @@ angular.module("gdbaseSims")
     $scope.validateNewPassword = function () {
       var srt = $scope.newPass;
       if (srt != undefined) {
-        if (
-          srt.match(/^[a-zA-z]+$/) != null &&
-          srt.match(/^[0-9]+$/) == null &&
-          srt.length >= 6
-        ) {
-          $scope.validNewPassword = 1; // if doesnt have numbers but length more than 6
-        } else if (
-          srt.match(/^[a-zA-z]+$/) != null &&
-          srt.match(/^[0-9]+$/) == null &&
-          srt.length < 6
-        ) {
-          $scope.validNewPassword = 1; // if doesnt have numbers and length less than 6
-        } else if (
-          srt.match(/^[a-zA-z]+$/) == null &&
-          srt.match(/^[0-9]+$/) != null &&
-          srt.length >= 6
-        ) {
-          $scope.validNewPassword = 2; // if doesnt have letter but length more than 6
-        } else if (
-          srt.match(/^[a-zA-z]+$/) == null &&
-          srt.match(/^[0-9]+$/) != null &&
-          srt.length < 6
-        ) {
-          $scope.validNewPassword = 2; // if doesnt have letter and length less than 6
-        } else if (
-          srt.match(/^[a-zA-z]+$/) != null &&
-          srt.match(/^[0-9]+$/) != null &&
-          srt.length < 6
-        ) {
-          $scope.validNewPassword = 3; // if not long enough
-        } else if (
-          srt.match(/^[a-zA-z]+$/) == null &&
-          srt.match(/^[0-9]+$/) == null &&
-          srt.length < 6
-        ) {
-          $scope.validNewPassword = 4; // if all above three fail
-        } else {
-          $scope.validNewPassword = 5; // if all satisfied
-        }
+        // if (
+        //   srt.match(/^[a-zA-z]+$/) != null &&
+        //   srt.match(/^[0-9]+$/) == null &&
+        //   srt.length >= 6
+        // ) {
+        //   $scope.validNewPassword = 1; // if doesnt have numbers but length more than 6
+        // } else if (
+        //   srt.match(/^[a-zA-z]+$/) != null &&
+        //   srt.match(/^[0-9]+$/) == null &&
+        //   srt.length < 6
+        // ) {
+        //   $scope.validNewPassword = 1; // if doesnt have numbers and length less than 6
+        // } else if (
+        //   srt.match(/^[a-zA-z]+$/) == null &&
+        //   srt.match(/^[0-9]+$/) != null &&
+        //   srt.length >= 6
+        // ) {
+        //   $scope.validNewPassword = 2; // if doesnt have letter but length more than 6
+        // } else if (
+        //   srt.match(/^[a-zA-z]+$/) == null &&
+        //   srt.match(/^[0-9]+$/) != null &&
+        //   srt.length < 6
+        // ) {
+        //   $scope.validNewPassword = 2; // if doesnt have letter and length less than 6
+        // } else if (
+        //   srt.match(/^[a-zA-z]+$/) != null &&
+        //   srt.match(/^[0-9]+$/) != null &&
+        //   srt.length < 6
+        // ) {
+        //   $scope.validNewPassword = 3; // if not long enough
+        // } else if (
+        //   srt.match(/^[a-zA-z]+$/) == null &&
+        //   srt.match(/^[0-9]+$/) == null &&
+        //   srt.length < 6
+        // ) {
+        //   $scope.validNewPassword = 4; // if all above three fail
+        // } else {
+        //   $scope.validNewPassword = 5; // if all satisfied
+        // }
+        $scope.validNewPassword = 5; // if all satisfied
       } else {
         $scope.validNewPassword = 4;
       }
